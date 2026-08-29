@@ -7,6 +7,13 @@
     "addedDate": "2026-08-29"
   },
   {
+    "id": "562802",
+    "platform": "polymarket",
+    "question": "Which party will win the House in 2026? — Democratic Party",
+    "category": "politics",
+    "addedDate": "2026-08-29"
+  },
+  {
     "id": "630772",
     "platform": "polymarket",
     "question": "Maine Senate Election Winner — Troy Jackson (D)",
@@ -59,13 +66,6 @@
     "id": "630733",
     "platform": "polymarket",
     "question": "Iowa Senate Election Winner — Josh Turek (D)",
-    "category": "politics",
-    "addedDate": "2026-08-29"
-  },
-  {
-    "id": "562802",
-    "platform": "polymarket",
-    "question": "Which party will win the House in 2026? — Democratic Party",
     "category": "politics",
     "addedDate": "2026-08-29"
   },
