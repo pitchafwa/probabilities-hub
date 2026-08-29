@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:05:26.825Z",
+  "updatedAt": "2026-08-29T19:08:14.440Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -21,7 +21,7 @@
       "slug": "which-party-will-win-the-senate-in-2026",
       "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
       "oneWeekPriceChange": 0.01,
-      "fetchedAt": "2026-08-29T19:05:27.069Z"
+      "fetchedAt": "2026-08-29T19:08:14.742Z"
     },
     {
       "id": "562793",
@@ -41,7 +41,7 @@
       "slug": "which-party-will-win-the-senate-in-2026",
       "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:05:27.069Z"
+      "fetchedAt": "2026-08-29T19:08:14.742Z"
     },
     {
       "id": "1357374",
@@ -61,7 +61,7 @@
       "slug": "pro-football-2027-champion-20260729185915366",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:05:27.069Z"
+      "fetchedAt": "2026-08-29T19:08:14.742Z"
     },
     {
       "id": "1357373",
@@ -81,7 +81,7 @@
       "slug": "pro-football-2027-champion-20260729185915366",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": -0.0025,
-      "fetchedAt": "2026-08-29T19:05:27.069Z"
+      "fetchedAt": "2026-08-29T19:08:14.742Z"
     }
   ]
 }
