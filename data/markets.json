@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T18:55:05.269Z",
+  "updatedAt": "2026-08-29T19:05:26.825Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -12,16 +12,16 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 50.5,
-      "volume": 1659044,
-      "volume24hr": 3202,
-      "liquidity": 200620,
+      "volume": 1659083,
+      "volume24hr": 3241,
+      "liquidity": 175153,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
       "slug": "which-party-will-win-the-senate-in-2026",
       "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
       "oneWeekPriceChange": 0.01,
-      "fetchedAt": "2026-08-29T18:55:05.442Z"
+      "fetchedAt": "2026-08-29T19:05:27.069Z"
     },
     {
       "id": "562793",
@@ -32,16 +32,16 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 50.5,
-      "volume": 2386988,
-      "volume24hr": 5547,
-      "liquidity": 206326,
+      "volume": 2387188,
+      "volume24hr": 5747,
+      "liquidity": 183802,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
       "slug": "which-party-will-win-the-senate-in-2026",
       "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T18:55:05.442Z"
+      "fetchedAt": "2026-08-29T19:05:27.069Z"
     },
     {
       "id": "1357374",
@@ -54,14 +54,14 @@
       "probability": 8.5,
       "volume": 684810,
       "volume24hr": 10648,
-      "liquidity": 247522,
+      "liquidity": 246765,
       "closed": false,
       "active": true,
       "endDate": "2027-03-31T23:55:00Z",
       "slug": "pro-football-2027-champion-20260729185915366",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T18:55:05.442Z"
+      "fetchedAt": "2026-08-29T19:05:27.069Z"
     },
     {
       "id": "1357373",
@@ -74,14 +74,14 @@
       "probability": 7.4,
       "volume": 1198499,
       "volume24hr": 16127,
-      "liquidity": 167658,
+      "liquidity": 166350,
       "closed": false,
       "active": true,
       "endDate": "2027-03-31T23:55:00Z",
       "slug": "pro-football-2027-champion-20260729185915366",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": -0.0025,
-      "fetchedAt": "2026-08-29T18:55:05.442Z"
+      "fetchedAt": "2026-08-29T19:05:27.069Z"
     }
   ]
 }
