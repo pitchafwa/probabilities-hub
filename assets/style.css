@@ -85,7 +85,8 @@ button {
 }
 .ticker:hover .ticker__track,
 .ticker:focus-within .ticker__track { animation-play-state: paused; }
-.ticker__item { margin: 0 26px; display: inline-flex; align-items: center; }
+.ticker__item { margin: 0 26px; display: inline-flex; align-items: center; line-height: 1; }
+.ticker__item > * { line-height: 1; }
 .ticker__sym { color: var(--amber); letter-spacing: 0.06em; }
 .ticker__px { color: var(--text-hi); margin-left: 6px; }
 :root[data-theme="light"] .ticker__px { color: #f6f3ea; }
@@ -152,6 +153,29 @@ button {
 }
 .section__title .count { color: var(--amber-dim); }
 .section__rule { flex: 1; height: 1px; background: var(--line-soft); }
+.section__toggle {
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 4px 0;
+  margin: -4px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+.section__toggle:hover { color: var(--amber); }
+.section__caret {
+  font-size: 8px;
+  transition: transform 0.12s;
+  transform: translateY(-1px);
+}
+.section.is-collapsed .section__caret { transform: translateY(-1px) rotate(-90deg); }
+.section.is-collapsed .grid,
+.section.is-collapsed > .empty { display: none; }
 
 .grid {
   display: grid;
@@ -452,6 +476,7 @@ button {
   .grid { grid-template-columns: 1fr; gap: 8px; }
   .section__title { font-size: 12px; }
 
+  .section__toggle { padding: 10px 0; margin: -10px 0; }
   .card { min-height: 0; padding: 12px 12px 14px; }
   .card__head { padding: 0 30px 0 12px; }
   .card__q { font-size: 14px; }
@@ -491,4 +516,5 @@ button {
 @media (prefers-reduced-motion: reduce) {
   .ticker__track { animation: none; padding-left: 20px; }
   .clock .dot { animation: none; }
+  .section__caret { transition: none; }
 }

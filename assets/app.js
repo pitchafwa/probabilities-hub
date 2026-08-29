@@ -10,6 +10,7 @@ const LS = {
   repo: "ph.repo",
   branch: "ph.branch",
   order: "ph.order",
+  collapsed: "ph.collapsed",
 };
 
 const DEFAULTS = { repo: "pitchafwa/probabilities-hub", branch: "main" };
@@ -105,8 +106,10 @@ function cfg() {
 }
 
 // ---------------------------------------------------------------- card ordering
-// User-defined card order, per device. A flat list of market ids across every
-// category; each category section sorts its own markets by their index here.
+// Two ordering sources:
+//   - with a GitHub token: the order of data/watchlist.json IS the order, and a
+//     drag rewrites that file, so the layout syncs across every device.
+//   - without a token: a per-device localStorage list (LS.order) as a fallback.
 function getOrder() {
   try {
     const v = JSON.parse(localStorage.getItem(LS.order) || "[]");
@@ -120,26 +123,97 @@ function saveOrder(ids) {
     localStorage.setItem(LS.order, JSON.stringify(ids.map(String)));
   } catch {}
 }
-// Rebuild the order list from what's currently in the DOM (after a drag / keyboard move).
+function domCardIds() {
+  return $$("#sections .section .grid .card").map((c) => c.dataset.id).filter(Boolean);
+}
+// Local (per-device) order echo — always kept current so the acting device stays
+// consistent even before any sync round-trip.
 function commitOrderFromDom() {
-  const ids = $$("#sections .section .grid .card")
-    .map((c) => c.dataset.id)
-    .filter(Boolean);
-  // Preserve any ids not currently shown (e.g. a market mid-add) at the tail.
+  const ids = domCardIds();
   const shown = new Set(ids);
   const tail = getOrder().filter((id) => !shown.has(id));
   saveOrder([...ids, ...tail]);
 }
+// Reorder state.watchlist in place to match the current DOM card order.
+function applyDomOrderToWatchlist() {
+  const pos = new Map(domCardIds().map((id, i) => [id, i]));
+  state.watchlist = [...state.watchlist].sort((a, b) => {
+    const pa = pos.has(String(a.id)) ? pos.get(String(a.id)) : 1e9;
+    const pb = pos.has(String(b.id)) ? pos.get(String(b.id)) : 1e9;
+    return pa - pb;
+  });
+}
 function sortByOrder(list) {
-  const order = getOrder();
+  // Token present -> follow the synced watchlist order; else the local echo.
+  const keys = cfg().token
+    ? state.watchlist.map((e) => String(e.id))
+    : getOrder();
   const rank = (id) => {
-    const i = order.indexOf(String(id));
+    const i = keys.indexOf(String(id));
     return i === -1 ? Number.POSITIVE_INFINITY : i;
   };
   return list
     .map((m, i) => [m, i])
     .sort((a, b) => rank(a[0].id) - rank(b[0].id) || a[1] - b[1])
     .map(([m]) => m);
+}
+
+// Debounced push of the reordered watchlist to GitHub (only with a token).
+let orderSyncTimer = null;
+function scheduleOrderSync() {
+  if (!cfg().token) return;
+  clearTimeout(orderSyncTimer);
+  orderSyncTimer = setTimeout(pushWatchlistOrder, 900);
+}
+async function pushWatchlistOrder() {
+  const ids = domCardIds();
+  const pos = new Map(ids.map((id, i) => [id, i]));
+  const next = [...state.watchlist].sort((a, b) => {
+    const pa = pos.has(String(a.id)) ? pos.get(String(a.id)) : 1e9;
+    const pb = pos.has(String(b.id)) ? pos.get(String(b.id)) : 1e9;
+    return pa - pb;
+  });
+  if (next.map((e) => e.id).join("|") === state.watchlist.map((e) => e.id).join("|")) {
+    // still commit if the stored file might differ; cheap enough, but skip the
+    // obvious no-op where our in-memory copy already matches what we'd write.
+  }
+  try {
+    await commitWatchlist(next, "watchlist: reorder cards");
+    state.watchlist = next;
+  } catch (err) {
+    toast("Couldn't sync card order: " + (err.message || err));
+  }
+}
+
+// Called after every drag / keyboard reorder.
+let warnedLocalOrder = false;
+function persistOrder() {
+  commitOrderFromDom(); // local echo (per device)
+  if (cfg().token) {
+    applyDomOrderToWatchlist();
+    scheduleOrderSync(); // debounced push -> syncs to other devices
+  } else if (!warnedLocalOrder) {
+    warnedLocalOrder = true;
+    toast("Order saved on this device. Add a GitHub token in Settings to sync it across devices.");
+  }
+}
+
+// ---------------------------------------------------------------- collapsed sections
+function getCollapsed() {
+  try {
+    const v = JSON.parse(localStorage.getItem(LS.collapsed) || "[]");
+    return new Set(Array.isArray(v) ? v.map(String) : []);
+  } catch {
+    return new Set();
+  }
+}
+function toggleCollapsed(key) {
+  const set = getCollapsed();
+  set.has(key) ? set.delete(key) : set.add(key);
+  try {
+    localStorage.setItem(LS.collapsed, JSON.stringify([...set]));
+  } catch {}
+  return set.has(key);
 }
 
 // ---------------------------------------------------------------- data loading
@@ -553,7 +627,7 @@ function enableDnD(grid) {
     card.addEventListener("dragend", () => {
       card.classList.remove("is-dragging");
       disarm();
-      commitOrderFromDom();
+      persistOrder();
     });
 
     grip.addEventListener("keydown", (e) => {
@@ -566,7 +640,7 @@ function enableDnD(grid) {
       } else {
         return;
       }
-      commitOrderFromDom();
+      persistOrder();
       grip.focus();
     });
   });
@@ -583,17 +657,31 @@ function enableDnD(grid) {
   grid.addEventListener("drop", (e) => e.preventDefault());
 }
 
-function sectionEl(title, count, cards) {
+function sectionEl(title, count, cards, key) {
   const sec = el("section", { class: "section" });
-  sec.append(
-    el(
-      "h2",
-      { class: "section__title" },
-      "// " + title,
-      el("span", { class: "count", text: count != null ? `[${count}]` : "" }),
-      el("span", { class: "section__rule" })
-    )
+  const collapsed = key ? getCollapsed().has(key) : false;
+  if (collapsed) sec.classList.add("is-collapsed");
+
+  const toggle = el(
+    "button",
+    {
+      class: "section__toggle",
+      type: "button",
+      "aria-expanded": String(!collapsed),
+    },
+    el("span", { class: "section__caret", "aria-hidden": "true", text: "▾" }),
+    "// " + title,
+    el("span", { class: "count", text: count != null ? `[${count}]` : "" })
   );
+  if (key) {
+    toggle.addEventListener("click", () => {
+      const nowCollapsed = toggleCollapsed(key);
+      sec.classList.toggle("is-collapsed", nowCollapsed);
+      toggle.setAttribute("aria-expanded", String(!nowCollapsed));
+    });
+  }
+  sec.append(el("h2", { class: "section__title" }, toggle, el("span", { class: "section__rule" })));
+
   if (!cards.length) {
     sec.append(el("div", { class: "empty", text: "No markets in this section yet." }));
   } else {
@@ -649,7 +737,7 @@ function render() {
     const label = CATEGORY_META[key]?.label || key.replace(/\b\w/g, (c) => c.toUpperCase());
     const items = sortByOrder(groups.get(key));
     const cards = items.map((m) => marketCard(m));
-    const sec = sectionEl(label, cards.length, cards);
+    const sec = sectionEl(label, cards.length, cards, key);
     const grid = $(".grid", sec);
     if (grid) enableDnD(grid);
     root.append(sec);
@@ -660,7 +748,7 @@ function render() {
   const trendCards = movers.map(({ m, d }, i) =>
     marketCard(m, { trend: true, delta: d, rankLabel: `#${i + 1}` })
   );
-  const trendSec = sectionEl("Trending Now — 24h movers, all categories", trendCards.length || null, trendCards);
+  const trendSec = sectionEl("Trending Now — 24h movers, all categories", trendCards.length || null, trendCards, "trending");
   if (!movers.length) {
     trendSec.querySelector(".empty, .grid")?.remove();
     trendSec.append(
