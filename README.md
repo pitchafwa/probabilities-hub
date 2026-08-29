@@ -38,6 +38,7 @@ JSON. Live client-side calls to Polymarket happen only in the **+ Add** search b
 | `scripts/lib/history.mjs` | snapshot append + prune |
 | `scripts/config/feeds.json` | RSS feed list + matching config — edit freely |
 | `.github/workflows/refresh-data.yml` | the cron job |
+| `manifest.webmanifest` + `apple-touch-icon.png` + `assets/icon-*.png` | home-screen / PWA install (regenerate the PNGs with `node scripts/make-icons.mjs`) |
 
 ## One-time GitHub setup
 
