@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:08:14.440Z",
+  "updatedAt": "2026-08-29T19:15:03.440Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -14,14 +14,14 @@
       "probability": 50.5,
       "volume": 1659083,
       "volume24hr": 3241,
-      "liquidity": 175153,
+      "liquidity": 174824,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
       "slug": "which-party-will-win-the-senate-in-2026",
       "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
       "oneWeekPriceChange": 0.01,
-      "fetchedAt": "2026-08-29T19:08:14.742Z"
+      "fetchedAt": "2026-08-29T19:15:03.717Z"
     },
     {
       "id": "562793",
@@ -34,14 +34,14 @@
       "probability": 50.5,
       "volume": 2387188,
       "volume24hr": 5747,
-      "liquidity": 183802,
+      "liquidity": 184186,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
       "slug": "which-party-will-win-the-senate-in-2026",
       "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:08:14.742Z"
+      "fetchedAt": "2026-08-29T19:15:03.717Z"
     },
     {
       "id": "1357374",
@@ -54,14 +54,14 @@
       "probability": 8.5,
       "volume": 684810,
       "volume24hr": 10648,
-      "liquidity": 246765,
+      "liquidity": 247456,
       "closed": false,
       "active": true,
       "endDate": "2027-03-31T23:55:00Z",
       "slug": "pro-football-2027-champion-20260729185915366",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:08:14.742Z"
+      "fetchedAt": "2026-08-29T19:15:03.717Z"
     },
     {
       "id": "1357373",
@@ -74,14 +74,34 @@
       "probability": 7.4,
       "volume": 1198499,
       "volume24hr": 16127,
-      "liquidity": 166350,
+      "liquidity": 167696,
       "closed": false,
       "active": true,
       "endDate": "2027-03-31T23:55:00Z",
       "slug": "pro-football-2027-champion-20260729185915366",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": -0.0025,
-      "fetchedAt": "2026-08-29T19:08:14.742Z"
+      "fetchedAt": "2026-08-29T19:15:03.717Z"
+    },
+    {
+      "id": "630772",
+      "platform": "polymarket",
+      "question": "Will the Democrats win the Maine Senate race in 2026?",
+      "category": "politics",
+      "addedDate": "2026-08-29",
+      "outcomeIndex": 0,
+      "outcomeLabel": "Yes",
+      "probability": 69.5,
+      "volume": 732358,
+      "volume24hr": 122,
+      "liquidity": 68197,
+      "closed": false,
+      "active": true,
+      "endDate": null,
+      "slug": "maine-senate-election-winner",
+      "url": "https://polymarket.com/event/maine-senate-election-winner",
+      "oneWeekPriceChange": null,
+      "fetchedAt": "2026-08-29T19:15:03.717Z"
     }
   ]
 }
