@@ -190,6 +190,9 @@ button {
 /* ---------- Glance icons ---------- */
 .gicon {
   flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 18px;
   height: 18px;
   color: var(--amber);
