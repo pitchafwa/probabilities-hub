@@ -68,5 +68,12 @@
     "question": "Which party will win the House in 2026? — Democratic Party",
     "category": "politics",
     "addedDate": "2026-08-29"
+  },
+  {
+    "id": "1357388",
+    "platform": "polymarket",
+    "question": "Pro Football: 2027 Champion — Los Angeles Chargers",
+    "category": "sports",
+    "addedDate": "2026-08-29"
   }
 ]
