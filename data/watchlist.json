@@ -21,6 +21,13 @@
     "addedDate": "2026-08-29"
   },
   {
+    "id": "630883",
+    "platform": "polymarket",
+    "question": "North Carolina Senate Election Winner — Roy Cooper (D)",
+    "category": "politics",
+    "addedDate": "2026-08-29"
+  },
+  {
     "id": "631057",
     "platform": "polymarket",
     "question": "Ohio Senate Election Winner — Sherrod Brown (D)",
@@ -52,13 +59,6 @@
     "id": "630733",
     "platform": "polymarket",
     "question": "Iowa Senate Election Winner — Josh Turek (D)",
-    "category": "politics",
-    "addedDate": "2026-08-29"
-  },
-  {
-    "id": "630883",
-    "platform": "polymarket",
-    "question": "North Carolina Senate Election Winner — Roy Cooper (D)",
     "category": "politics",
     "addedDate": "2026-08-29"
   },
