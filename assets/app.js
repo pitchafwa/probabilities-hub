@@ -681,7 +681,7 @@ function renderClock() {
   const stale = age > STALE_AFTER_MS;
   const mins = Math.max(0, Math.round(age / 60000));
   const rel = mins < 1 ? "just now" : mins < 60 ? `${mins} min ago` : `${Math.round(mins / 60)}h ago`;
-  c.innerHTML = `<span class="dot"></span>${stale ? "STALE" : "LIVE"} — updated ${rel} · SRC: POLYMARKET`;
+  c.innerHTML = `<span class="dot"></span>${stale ? "STALE" : "LIVE"} — updated ${rel}<span class="clock__src"> · SRC: POLYMARKET</span>`;
   c.classList.toggle("is-stale", stale);
 }
 

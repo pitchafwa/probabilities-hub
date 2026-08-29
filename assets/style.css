@@ -85,7 +85,7 @@ button {
 }
 .ticker:hover .ticker__track,
 .ticker:focus-within .ticker__track { animation-play-state: paused; }
-.ticker__item { margin: 0 26px; }
+.ticker__item { margin: 0 26px; display: inline-flex; align-items: center; }
 .ticker__sym { color: var(--amber); letter-spacing: 0.06em; }
 .ticker__px { color: var(--text-hi); margin-left: 6px; }
 :root[data-theme="light"] .ticker__px { color: #f6f3ea; }
@@ -213,10 +213,10 @@ button {
   align-items: center;
   justify-content: center;
 }
-.gicon--ticker { width: 12px; height: 12px; margin: 0 5px 0 0; vertical-align: -2px; }
-.gicon--ticker.gicon--state { height: 11px; min-width: 17px; font-size: 7.5px; padding: 0 2px; }
-.gicon--result { width: 14px; height: 14px; vertical-align: -2px; margin-right: 3px; }
-.gicon--result.gicon--state { height: 12px; min-width: 18px; font-size: 8px; }
+.gicon--ticker { width: 12px; height: 12px; margin: 0 5px 0 0; vertical-align: middle; }
+.gicon--ticker.gicon--state { height: 13px; min-width: 18px; font-size: 8px; padding: 0 2px; margin-top: 0; }
+.gicon--result { width: 14px; height: 14px; vertical-align: middle; margin-right: 3px; }
+.gicon--result.gicon--state { height: 13px; min-width: 18px; font-size: 8px; margin-top: 0; }
 .card__prob { font-size: 26px; font-weight: 700; margin: 8px 0 2px; letter-spacing: 0.02em; }
 
 /* ---------- Drag handle / dragging ---------- */
@@ -408,6 +408,7 @@ button {
 .result__desc { font-size: 10.5px; color: var(--sub); margin-top: 4px; line-height: 1.35; }
 .result__meta { font-size: 10px; color: var(--amber-dim); margin-top: 4px; letter-spacing: 0.05em; }
 .result__add { white-space: nowrap; }
+.result__add select { width: auto; margin-bottom: 6px; }
 
 .hint { font-size: 10.5px; color: var(--sub); line-height: 1.4; margin: 6px 0 0; }
 .hint code { color: var(--amber); }
@@ -426,15 +427,65 @@ button {
 }
 .tokentag.is-set { color: var(--up); border-color: var(--up); }
 
-@media (max-width: 560px) {
-  .head { padding-top: 14px; }
+@media (max-width: 600px) {
+  body { font-size: 15px; }
+  .wrap { padding: 0 12px calc(40px + env(safe-area-inset-bottom)); }
+
+  /* Header: title row, then clock + actions row */
+  .head {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 14px 0 10px;
+  }
   .head__title { font-size: 15px; letter-spacing: 0.1em; }
-  .grid { grid-template-columns: 1fr 1fr; }
-  :root { --card-min: 150px; }
-  .clock { font-size: 11px; }
-}
-@media (max-width: 380px) {
-  .grid { grid-template-columns: 1fr; }
+  .head__right { justify-content: space-between; gap: 8px; align-items: center; }
+  .clock { font-size: 11px; flex: 1 1 auto; }
+  .clock__src { display: none; }
+  .iconbtn { padding: 9px 12px; font-size: 15px; }
+  .iconbtn__lbl { display: none; }
+
+  /* Ticker a touch larger for thumb-distance reading */
+  .ticker { font-size: 13px; }
+
+  /* One column — full-width cards read far better than a cramped 2-up */
+  .grid { grid-template-columns: 1fr; gap: 8px; }
+  .section__title { font-size: 12px; }
+
+  .card { min-height: 0; padding: 12px 12px 14px; }
+  .card__head { padding: 0 30px 0 12px; }
+  .card__q { font-size: 14px; }
+  .card__prob { font-size: 28px; }
+  .card__delta { font-size: 12px; }
+  .ob__row { font-size: 13.5px; }
+  .card__meta { font-size: 11px; }
+  .card__news a { font-size: 12px; white-space: normal; }
+
+  /* Drag / keyboard reorder is desktop-only for now */
+  .card__grip { display: none; }
+  .card__remove { padding: 8px; margin: -6px; font-size: 16px; }
+
+  /* Modals: full-screen sheets */
+  .modal { padding: 0; align-items: stretch; }
+  .modal__panel {
+    max-width: none;
+    max-height: 100dvh;
+    min-height: 100dvh;
+    border: none;
+    padding: 16px 14px calc(16px + env(safe-area-inset-bottom));
+  }
+  .modal__head h2 { font-size: 14px; }
+  .modal__close { font-size: 22px; padding: 6px 10px; }
+  .input { font-size: 16px; padding: 10px 12px; } /* 16px avoids iOS zoom-on-focus */
+  .btn { padding: 10px 16px; font-size: 13px; }
+
+  .result { flex-direction: column; gap: 10px; }
+  .result__q { font-size: 14px; }
+  .result__desc { font-size: 12px; }
+  .result__meta { font-size: 11px; }
+  .result__add { display: flex; gap: 8px; width: 100%; }
+  .result__add select { flex: 1 1 auto; width: auto; margin: 0; }
+  .result__add .btn { flex: 0 0 auto; }
 }
 
 @media (prefers-reduced-motion: reduce) {
