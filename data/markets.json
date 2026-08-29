@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:28:17.518Z",
+  "updatedAt": "2026-08-29T19:29:25.754Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -19,9 +19,13 @@
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
       "slug": "which-party-will-win-the-senate-in-2026",
+      "eventId": "32224",
       "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:28:17.835Z"
+      "isMultiOutcome": false,
+      "outcomeCount": null,
+      "outcomes": null,
+      "fetchedAt": "2026-08-29T19:29:26.084Z"
     },
     {
       "id": "1357374",
@@ -39,9 +43,44 @@
       "active": true,
       "endDate": "2027-03-31T23:55:00Z",
       "slug": "pro-football-2027-champion-20260729185915366",
+      "eventId": "202857",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:28:17.836Z"
+      "isMultiOutcome": true,
+      "outcomeCount": 22,
+      "outcomes": [
+        {
+          "id": "1357389",
+          "label": "Los Angeles Rams",
+          "probability": 15.5,
+          "tracked": false
+        },
+        {
+          "id": "1357374",
+          "label": "Buffalo Bills",
+          "probability": 8.5,
+          "tracked": true
+        },
+        {
+          "id": "1357399",
+          "label": "Seattle Seahawks",
+          "probability": 7.5,
+          "tracked": false
+        },
+        {
+          "id": "1357373",
+          "label": "Baltimore Ravens",
+          "probability": 7.4,
+          "tracked": false
+        },
+        {
+          "id": "1357386",
+          "label": "Kansas City Chiefs",
+          "probability": 6.4,
+          "tracked": false
+        }
+      ],
+      "fetchedAt": "2026-08-29T19:29:26.085Z"
     },
     {
       "id": "1357373",
@@ -59,9 +98,44 @@
       "active": true,
       "endDate": "2027-03-31T23:55:00Z",
       "slug": "pro-football-2027-champion-20260729185915366",
+      "eventId": "202857",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": -0.0025,
-      "fetchedAt": "2026-08-29T19:28:17.836Z"
+      "isMultiOutcome": true,
+      "outcomeCount": 22,
+      "outcomes": [
+        {
+          "id": "1357389",
+          "label": "Los Angeles Rams",
+          "probability": 15.5,
+          "tracked": false
+        },
+        {
+          "id": "1357374",
+          "label": "Buffalo Bills",
+          "probability": 8.5,
+          "tracked": false
+        },
+        {
+          "id": "1357399",
+          "label": "Seattle Seahawks",
+          "probability": 7.5,
+          "tracked": false
+        },
+        {
+          "id": "1357373",
+          "label": "Baltimore Ravens",
+          "probability": 7.4,
+          "tracked": true
+        },
+        {
+          "id": "1357386",
+          "label": "Kansas City Chiefs",
+          "probability": 6.4,
+          "tracked": false
+        }
+      ],
+      "fetchedAt": "2026-08-29T19:29:26.085Z"
     },
     {
       "id": "630772",
@@ -79,9 +153,13 @@
       "active": true,
       "endDate": null,
       "slug": "maine-senate-election-winner",
+      "eventId": "57650",
       "url": "https://polymarket.com/event/maine-senate-election-winner",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:28:17.836Z"
+      "isMultiOutcome": false,
+      "outcomeCount": null,
+      "outcomes": null,
+      "fetchedAt": "2026-08-29T19:29:26.085Z"
     },
     {
       "id": "630692",
@@ -99,9 +177,13 @@
       "active": true,
       "endDate": null,
       "slug": "georgia-senate-election-winner",
+      "eventId": "57642",
       "url": "https://polymarket.com/event/georgia-senate-election-winner",
       "oneWeekPriceChange": 0.01,
-      "fetchedAt": "2026-08-29T19:28:17.836Z"
+      "isMultiOutcome": false,
+      "outcomeCount": null,
+      "outcomes": null,
+      "fetchedAt": "2026-08-29T19:29:26.085Z"
     },
     {
       "id": "631057",
@@ -119,9 +201,13 @@
       "active": true,
       "endDate": null,
       "slug": "ohio-senate-election-winner",
+      "eventId": "57682",
       "url": "https://polymarket.com/event/ohio-senate-election-winner",
       "oneWeekPriceChange": 0.01,
-      "fetchedAt": "2026-08-29T19:28:17.836Z"
+      "isMultiOutcome": false,
+      "outcomeCount": null,
+      "outcomes": null,
+      "fetchedAt": "2026-08-29T19:29:26.085Z"
     },
     {
       "id": "630963",
@@ -139,9 +225,13 @@
       "active": true,
       "endDate": null,
       "slug": "texas-senate-election-winner",
+      "eventId": "57672",
       "url": "https://polymarket.com/event/texas-senate-election-winner",
       "oneWeekPriceChange": -0.02,
-      "fetchedAt": "2026-08-29T19:28:17.836Z"
+      "isMultiOutcome": false,
+      "outcomeCount": null,
+      "outcomes": null,
+      "fetchedAt": "2026-08-29T19:29:26.085Z"
     },
     {
       "id": "634976",
@@ -159,9 +249,13 @@
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
       "slug": "alaska-senate-election-winner",
+      "eventId": "59233",
       "url": "https://polymarket.com/event/alaska-senate-election-winner",
       "oneWeekPriceChange": 0.08,
-      "fetchedAt": "2026-08-29T19:28:17.836Z"
+      "isMultiOutcome": false,
+      "outcomeCount": null,
+      "outcomes": null,
+      "fetchedAt": "2026-08-29T19:29:26.085Z"
     },
     {
       "id": "630805",
@@ -179,9 +273,13 @@
       "active": true,
       "endDate": null,
       "slug": "michigan-senate-election-winner",
+      "eventId": "57658",
       "url": "https://polymarket.com/event/michigan-senate-election-winner",
       "oneWeekPriceChange": 0.01,
-      "fetchedAt": "2026-08-29T19:28:17.836Z"
+      "isMultiOutcome": false,
+      "outcomeCount": null,
+      "outcomes": null,
+      "fetchedAt": "2026-08-29T19:29:26.085Z"
     },
     {
       "id": "630733",
@@ -199,9 +297,13 @@
       "active": true,
       "endDate": null,
       "slug": "iowa-senate-election-winner",
+      "eventId": "57647",
       "url": "https://polymarket.com/event/iowa-senate-election-winner",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:28:17.836Z"
+      "isMultiOutcome": false,
+      "outcomeCount": null,
+      "outcomes": null,
+      "fetchedAt": "2026-08-29T19:29:26.085Z"
     },
     {
       "id": "630883",
@@ -219,9 +321,13 @@
       "active": true,
       "endDate": null,
       "slug": "north-carolina-senate-election-winner",
+      "eventId": "57664",
       "url": "https://polymarket.com/event/north-carolina-senate-election-winner",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:28:17.836Z"
+      "isMultiOutcome": false,
+      "outcomeCount": null,
+      "outcomes": null,
+      "fetchedAt": "2026-08-29T19:29:26.085Z"
     },
     {
       "id": "562802",
@@ -239,9 +345,13 @@
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
       "slug": "which-party-will-win-the-house-in-2026",
+      "eventId": "32225",
       "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
       "oneWeekPriceChange": 0.01,
-      "fetchedAt": "2026-08-29T19:28:17.836Z"
+      "isMultiOutcome": false,
+      "outcomeCount": null,
+      "outcomes": null,
+      "fetchedAt": "2026-08-29T19:29:26.084Z"
     }
   ]
 }
