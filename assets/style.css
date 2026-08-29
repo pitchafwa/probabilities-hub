@@ -255,16 +255,31 @@ button {
   padding: 3px 4px;
   cursor: grab;
   transition: color 0.12s;
+  touch-action: none; /* let pointer drag own the gesture on touch */
 }
 .card:hover .card__grip { color: var(--sub); }
 .card__grip:hover,
 .card__grip:focus-visible { color: var(--amber); }
 .card__grip:active { cursor: grabbing; }
-.card.is-dragging {
-  opacity: 0.55;
+
+/* card lifted and following the pointer */
+.card--dragging {
+  opacity: 0.97;
   border-color: var(--amber);
-  border-style: dashed;
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.5);
+  transform: scale(1.015);
+  cursor: grabbing;
 }
+:root[data-theme="light"] .card--dragging { box-shadow: 0 14px 34px rgba(0, 0, 0, 0.22); }
+
+/* the gap showing exactly where it will land */
+.card-placeholder {
+  border: 1px dashed var(--amber);
+  background: rgba(232, 179, 57, 0.09);
+}
+
+body.is-sorting { cursor: grabbing; }
+body.is-sorting, body.is-sorting * { user-select: none; }
 
 /* ---------- Multi-outcome leaderboard ---------- */
 .card__board { margin: 8px 0 2px; display: flex; flex-direction: column; gap: 3px; }
@@ -479,7 +494,7 @@ button {
 
   .section__toggle { padding: 10px 0; margin: -10px 0; }
   .card { min-height: 0; padding: 12px 12px 14px; }
-  .card__head { padding: 0 30px 0 12px; }
+  .card__head { padding: 0 28px; }
   .card__q { font-size: 14px; }
   .card__prob { font-size: 28px; }
   .card__delta { font-size: 12px; }
@@ -487,8 +502,8 @@ button {
   .card__meta { font-size: 11px; }
   .card__news a { font-size: 12px; white-space: normal; }
 
-  /* Drag / keyboard reorder is desktop-only for now */
-  .card__grip { display: none; }
+  /* Touch drag works now — keep the handle, give it a real tap target */
+  .card__grip { font-size: 15px; padding: 7px 8px; top: 3px; left: 3px; color: var(--sub); }
   .card__remove { padding: 8px; margin: -6px; font-size: 16px; }
 
   /* Modals: full-screen sheets */

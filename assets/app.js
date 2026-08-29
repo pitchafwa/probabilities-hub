@@ -586,75 +586,153 @@ function marketCard(m, opts = {}) {
 }
 
 // ---------------------------------------------------------------- drag to reorder
-function getDragAfterElement(container, x, y) {
-  const els = $$(".card:not(.is-dragging)", container);
-  let best = null;
-  let bestDist = Infinity;
-  for (const el of els) {
-    const b = el.getBoundingClientRect();
-    const cx = b.left + b.width / 2;
-    const cy = b.top + b.height / 2;
-    const d = Math.hypot(x - cx, y - cy);
-    if (d < bestDist) {
-      bestDist = d;
-      best = el;
-    }
+// Custom pointer-based sortable (mouse + touch). A dashed placeholder shows the
+// exact drop slot; siblings FLIP-animate as it moves; the card is only reinserted
+// on drop. Keyboard: focus a grip and press ArrowUp / ArrowDown.
+const FLIP_MS = 160;
+const DRAG_EASE = "cubic-bezier(.2,.7,.3,1)";
+const REDUCE_MOTION =
+  typeof matchMedia === "function" && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+function flipSiblings(grid, mutate) {
+  if (REDUCE_MOTION) { mutate(); return; }
+  const kids = [...grid.children];
+  const first = new Map(kids.map((k) => [k, k.getBoundingClientRect()]));
+  mutate();
+  for (const k of [...grid.children]) {
+    const a = first.get(k);
+    if (!a) continue;
+    const b = k.getBoundingClientRect();
+    const dx = a.left - b.left;
+    const dy = a.top - b.top;
+    if (!dx && !dy) continue;
+    k.style.transition = "none";
+    k.style.transform = `translate(${dx}px, ${dy}px)`;
+    requestAnimationFrame(() => {
+      k.style.transition = `transform ${FLIP_MS}ms ${DRAG_EASE}`;
+      k.style.transform = "";
+    });
   }
-  if (!best) return null;
-  const b = best.getBoundingClientRect();
-  const cx = b.left + b.width / 2;
-  const cy = b.top + b.height / 2;
-  const before = y < cy - 4 || (Math.abs(y - cy) <= b.height / 2 && x < cx);
-  return before ? best : best.nextElementSibling;
+  // Safety net: guarantee no card is left offset even if rAF is throttled.
+  clearTimeout(flipSiblings._t);
+  flipSiblings._t = setTimeout(() => {
+    for (const k of grid.children) { k.style.transition = ""; k.style.transform = ""; }
+  }, FLIP_MS + 120);
 }
 
-function enableDnD(grid) {
+// Element the placeholder should sit *before* (null => end of grid).
+function dropTarget(grid, placeholder, x, y) {
+  const cards = [...grid.children].filter((c) => c !== placeholder);
+  let best = null;
+  let bestD = Infinity;
+  for (const c of cards) {
+    const r = c.getBoundingClientRect();
+    const cx = r.left + r.width / 2;
+    const cy = r.top + r.height / 2;
+    // "insert before c" iff the pointer is earlier than c in reading order
+    const before = y < r.top || (y <= r.bottom && x < cx);
+    if (!before) continue;
+    const d = Math.hypot(x - cx, y - cy);
+    if (d < bestD) { bestD = d; best = c; }
+  }
+  return best;
+}
+
+function makeSortable(grid) {
+  let drag = null;
+
+  const autoScroll = (y) => {
+    const m = 90;
+    if (y < m) scrollBy(0, -Math.ceil((m - y) / 6));
+    else if (y > innerHeight - m) scrollBy(0, Math.ceil((y - (innerHeight - m)) / 6));
+  };
+
+  function onMove(e) {
+    if (!drag) return;
+    e.preventDefault();
+    drag.card.style.left = e.clientX - drag.dx + "px";
+    drag.card.style.top = e.clientY - drag.dy + "px";
+    autoScroll(e.clientY);
+    const target = dropTarget(grid, drag.ph, e.clientX, e.clientY);
+    if (drag.ph.nextElementSibling !== target) {
+      flipSiblings(grid, () => grid.insertBefore(drag.ph, target));
+    }
+  }
+
+  function onUp() {
+    if (!drag) return;
+    removeEventListener("pointermove", onMove);
+    removeEventListener("pointerup", onUp);
+    removeEventListener("pointercancel", onUp);
+    const { card, ph } = drag;
+    const from = card.getBoundingClientRect();
+    card.removeAttribute("style");
+    card.classList.remove("card--dragging");
+    grid.insertBefore(card, ph);
+    ph.remove();
+    // settle: slide from the floating spot into the slot
+    if (!REDUCE_MOTION) {
+      const to = card.getBoundingClientRect();
+      card.style.transition = "none";
+      card.style.transform = `translate(${from.left - to.left}px, ${from.top - to.top}px)`;
+      requestAnimationFrame(() => {
+        card.style.transition = `transform ${FLIP_MS}ms ${DRAG_EASE}`;
+        card.style.transform = "";
+      });
+      setTimeout(() => { card.style.transition = ""; card.style.transform = ""; }, FLIP_MS + 60);
+    }
+    [...grid.children].forEach((k) => { k.style.transition = ""; k.style.transform = ""; });
+    document.body.classList.remove("is-sorting");
+    drag = null;
+    persistOrder();
+  }
+
   $$(".card", grid).forEach((card) => {
     const grip = $(".card__grip", card);
     if (!grip) return;
 
-    const arm = () => { card.draggable = true; };
-    const disarm = () => { card.draggable = false; };
-    grip.addEventListener("mousedown", arm);
-    grip.addEventListener("touchstart", arm, { passive: true });
-    card.addEventListener("mouseup", disarm);
+    grip.addEventListener("pointerdown", (e) => {
+      if (e.pointerType === "mouse" && e.button !== 0) return;
+      e.preventDefault();
+      const r = card.getBoundingClientRect();
+      const ph = el("div", { class: "card-placeholder" });
+      ph.style.height = r.height + "px";
+      grid.insertBefore(ph, card);
 
-    card.addEventListener("dragstart", (e) => {
-      card.classList.add("is-dragging");
-      e.dataTransfer.effectAllowed = "move";
-      try { e.dataTransfer.setData("text/plain", card.dataset.id || ""); } catch {}
-    });
-    card.addEventListener("dragend", () => {
-      card.classList.remove("is-dragging");
-      disarm();
-      persistOrder();
+      Object.assign(card.style, {
+        position: "fixed",
+        margin: "0",
+        width: r.width + "px",
+        height: r.height + "px",
+        left: r.left + "px",
+        top: r.top + "px",
+        zIndex: "999",
+        pointerEvents: "none",
+      });
+      card.classList.add("card--dragging");
+      document.body.appendChild(card); // out of grid so its reflow can't nudge it
+      document.body.classList.add("is-sorting");
+
+      drag = { card, ph, dx: e.clientX - r.left, dy: e.clientY - r.top };
+      try { grip.setPointerCapture(e.pointerId); } catch {}
+      addEventListener("pointermove", onMove, { passive: false });
+      addEventListener("pointerup", onUp);
+      addEventListener("pointercancel", onUp);
     });
 
     grip.addEventListener("keydown", (e) => {
       if (e.key !== "ArrowUp" && e.key !== "ArrowDown") return;
       e.preventDefault();
-      if (e.key === "ArrowUp" && card.previousElementSibling) {
-        grid.insertBefore(card, card.previousElementSibling);
-      } else if (e.key === "ArrowDown" && card.nextElementSibling) {
-        grid.insertBefore(card.nextElementSibling, card);
-      } else {
-        return;
-      }
+      const sib = e.key === "ArrowUp" ? card.previousElementSibling : card.nextElementSibling;
+      if (!sib || sib.classList.contains("card-placeholder")) return;
+      flipSiblings(grid, () => {
+        if (e.key === "ArrowUp") grid.insertBefore(card, sib);
+        else grid.insertBefore(sib, card);
+      });
       persistOrder();
       grip.focus();
     });
   });
-
-  grid.addEventListener("dragover", (e) => {
-    const dragging = $(".is-dragging", grid);
-    if (!dragging) return; // dragging from another section — ignore
-    e.preventDefault();
-    e.dataTransfer.dropEffect = "move";
-    const after = getDragAfterElement(grid, e.clientX, e.clientY);
-    if (after == null) grid.appendChild(dragging);
-    else if (after !== dragging) grid.insertBefore(dragging, after);
-  });
-  grid.addEventListener("drop", (e) => e.preventDefault());
 }
 
 function sectionEl(title, count, cards, key) {
@@ -739,7 +817,7 @@ function render() {
     const cards = items.map((m) => marketCard(m));
     const sec = sectionEl(label, cards.length, cards, key);
     const grid = $(".grid", sec);
-    if (grid) enableDnD(grid);
+    if (grid) makeSortable(grid);
     root.append(sec);
   }
 
