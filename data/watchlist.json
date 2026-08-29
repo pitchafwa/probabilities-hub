@@ -14,13 +14,6 @@
     "addedDate": "2026-08-29"
   },
   {
-    "id": "630772",
-    "platform": "polymarket",
-    "question": "Maine Senate Election Winner — Troy Jackson (D)",
-    "category": "politics",
-    "addedDate": "2026-08-29"
-  },
-  {
     "id": "630692",
     "platform": "polymarket",
     "question": "Georgia Senate Election Winner — Jon Ossoff (D) ",
@@ -38,6 +31,13 @@
     "id": "631057",
     "platform": "polymarket",
     "question": "Ohio Senate Election Winner — Sherrod Brown (D)",
+    "category": "politics",
+    "addedDate": "2026-08-29"
+  },
+  {
+    "id": "630772",
+    "platform": "polymarket",
+    "question": "Maine Senate Election Winner — Troy Jackson (D)",
     "category": "politics",
     "addedDate": "2026-08-29"
   },
