@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:44:40.464Z",
+  "updatedAt": "2026-08-29T19:47:38.694Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -25,7 +25,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:44:40.978Z"
+      "fetchedAt": "2026-08-29T19:47:38.959Z"
     },
     {
       "id": "630772",
@@ -49,7 +49,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:44:40.978Z"
+      "fetchedAt": "2026-08-29T19:47:38.959Z"
     },
     {
       "id": "630692",
@@ -73,7 +73,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:44:40.978Z"
+      "fetchedAt": "2026-08-29T19:47:38.959Z"
     },
     {
       "id": "631057",
@@ -97,7 +97,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:44:40.978Z"
+      "fetchedAt": "2026-08-29T19:47:38.959Z"
     },
     {
       "id": "630963",
@@ -121,7 +121,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:44:40.978Z"
+      "fetchedAt": "2026-08-29T19:47:38.959Z"
     },
     {
       "id": "634976",
@@ -145,7 +145,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:44:40.978Z"
+      "fetchedAt": "2026-08-29T19:47:38.959Z"
     },
     {
       "id": "630805",
@@ -169,7 +169,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:44:40.978Z"
+      "fetchedAt": "2026-08-29T19:47:38.959Z"
     },
     {
       "id": "630733",
@@ -193,7 +193,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:44:40.978Z"
+      "fetchedAt": "2026-08-29T19:47:38.959Z"
     },
     {
       "id": "630883",
@@ -217,7 +217,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:44:40.978Z"
+      "fetchedAt": "2026-08-29T19:47:38.959Z"
     },
     {
       "id": "562802",
@@ -241,7 +241,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:44:40.978Z"
+      "fetchedAt": "2026-08-29T19:47:38.959Z"
     },
     {
       "id": "event:202857",
@@ -254,7 +254,7 @@
       "leaderLabel": "Los Angeles Rams",
       "volume": 47716594,
       "volume24hr": 283496,
-      "liquidity": 6863384,
+      "liquidity": 6862687,
       "closed": false,
       "active": true,
       "endDate": "2027-02-14T23:55:00Z",
@@ -302,7 +302,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-08-29T19:44:40.704Z"
+      "fetchedAt": "2026-08-29T19:47:38.814Z"
     },
     {
       "id": "event:315364",
@@ -363,7 +363,68 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-08-29T19:44:40.882Z"
+      "fetchedAt": "2026-08-29T19:47:38.817Z"
+    },
+    {
+      "id": "event:478277",
+      "platform": "polymarket",
+      "kind": "event",
+      "question": "NBA: 2027 Champion",
+      "category": "sports",
+      "addedDate": "2026-08-29",
+      "probability": 21.5,
+      "leaderLabel": "Oklahoma City Thunder",
+      "volume": 19379572,
+      "volume24hr": 41288,
+      "liquidity": 10764078,
+      "closed": false,
+      "active": true,
+      "endDate": "2027-07-01T00:00:00Z",
+      "slug": "nba-2027-champion",
+      "eventId": "478277",
+      "url": "https://polymarket.com/event/nba-2027-champion",
+      "oneWeekPriceChange": null,
+      "isMultiOutcome": true,
+      "outcomeCount": 17,
+      "outcomes": [
+        {
+          "id": "2243320",
+          "label": "Oklahoma City Thunder",
+          "probability": 21.5,
+          "tracked": false
+        },
+        {
+          "id": "2243324",
+          "label": "San Antonio Spurs",
+          "probability": 20.5,
+          "tracked": false
+        },
+        {
+          "id": "2243308",
+          "label": "Philadelphia 76ers",
+          "probability": 12.7,
+          "tracked": false
+        },
+        {
+          "id": "2243306",
+          "label": "New York Knicks",
+          "probability": 11.5,
+          "tracked": false
+        },
+        {
+          "id": "2243297",
+          "label": "Boston Celtics",
+          "probability": 4.5,
+          "tracked": false
+        },
+        {
+          "id": "2243318",
+          "label": "Minnesota Timberwolves",
+          "probability": 4.3,
+          "tracked": false
+        }
+      ],
+      "fetchedAt": "2026-08-29T19:47:38.810Z"
     }
   ]
 }
