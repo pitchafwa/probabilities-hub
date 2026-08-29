@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:17:56.951Z",
+  "updatedAt": "2026-08-29T19:18:11.345Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -21,7 +21,7 @@
       "slug": "which-party-will-win-the-senate-in-2026",
       "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:17:57.222Z"
+      "fetchedAt": "2026-08-29T19:18:11.582Z"
     },
     {
       "id": "1357374",
@@ -41,7 +41,7 @@
       "slug": "pro-football-2027-champion-20260729185915366",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:17:57.222Z"
+      "fetchedAt": "2026-08-29T19:18:11.583Z"
     },
     {
       "id": "1357373",
@@ -61,7 +61,7 @@
       "slug": "pro-football-2027-champion-20260729185915366",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": -0.0025,
-      "fetchedAt": "2026-08-29T19:17:57.222Z"
+      "fetchedAt": "2026-08-29T19:18:11.583Z"
     },
     {
       "id": "630772",
@@ -81,7 +81,7 @@
       "slug": "maine-senate-election-winner",
       "url": "https://polymarket.com/event/maine-senate-election-winner",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:17:57.222Z"
+      "fetchedAt": "2026-08-29T19:18:11.582Z"
     },
     {
       "id": "630692",
@@ -101,7 +101,7 @@
       "slug": "georgia-senate-election-winner",
       "url": "https://polymarket.com/event/georgia-senate-election-winner",
       "oneWeekPriceChange": 0.01,
-      "fetchedAt": "2026-08-29T19:17:57.222Z"
+      "fetchedAt": "2026-08-29T19:18:11.582Z"
     },
     {
       "id": "631057",
@@ -121,7 +121,7 @@
       "slug": "ohio-senate-election-winner",
       "url": "https://polymarket.com/event/ohio-senate-election-winner",
       "oneWeekPriceChange": 0.01,
-      "fetchedAt": "2026-08-29T19:17:57.222Z"
+      "fetchedAt": "2026-08-29T19:18:11.582Z"
     },
     {
       "id": "630963",
@@ -141,7 +141,7 @@
       "slug": "texas-senate-election-winner",
       "url": "https://polymarket.com/event/texas-senate-election-winner",
       "oneWeekPriceChange": -0.02,
-      "fetchedAt": "2026-08-29T19:17:57.222Z"
+      "fetchedAt": "2026-08-29T19:18:11.582Z"
     },
     {
       "id": "634976",
@@ -161,7 +161,7 @@
       "slug": "alaska-senate-election-winner",
       "url": "https://polymarket.com/event/alaska-senate-election-winner",
       "oneWeekPriceChange": 0.08,
-      "fetchedAt": "2026-08-29T19:17:57.222Z"
+      "fetchedAt": "2026-08-29T19:18:11.582Z"
     },
     {
       "id": "630805",
@@ -181,7 +181,7 @@
       "slug": "michigan-senate-election-winner",
       "url": "https://polymarket.com/event/michigan-senate-election-winner",
       "oneWeekPriceChange": 0.01,
-      "fetchedAt": "2026-08-29T19:17:57.222Z"
+      "fetchedAt": "2026-08-29T19:18:11.582Z"
     },
     {
       "id": "630733",
@@ -201,7 +201,7 @@
       "slug": "iowa-senate-election-winner",
       "url": "https://polymarket.com/event/iowa-senate-election-winner",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:17:57.222Z"
+      "fetchedAt": "2026-08-29T19:18:11.582Z"
     },
     {
       "id": "630883",
@@ -221,7 +221,27 @@
       "slug": "north-carolina-senate-election-winner",
       "url": "https://polymarket.com/event/north-carolina-senate-election-winner",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:17:57.222Z"
+      "fetchedAt": "2026-08-29T19:18:11.582Z"
+    },
+    {
+      "id": "562802",
+      "platform": "polymarket",
+      "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+      "category": "politics",
+      "addedDate": "2026-08-29",
+      "outcomeIndex": 0,
+      "outcomeLabel": "Yes",
+      "probability": 88.5,
+      "volume": 5605457,
+      "volume24hr": 36571,
+      "liquidity": 570815,
+      "closed": false,
+      "active": true,
+      "endDate": "2026-11-03T00:00:00Z",
+      "slug": "which-party-will-win-the-house-in-2026",
+      "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
+      "oneWeekPriceChange": 0.01,
+      "fetchedAt": "2026-08-29T19:18:11.582Z"
     }
   ]
 }
