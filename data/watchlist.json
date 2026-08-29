@@ -26,5 +26,12 @@
     "question": "Baltimore Ravens win Super Bowl LXI",
     "category": "sports",
     "addedDate": "2026-08-29"
+  },
+  {
+    "id": "630772",
+    "platform": "polymarket",
+    "question": "Maine Senate Election Winner — Troy Jackson (D)",
+    "category": "politics",
+    "addedDate": "2026-08-29"
   }
 ]
