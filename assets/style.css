@@ -356,6 +356,17 @@ button {
   align-items: flex-start;
 }
 .result__q { font-size: 12.5px; color: var(--text-hi); }
+.result--event { border-color: var(--amber-dim); }
+.result__tag {
+  display: inline-block;
+  font-size: 9.5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--amber);
+  border: 1px solid var(--amber-dim);
+  padding: 1px 5px;
+  margin-right: 4px;
+}
 .result__desc { font-size: 10.5px; color: var(--sub); margin-top: 4px; line-height: 1.35; }
 .result__meta { font-size: 10px; color: var(--amber-dim); margin-top: 4px; letter-spacing: 0.05em; }
 .result__add { white-space: nowrap; }

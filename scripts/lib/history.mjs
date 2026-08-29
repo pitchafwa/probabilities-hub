@@ -25,13 +25,16 @@ export function appendSnapshot(history, markets, now = new Date()) {
 
   for (const m of markets) {
     if (m.probability == null) continue;
+    // For whole-event cards `p` is the current favorite's probability; `l` tags
+    // which outcome that was, so the frontend can void a delta across a lead change.
+    const point = { t: nowIso, p: m.probability, v: m.volume ?? 0 };
+    if (m.leaderLabel) point.l = m.leaderLabel;
     const points = Array.isArray(series[m.id]) ? series[m.id].slice() : [];
     const last = points[points.length - 1];
     if (last && now.getTime() - new Date(last.t).getTime() < MIN_GAP_MS) {
-      // Refresh the newest point in place rather than stacking a near-duplicate.
-      points[points.length - 1] = { t: nowIso, p: m.probability, v: m.volume ?? 0 };
+      points[points.length - 1] = point; // refresh newest rather than stack a near-duplicate
     } else {
-      points.push({ t: nowIso, p: m.probability, v: m.volume ?? 0 });
+      points.push(point);
     }
     series[m.id] = points.filter((pt) => new Date(pt.t).getTime() >= cutoff);
   }

@@ -188,6 +188,8 @@ function deltaOver(id, windowMs) {
   if (!base) base = pts[0]; // not enough span yet — use earliest we have
   const span = new Date(latest.t).getTime() - new Date(base.t).getTime();
   if (span < windowMs * 0.25) return null; // too little history to be meaningful
+  // Whole-event series track the favorite; a lead change makes the delta meaningless.
+  if (base.l && latest.l && base.l !== latest.l) return null;
   return Math.round((latest.p - base.p) * 10) / 10;
 }
 
@@ -322,16 +324,20 @@ function marketCard(m, opts = {}) {
     card.append(el("div", { class: "card__delta flat", text: "· pending first refresh" }));
   } else {
     let prefix = "";
-    if (multi) {
+    if (m.kind === "event") {
+      const w = String(m.leaderLabel || "").trim().split(/\s+/);
+      prefix = (w[w.length - 1] || "fav").slice(0, 12) + " fav ";
+    } else if (multi) {
       const tl = (m.outcomes.find((o) => o.tracked) || {}).label || "";
       const w = tl.trim().split(/\s+/);
       prefix = (w[w.length - 1] || tl).slice(0, 12) + " ";
     }
+    const noData = m.kind === "event" ? "· favorite trend builds over time" : "· no 7d data yet";
     card.append(
       el(
         "div",
         { class: "card__delta " + trendClass(wk) },
-        wk == null ? "· no 7d data yet" : `${prefix}${arrow(wk)} ${fmtPts(wk)} pts (7d)`
+        wk == null ? noData : `${prefix}${arrow(wk)} ${fmtPts(wk)} pts (7d)`
       )
     );
   }
@@ -723,28 +729,69 @@ async function runSearch(q) {
   }
 }
 
+function priceOf(m) {
+  try {
+    const p = JSON.parse(m.outcomePrices || "[]").map(Number)[0];
+    return isFinite(p) ? Math.round(p * 1000) / 10 : null;
+  } catch {
+    return null;
+  }
+}
+
 function flattenSearch(data) {
-  const out = [];
   const tracked = new Set(state.watchlist.map((w) => String(w.id)));
+  const groups = [];
+
   for (const ev of data.events || []) {
-    for (const m of ev.markets || []) {
-      if (m.closed || m.active === false) continue;
-      let prices = [];
-      try { prices = JSON.parse(m.outcomePrices || "[]").map(Number); } catch {}
-      out.push({
+    const kids = (ev.markets || [])
+      .filter((m) => !m.closed && m.active !== false)
+      .map((m) => ({
         id: String(m.id),
         question: m.groupItemTitle ? `${ev.title} — ${m.groupItemTitle}` : m.question || ev.title,
+        label: m.groupItemTitle || m.question || "—",
         description: (ev.description || m.description || "").replace(/\s+/g, " ").slice(0, 200),
-        probability: isFinite(prices[0]) ? Math.round(prices[0] * 1000) / 10 : null,
+        probability: priceOf(m),
         volume: Math.round(Number(m.volumeNum) || 0),
         url: `https://polymarket.com/event/${ev.slug}`,
         slug: ev.slug,
-        already: tracked.has(String(m.id)),
+      }));
+    if (!kids.length) continue;
+
+    const serious = kids
+      .filter((k) => k.probability != null && k.probability >= 1)
+      .sort((a, b) => b.probability - a.probability);
+    const eventTracked = tracked.has(`event:${ev.id}`);
+    const rows = [];
+
+    // Whole-event row first, for multi-way races.
+    if (serious.length >= 3) {
+      rows.push({
+        kind: "event",
+        id: `event:${ev.id}`,
+        eventId: String(ev.id),
+        question: ev.title,
+        description: (ev.description || "").replace(/\s+/g, " ").slice(0, 200),
+        probability: serious[0].probability,
+        leaderLabel: serious[0].label,
+        outcomeCount: serious.length,
+        outcomes: serious.slice(0, 6).map((k) => ({ label: k.label, probability: k.probability })),
+        volume: Math.round(Number(ev.volume) || 0),
+        url: `https://polymarket.com/event/${ev.slug}`,
+        already: eventTracked,
       });
     }
+    for (const k of kids.sort((a, b) => (b.probability ?? -1) - (a.probability ?? -1))) {
+      rows.push({
+        ...k,
+        already: tracked.has(k.id) || eventTracked,
+        inEvent: eventTracked && !tracked.has(k.id),
+      });
+    }
+    groups.push({ vol: Math.max(...kids.map((k) => k.volume), Number(ev.volume) || 0), rows });
   }
-  out.sort((a, b) => b.volume - a.volume);
-  return out.slice(0, 25);
+
+  groups.sort((a, b) => b.vol - a.vol);
+  return groups.flatMap((g) => g.rows).slice(0, 40);
 }
 
 function guessCategory(text) {
@@ -767,18 +814,32 @@ function renderSearchResults(rows) {
   const tpl = $("#categoryPickerTpl");
   for (const r of rows) {
     const node = tpl.content.firstElementChild.cloneNode(true);
-    $(".result__q", node).textContent = r.question;
+    if (r.kind === "event") node.classList.add("result--event");
+
+    const q = $(".result__q", node);
+    if (r.kind === "event") {
+      q.append(el("span", { class: "result__tag", text: `▚ whole event · ${r.outcomeCount} outcomes` }));
+      q.append(document.createTextNode(" " + r.question));
+    } else {
+      q.textContent = r.question;
+    }
+
     $(".result__desc", node).textContent = r.description || "";
     $(".result__meta", node).textContent =
-      (r.probability != null ? r.probability + "% · " : "") + fmtVol(r.volume) + " vol";
+      r.kind === "event"
+        ? `leader ${r.leaderLabel} ${r.probability}% · ${fmtVol(r.volume)} vol`
+        : (r.probability != null ? r.probability + "% · " : "") + fmtVol(r.volume) + " vol";
+
     const sel = $("select", node);
-    sel.value = guessCategory(r.question + " " + r.description);
+    sel.value = guessCategory(r.question + " " + (r.description || ""));
+
     const btn = $("button", node);
     if (r.already) {
-      btn.textContent = "Added";
+      btn.textContent = r.inEvent ? "In event" : "Added";
       btn.disabled = true;
       btn.classList.add("btn--ghost");
     } else {
+      btn.textContent = r.kind === "event" ? "Add event" : "Add";
       btn.addEventListener("click", () => addMarket(r, sel.value, btn));
     }
     box.append(node);
@@ -829,26 +890,41 @@ async function commitWatchlist(nextList, message) {
 
 async function addMarket(r, category, btn) {
   if (btn) { btn.disabled = true; btn.textContent = "Adding…"; }
-  const entry = {
-    id: String(r.id),
-    platform: "polymarket",
-    question: r.question,
-    category,
-    addedDate: new Date().toISOString().slice(0, 10),
-  };
+  const isEvent = r.kind === "event";
+  const addedDate = new Date().toISOString().slice(0, 10);
+  const entry = isEvent
+    ? {
+        id: `event:${r.eventId}`,
+        platform: "polymarket",
+        kind: "event",
+        eventId: String(r.eventId),
+        question: r.question,
+        category,
+        addedDate,
+      }
+    : { id: String(r.id), platform: "polymarket", question: r.question, category, addedDate };
+
   const next = [...state.watchlist.filter((w) => String(w.id) !== entry.id), entry];
   try {
     await commitWatchlist(next, `watchlist: add ${entry.question}`);
     state.watchlist = next;
     // Optimistic card so it shows immediately.
     if (!state.markets.some((m) => m.id === entry.id)) {
-      state.markets.push({
-        ...entry,
-        probability: r.probability,
-        volume: r.volume,
-        url: r.url,
-        pending: true,
-      });
+      state.markets.push(
+        isEvent
+          ? {
+              ...entry,
+              isMultiOutcome: true,
+              outcomeCount: r.outcomeCount,
+              outcomes: (r.outcomes || []).map((o) => ({ ...o, tracked: false })),
+              probability: r.probability,
+              leaderLabel: r.leaderLabel,
+              volume: r.volume,
+              url: r.url,
+              pending: true,
+            }
+          : { ...entry, probability: r.probability, volume: r.volume, url: r.url, pending: true }
+      );
     }
     render();
     if (btn) { btn.textContent = "Added"; btn.classList.add("btn--ghost"); }

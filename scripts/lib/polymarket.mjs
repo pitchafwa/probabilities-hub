@@ -81,44 +81,84 @@ function normalize(raw, entry) {
 // Minimum probability (%) for a sibling market to count as a "serious" outcome
 // worth listing. Filters out the dead "Party C / Party D" placeholder legs.
 const SERIOUS_MIN_PCT = 1;
-const TOP_OUTCOMES = 5;
+const TOP_OUTCOMES = 5; // rows shown on an outcome card (one team on the watchlist)
+const EVENT_TOP = 6; // rows shown on a whole-event card
 
-// For markets whose parent event is a multi-way race (Super Bowl winner, a
-// crowded primary, MVP, ...), attach the leading outcomes so the card can show a
-// mini leaderboard instead of a single Yes price. History / deltas continue to
-// track the specific outcome on the watchlist (the one marked `tracked`).
+// Sorted, cleaned outcome rows for an event's child markets.
+function outcomeRows(evMarkets) {
+  return (evMarkets || [])
+    .filter((x) => !x.closed && x.active !== false)
+    .map((x) => {
+      const price = parseJsonArray(x.outcomePrices).map((p) => toNum(p))[0];
+      return {
+        id: String(x.id),
+        label: x.groupItemTitle || x.question || "—",
+        probability: Number.isFinite(price) ? Math.round(price * 1000) / 10 : null,
+      };
+    })
+    .filter((r) => r.probability != null && r.probability >= SERIOUS_MIN_PCT)
+    .sort((a, b) => b.probability - a.probability);
+}
+
+async function getEvent(id) {
+  try {
+    return await getJson(`${GAMMA}/events/${id}`);
+  } catch {
+    return null;
+  }
+}
+
+// Normalized record for a whole-event watchlist entry (`kind: "event"`), e.g.
+// "NFL Super Bowl winner". No single outcome is tracked; the card shows the full
+// leaderboard. History records the current favorite's probability (with its
+// label, so deltas can null out across a lead change).
+function normalizeEvent(ev, entry) {
+  const rows = outcomeRows(ev.markets);
+  const leader = rows[0] || null;
+  return {
+    id: entry.id, // "event:<eventId>"
+    platform: "polymarket",
+    kind: "event",
+    question: entry.question || ev.title || "Event",
+    category: entry.category || "uncategorized",
+    addedDate: entry.addedDate || null,
+    probability: leader ? leader.probability : null,
+    leaderLabel: leader ? leader.label : null,
+    volume: Math.round(toNum(ev.volume ?? ev.volumeNum)),
+    volume24hr: Math.round(toNum(ev.volume24hr)),
+    liquidity: Math.round(toNum(ev.liquidity ?? ev.liquidityClob)),
+    closed: Boolean(ev.closed),
+    active: ev.active !== false,
+    endDate: ev.endDate || null,
+    slug: ev.slug || null,
+    eventId: String(ev.id),
+    url: ev.slug ? `https://polymarket.com/event/${ev.slug}` : "https://polymarket.com",
+    oneWeekPriceChange: null,
+    isMultiOutcome: true,
+    outcomeCount: rows.length,
+    outcomes: rows.slice(0, EVENT_TOP).map((r) => ({ ...r, tracked: false })),
+    fetchedAt: new Date().toISOString(),
+  };
+}
+
+// For single-outcome markets whose parent event is a multi-way race (one team of
+// a Super Bowl field, one candidate in a crowded primary, ...), attach the
+// leading outcomes so the card can show a mini leaderboard with that outcome
+// highlighted. History / deltas still track the watchlisted outcome.
 async function enrichMultiOutcome(markets) {
-  const eventIds = [...new Set(markets.map((m) => m.eventId).filter(Boolean))];
+  const targets = markets.filter((m) => m.kind !== "event");
+  const eventIds = [...new Set(targets.map((m) => m.eventId).filter(Boolean))];
   if (!eventIds.length) return;
 
-  const events = await Promise.all(
-    eventIds.map(async (id) => {
-      try {
-        return [id, await getJson(`${GAMMA}/events/${id}`)];
-      } catch {
-        return [id, null];
-      }
-    })
+  const byEvent = new Map(
+    await Promise.all(eventIds.map(async (id) => [id, await getEvent(id)]))
   );
-  const byEvent = new Map(events);
 
-  for (const m of markets) {
+  for (const m of targets) {
     const ev = byEvent.get(m.eventId);
     if (!ev || !Array.isArray(ev.markets)) continue;
 
-    const rows = ev.markets
-      .filter((x) => !x.closed && x.active !== false)
-      .map((x) => {
-        const price = parseJsonArray(x.outcomePrices).map((p) => toNum(p))[0];
-        return {
-          id: String(x.id),
-          label: x.groupItemTitle || x.question || "—",
-          probability: Number.isFinite(price) ? Math.round(price * 1000) / 10 : null,
-        };
-      })
-      .filter((r) => r.probability != null && r.probability >= SERIOUS_MIN_PCT)
-      .sort((a, b) => b.probability - a.probability);
-
+    const rows = outcomeRows(ev.markets);
     if (rows.length < 3) continue; // 2-way (most elections) -> keep single-value card
 
     const top = rows.slice(0, TOP_OUTCOMES);
@@ -132,11 +172,35 @@ async function enrichMultiOutcome(markets) {
   }
 }
 
+function isEventEntry(e) {
+  return e.kind === "event" || String(e.id).startsWith("event:");
+}
+function eventIdOf(e) {
+  return e.eventId ? String(e.eventId) : String(e.id).replace(/^event:/, "");
+}
+
 async function fetchMarkets(entries) {
-  const ids = entries.map((e) => String(e.id)).filter(Boolean);
-  const byId = new Map(entries.map((e) => [String(e.id), e]));
   const out = [];
   const errors = [];
+
+  // --- whole-event entries (kind: "event") -------------------------------
+  const eventEntries = entries.filter(isEventEntry);
+  await Promise.all(
+    eventEntries.map(async (entry) => {
+      const evId = eventIdOf(entry);
+      const ev = await getEvent(evId);
+      if (!ev) {
+        errors.push({ id: entry.id, error: `event ${evId} not returned by Gamma` });
+        return;
+      }
+      out.push(normalizeEvent(ev, { ...entry, id: `event:${evId}` }));
+    })
+  );
+
+  // --- single-outcome market entries -----------------------------------
+  const marketEntries = entries.filter((e) => !isEventEntry(e));
+  const ids = marketEntries.map((e) => String(e.id)).filter(Boolean);
+  const byId = new Map(marketEntries.map((e) => [String(e.id), e]));
 
   for (let i = 0; i < ids.length; i += BATCH) {
     const chunk = ids.slice(i, i + BATCH);
