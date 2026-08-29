@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:15:17.081Z",
+  "updatedAt": "2026-08-29T19:16:41.971Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -21,7 +21,7 @@
       "slug": "which-party-will-win-the-senate-in-2026",
       "url": "https://polymarket.com/event/which-party-will-win-the-senate-in-2026",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:15:17.390Z"
+      "fetchedAt": "2026-08-29T19:16:42.294Z"
     },
     {
       "id": "1357374",
@@ -41,7 +41,7 @@
       "slug": "pro-football-2027-champion-20260729185915366",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:15:17.390Z"
+      "fetchedAt": "2026-08-29T19:16:42.294Z"
     },
     {
       "id": "1357373",
@@ -61,7 +61,7 @@
       "slug": "pro-football-2027-champion-20260729185915366",
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": -0.0025,
-      "fetchedAt": "2026-08-29T19:15:17.390Z"
+      "fetchedAt": "2026-08-29T19:16:42.294Z"
     },
     {
       "id": "630772",
@@ -81,7 +81,87 @@
       "slug": "maine-senate-election-winner",
       "url": "https://polymarket.com/event/maine-senate-election-winner",
       "oneWeekPriceChange": null,
-      "fetchedAt": "2026-08-29T19:15:17.390Z"
+      "fetchedAt": "2026-08-29T19:16:42.294Z"
+    },
+    {
+      "id": "630692",
+      "platform": "polymarket",
+      "question": "Will the Democrats win the Georgia Senate race in 2026?",
+      "category": "politics",
+      "addedDate": "2026-08-29",
+      "outcomeIndex": 0,
+      "outcomeLabel": "Yes",
+      "probability": 93.5,
+      "volume": 48405,
+      "volume24hr": 0,
+      "liquidity": 34433,
+      "closed": false,
+      "active": true,
+      "endDate": null,
+      "slug": "georgia-senate-election-winner",
+      "url": "https://polymarket.com/event/georgia-senate-election-winner",
+      "oneWeekPriceChange": 0.01,
+      "fetchedAt": "2026-08-29T19:16:42.294Z"
+    },
+    {
+      "id": "631057",
+      "platform": "polymarket",
+      "question": "Will the Democrats win the Ohio Senate race in 2026?",
+      "category": "politics",
+      "addedDate": "2026-08-29",
+      "outcomeIndex": 0,
+      "outcomeLabel": "Yes",
+      "probability": 54.5,
+      "volume": 109618,
+      "volume24hr": 454,
+      "liquidity": 34045,
+      "closed": false,
+      "active": true,
+      "endDate": null,
+      "slug": "ohio-senate-election-winner",
+      "url": "https://polymarket.com/event/ohio-senate-election-winner",
+      "oneWeekPriceChange": 0.01,
+      "fetchedAt": "2026-08-29T19:16:42.294Z"
+    },
+    {
+      "id": "630963",
+      "platform": "polymarket",
+      "question": "Will the Democrats win the Texas Senate race in 2026?",
+      "category": "politics",
+      "addedDate": "2026-08-29",
+      "outcomeIndex": 0,
+      "outcomeLabel": "Yes",
+      "probability": 49.5,
+      "volume": 439147,
+      "volume24hr": 75,
+      "liquidity": 71340,
+      "closed": false,
+      "active": true,
+      "endDate": null,
+      "slug": "texas-senate-election-winner",
+      "url": "https://polymarket.com/event/texas-senate-election-winner",
+      "oneWeekPriceChange": -0.02,
+      "fetchedAt": "2026-08-29T19:16:42.294Z"
+    },
+    {
+      "id": "634976",
+      "platform": "polymarket",
+      "question": "Will Mary Peltola win the Alaska Senate race in 2026?",
+      "category": "politics",
+      "addedDate": "2026-08-29",
+      "outcomeIndex": 0,
+      "outcomeLabel": "Yes",
+      "probability": 64.5,
+      "volume": 236340,
+      "volume24hr": 553,
+      "liquidity": 32144,
+      "closed": false,
+      "active": true,
+      "endDate": "2026-11-03T00:00:00Z",
+      "slug": "alaska-senate-election-winner",
+      "url": "https://polymarket.com/event/alaska-senate-election-winner",
+      "oneWeekPriceChange": 0.08,
+      "fetchedAt": "2026-08-29T19:16:42.294Z"
     }
   ]
 }
