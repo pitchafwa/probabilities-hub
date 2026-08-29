@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Probabilities Hub — Mockups</title>
+<style>
+  :root{
+    --bg:#0a0d10; --panel:#12171b; --panel2:#161c21; --line:#232b31;
+    --text:#dfe6ea; --sub:#7c8a94; --up:#2ecc71; --down:#e5533d; --amber:#e8b339;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:#05070a;color:var(--text);font-family:'Courier New',ui-monospace,monospace;}
+  .switcher{display:flex;gap:0;position:sticky;top:0;z-index:10;background:#000;border-bottom:1px solid var(--line);}
+  .switcher button{flex:1;padding:14px;background:#000;color:#8a8a8a;border:none;font-family:inherit;font-size:13px;letter-spacing:.1em;cursor:pointer;text-transform:uppercase;}
+  .switcher button.active{color:var(--amber);background:#0e1215;box-shadow:inset 0 -2px var(--amber);}
+  .view{display:none;padding:24px;}
+  .view.active{display:block;}
+
+  /* ---------- CONCEPT A: TICKER TAPE / TERMINAL ---------- */
+  .ticker{background:#000;border:1px solid var(--line);padding:8px 12px;font-size:12px;color:var(--amber);white-space:nowrap;overflow:hidden;margin-bottom:20px;}
+  .ticker span{margin-right:32px;}
+  .up{color:var(--up);} .down{color:var(--down);}
+  .a-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:16px;border-bottom:1px solid var(--line);padding-bottom:12px;}
+  .a-header h1{font-size:18px;letter-spacing:.15em;margin:0;color:#fff;}
+  .a-header .clock{color:var(--sub);font-size:12px;}
+  .sectiontitle{font-size:11px;letter-spacing:.2em;color:var(--sub);margin:22px 0 10px;text-transform:uppercase;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;}
+  .card{background:var(--panel);border:1px solid var(--line);padding:12px;}
+  .card .q{font-size:12.5px;color:#fff;line-height:1.3;min-height:32px;}
+  .card .prob{font-size:26px;font-weight:bold;margin:8px 0 2px;}
+  .card .delta{font-size:11px;}
+  .card .meta{display:flex;justify-content:space-between;font-size:10px;color:var(--sub);margin-top:10px;border-top:1px dashed var(--line);padding-top:6px;}
+  .spark{height:24px;margin-top:6px;}
+
+  /* ---------- CONCEPT B: SITUATION ROOM ---------- */
+  .b-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;}
+  .b-header h1{font-size:22px;font-weight:300;letter-spacing:.05em;margin:0;}
+  .b-header h1 b{font-weight:700;color:var(--amber);}
+  .tabs{display:flex;gap:8px;margin-bottom:18px;}
+  .tab{padding:6px 16px;border:1px solid var(--line);border-radius:20px;font-size:12px;color:var(--sub);}
+  .tab.on{background:#1a2530;color:#fff;border-color:#2a3a48;}
+  .b-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;}
+  .b-card{background:linear-gradient(180deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:10px;padding:16px;position:relative;}
+  .b-card .tag{font-size:10px;letter-spacing:.1em;color:#5c9bd5;text-transform:uppercase;}
+  .b-card .q{font-size:14px;color:#fff;margin:6px 0 14px;line-height:1.35;}
+  .dial{display:flex;align-items:center;gap:14px;}
+  .ring{width:56px;height:56px;border-radius:50%;background:conic-gradient(var(--amber) calc(var(--pct)*1%),#22292f 0);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:600;color:#fff;}
+  .ring::before{content:"";position:absolute;}
+  .ringlabel{width:56px;height:56px;border-radius:50%;background:#0e1418;display:flex;align-items:center;justify-content:center;margin-left:-56px;font-size:13px;font-weight:700;}
+  .trend{font-size:11px;}
+  .headline{font-size:10.5px;color:var(--sub);margin-top:12px;border-top:1px solid var(--line);padding-top:8px;}
+</style>
+</head>
+<body>
+
+<div class="switcher">
+  <button class="active" onclick="show('a',this)">A — Ticker Tape / Terminal</button>
+  <button onclick="show('b',this)">B — Situation Room</button>
+</div>
+
+<!-- CONCEPT A -->
+<div id="a" class="view active">
+  <div class="ticker">
+    <span>NV-SEN26 <span class="up">▲ 2.1%</span></span>
+    <span>NFL-SB-KC <span class="down">▼ 0.8%</span></span>
+    <span>FED-CUT-DEC <span class="up">▲ 4.4%</span></span>
+    <span>NBA-MVP-SGA <span class="up">▲ 1.2%</span></span>
+    <span>GA-GOV26 <span class="down">▼ 1.5%</span></span>
+  </div>
+  <div class="a-header">
+    <h1>&#9632; PROBABILITIES HUB</h1>
+    <div class="clock">LIVE — 09:41:07 ET &nbsp;|&nbsp; SRC: POLYMARKET</div>
+  </div>
+
+  <div class="sectiontitle">// Politics — Elections</div>
+  <div class="grid">
+    <div class="card">
+      <div class="q">2026 Nevada Senate — GOP holds seat?</div>
+      <div class="prob up">58%</div>
+      <div class="delta up">▲ 3.2 pts (7d)</div>
+      <div class="meta"><span>VOL $2.1M</span><span>ADDED 8/12</span></div>
+    </div>
+    <div class="card">
+      <div class="q">Fed cuts rates at December meeting</div>
+      <div class="prob up">71%</div>
+      <div class="delta up">▲ 4.4 pts (7d)</div>
+      <div class="meta"><span>VOL $8.9M</span><span>ADDED 8/02</span></div>
+    </div>
+    <div class="card">
+      <div class="q">Georgia Governor 2026 — Dem win</div>
+      <div class="prob down">34%</div>
+      <div class="delta down">▼ 1.5 pts (7d)</div>
+      <div class="meta"><span>VOL $640K</span><span>ADDED 8/20</span></div>
+    </div>
+  </div>
+
+  <div class="sectiontitle">// Sports — NFL / NBA</div>
+  <div class="grid">
+    <div class="card">
+      <div class="q">Chiefs win Super Bowl LXI</div>
+      <div class="prob down">14%</div>
+      <div class="delta down">▼ 0.8 pts (7d)</div>
+      <div class="meta"><span>VOL $3.4M</span><span>ADDED 7/29</span></div>
+    </div>
+    <div class="card">
+      <div class="q">Shai Gilgeous-Alexander wins MVP</div>
+      <div class="prob up">22%</div>
+      <div class="delta up">▲ 1.2 pts (7d)</div>
+      <div class="meta"><span>VOL $980K</span><span>ADDED 8/18</span></div>
+    </div>
+    <div class="card">
+      <div class="q">Bills make playoffs</div>
+      <div class="prob up">88%</div>
+      <div class="delta up">▲ 0.4 pts (7d)</div>
+      <div class="meta"><span>VOL $1.1M</span><span>ADDED 8/05</span></div>
+    </div>
+  </div>
+
+  <div class="sectiontitle">// Trending Now (24h movers, all categories)</div>
+  <div class="grid">
+    <div class="card"><div class="q">Fed cuts rates at December meeting</div><div class="prob up">71%</div><div class="delta up">▲ 4.4 pts</div></div>
+    <div class="card"><div class="q">Nevada Senate — GOP holds seat</div><div class="prob up">58%</div><div class="delta up">▲ 3.2 pts</div></div>
+    <div class="card"><div class="q">Georgia Governor — Dem win</div><div class="prob down">34%</div><div class="delta down">▼ 1.5 pts</div></div>
+  </div>
+</div>
+
+<!-- CONCEPT B -->
+<div id="b" class="view">
+  <div class="b-header">
+    <h1><b>&#9673;</b> Situation Room</h1>
+    <div style="font-size:11px;color:var(--sub)">Updated 3 min ago · Polymarket</div>
+  </div>
+  <div class="tabs">
+    <div class="tab on">All</div><div class="tab">Politics</div><div class="tab">NFL</div><div class="tab">NBA</div><div class="tab">Trending</div>
+  </div>
+
+  <div style="font-size:11px;letter-spacing:.15em;color:var(--sub);margin-bottom:10px;">POLITICS &mdash; ELECTIONS</div>
+  <div class="b-grid">
+    <div class="b-card">
+      <div class="tag">Senate · Nevada</div>
+      <div class="q">Republican holds Nevada Senate seat in 2026</div>
+      <div class="dial">
+        <div style="position:relative;"><div class="ring" style="--pct:58"></div><div class="ringlabel">58%</div></div>
+        <div class="trend up">▲ 3.2 pts this week<br><span style="color:var(--sub)">$2.1M volume</span></div>
+      </div>
+      <div class="headline">📰 AP: "Nevada race tightens as early voting begins"</div>
+    </div>
+    <div class="b-card">
+      <div class="tag">Fed · December FOMC</div>
+      <div class="q">Fed cuts rates at December meeting</div>
+      <div class="dial">
+        <div style="position:relative;"><div class="ring" style="--pct:71"></div><div class="ringlabel">71%</div></div>
+        <div class="trend up">▲ 4.4 pts this week<br><span style="color:var(--sub)">$8.9M volume</span></div>
+      </div>
+      <div class="headline">📰 Reuters: "Markets price in December cut after jobs data"</div>
+    </div>
+  </div>
+
+  <div style="font-size:11px;letter-spacing:.15em;color:var(--sub);margin:24px 0 10px;">SPORTS &mdash; NFL / NBA</div>
+  <div class="b-grid">
+    <div class="b-card">
+      <div class="tag">NFL · Super Bowl LXI</div>
+      <div class="q">Kansas City Chiefs win Super Bowl</div>
+      <div class="dial">
+        <div style="position:relative;"><div class="ring" style="--pct:14"></div><div class="ringlabel">14%</div></div>
+        <div class="trend down">▼ 0.8 pts this week<br><span style="color:var(--sub)">$3.4M volume</span></div>
+      </div>
+      <div class="headline">📰 ESPN: "Chiefs offensive line questions mount"</div>
+    </div>
+    <div class="b-card">
+      <div class="tag">NBA · MVP</div>
+      <div class="q">Shai Gilgeous-Alexander wins MVP</div>
+      <div class="dial">
+        <div style="position:relative;"><div class="ring" style="--pct:22"></div><div class="ringlabel">22%</div></div>
+        <div class="trend up">▲ 1.2 pts this week<br><span style="color:var(--sub)">$980K volume</span></div>
+      </div>
+      <div class="headline">📰 ESPN: "SGA torches Nuggets for 45"</div>
+    </div>
+  </div>
+</div>
+
+<script>
+function show(id, btn){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+  document.querySelectorAll('.switcher button').forEach(b=>b.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  btn.classList.add('active');
+}
+</script>
+</body>
+</html>

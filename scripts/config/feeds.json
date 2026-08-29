@@ -1,0 +1,19 @@
+{
+  "//": "RSS feeds for headline matching. Edit freely. `category` is an optional hint used to weight matches toward markets in the same category; omit or use 'general'.",
+  "maxHeadlinesPerMarket": 3,
+  "maxAgeDays": 5,
+  "feeds": [
+    { "outlet": "AP (Google News)", "url": "https://news.google.com/rss/search?q=when:2d%20site:apnews.com&hl=en-US&gl=US&ceid=US:en", "category": "general" },
+    { "outlet": "NYT Politics", "url": "https://rss.nytimes.com/services/xml/rss/nyt/Politics.xml", "category": "politics" },
+    { "outlet": "NYT HomePage", "url": "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml", "category": "general" },
+    { "outlet": "BBC News", "url": "https://feeds.bbci.co.uk/news/rss.xml", "category": "general" },
+    { "outlet": "BBC US & Canada", "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml", "category": "politics" },
+    { "outlet": "Politico", "url": "https://rss.politico.com/politics-news.xml", "category": "politics" },
+    { "outlet": "The Hill", "url": "https://thehill.com/homenews/feed/", "category": "politics" },
+    { "outlet": "Reuters (Google News)", "url": "https://news.google.com/rss/search?q=when:2d%20site:reuters.com&hl=en-US&gl=US&ceid=US:en", "category": "general" },
+    { "outlet": "ESPN Top", "url": "https://www.espn.com/espn/rss/news", "category": "sports" },
+    { "outlet": "ESPN NFL", "url": "https://www.espn.com/espn/rss/nfl/news", "category": "sports" },
+    { "outlet": "ESPN NBA", "url": "https://www.espn.com/espn/rss/nba/news", "category": "sports" },
+    { "outlet": "CBS Sports", "url": "https://www.cbssports.com/rss/headlines/", "category": "sports" }
+  ]
+}

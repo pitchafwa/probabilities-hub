@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="color-scheme" content="dark light" />
+<title>Probabilities Hub</title>
+<meta name="description" content="Personal prediction-market probabilities dashboard — politics, NFL, NBA." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%2305070a'/%3E%3Crect x='3' y='9' width='2' height='4' fill='%232ecc71'/%3E%3Crect x='7' y='5' width='2' height='8' fill='%23e8b339'/%3E%3Crect x='11' y='7' width='2' height='6' fill='%23e5533d'/%3E%3C/svg%3E" />
+<link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+
+<div class="ticker" id="ticker" aria-label="Tracked markets ticker" tabindex="0">
+  <div class="ticker--empty">loading ticker…</div>
+</div>
+
+<div class="wrap">
+  <header class="head">
+    <h1 class="head__title"><span class="mark">&#9632;</span> Probabilities&nbsp;Hub</h1>
+    <div class="head__right">
+      <span class="clock" id="clock" aria-live="polite">connecting…</span>
+      <button class="iconbtn" id="addBtn" aria-haspopup="dialog">+ Add</button>
+      <button class="iconbtn" id="themeBtn" aria-label="Toggle light / dark theme">&#9681; Theme</button>
+      <button class="iconbtn" id="settingsBtn" aria-haspopup="dialog" aria-label="Open settings">&#9881; Settings</button>
+    </div>
+  </header>
+
+  <div id="banners" aria-live="polite"></div>
+
+  <main id="sections">
+    <div class="spinner">// loading market data…</div>
+  </main>
+</div>
+
+<!-- Add-market modal -->
+<div class="modal" id="addModal" hidden role="dialog" aria-modal="true" aria-labelledby="addModalTitle">
+  <div class="modal__panel">
+    <div class="modal__head">
+      <h2 id="addModalTitle">Add a market</h2>
+      <button class="modal__close" data-close aria-label="Close">&times;</button>
+    </div>
+    <form id="searchForm">
+      <label class="field">
+        <span>Search Polymarket</span>
+        <input class="input" id="searchInput" type="search" autocomplete="off"
+               placeholder="e.g. nevada senate, fed rate cut, chiefs super bowl" />
+      </label>
+    </form>
+    <p class="hint">Live search against Polymarket's public API. Pick a market and choose a category to pin it to your dashboard.</p>
+    <div class="results" id="searchResults"></div>
+  </div>
+</div>
+
+<!-- Settings modal -->
+<div class="modal" id="settingsModal" hidden role="dialog" aria-modal="true" aria-labelledby="settingsModalTitle">
+  <div class="modal__panel">
+    <div class="modal__head">
+      <h2 id="settingsModalTitle">Settings</h2>
+      <button class="modal__close" data-close aria-label="Close">&times;</button>
+    </div>
+
+    <label class="field">
+      <span>GitHub fine-grained token <span class="tokentag" id="tokenState">not set</span></span>
+      <input class="input" id="tokenInput" type="password" autocomplete="off"
+             placeholder="github_pat_… (Contents: read & write on this repo)" />
+    </label>
+    <p class="hint">
+      Needed only to add / remove markets (it commits <code>data/watchlist.json</code>).
+      Stored in this browser's <code>localStorage</code> and sent only to
+      <code>api.github.com</code>. Create one at GitHub → Settings → Developer settings →
+      Fine-grained tokens, scoped to <code id="repoSlug">pitchafwa/probabilities-hub</code>
+      with <strong>Contents: Read and write</strong>.
+    </p>
+    <div class="btnrow">
+      <button class="btn" id="tokenSave">Save token</button>
+      <button class="btn btn--danger" id="tokenClear">Clear token</button>
+    </div>
+
+    <label class="field" style="margin-top:20px;">
+      <span>Repository (owner/repo)</span>
+      <input class="input" id="repoInput" type="text" autocomplete="off" placeholder="owner/repo" />
+    </label>
+    <label class="field">
+      <span>Branch</span>
+      <input class="input" id="branchInput" type="text" autocomplete="off" placeholder="main" />
+    </label>
+    <div class="btnrow">
+      <button class="btn btn--ghost" id="repoSave">Save repo config</button>
+    </div>
+
+    <p class="hint" style="margin-top:16px;" id="dataInfo">—</p>
+  </div>
+</div>
+
+<template id="categoryPickerTpl">
+  <div class="result">
+    <div>
+      <div class="result__q"></div>
+      <div class="result__desc"></div>
+      <div class="result__meta"></div>
+    </div>
+    <div class="result__add">
+      <select class="input" style="width:auto;margin-bottom:6px;">
+        <option value="politics">politics</option>
+        <option value="sports">sports</option>
+        <option value="economics">economics</option>
+        <option value="crypto">crypto</option>
+        <option value="other">other</option>
+      </select>
+      <button class="btn">Add</button>
+    </div>
+  </div>
+</template>
+
+<script src="./assets/app.js"></script>
+</body>
+</html>

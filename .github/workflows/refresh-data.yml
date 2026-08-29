@@ -1,0 +1,46 @@
+name: refresh-data
+
+on:
+  schedule:
+    # every 20 minutes (GitHub may delay under load; that's fine)
+    - cron: "*/20 * * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "data/watchlist.json"
+      - "scripts/**"
+      - ".github/workflows/refresh-data.yml"
+
+# Let the built-in GITHUB_TOKEN commit back to the repo. No secrets/PAT needed.
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Refresh data
+        run: node scripts/refresh.mjs
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "probabilities-hub bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/markets.json data/history.json data/headlines.json
+          if git diff --cached --quiet; then
+            echo "no data changes"
+          else
+            git commit -m "data: refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
