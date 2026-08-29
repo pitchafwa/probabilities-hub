@@ -77,5 +77,14 @@
     "question": "Pro Football: 2027 Champion",
     "category": "sports",
     "addedDate": "2026-08-29"
+  },
+  {
+    "id": "event:315364",
+    "platform": "polymarket",
+    "kind": "event",
+    "eventId": "315364",
+    "question": "Pro Football: 2026 MVP Winner",
+    "category": "sports",
+    "addedDate": "2026-08-29"
   }
 ]
