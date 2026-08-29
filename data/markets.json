@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:34:17.216Z",
+  "updatedAt": "2026-08-29T19:34:45.601Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -25,7 +25,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:34:17.586Z"
+      "fetchedAt": "2026-08-29T19:34:45.785Z"
     },
     {
       "id": "630772",
@@ -49,7 +49,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:34:17.586Z"
+      "fetchedAt": "2026-08-29T19:34:45.785Z"
     },
     {
       "id": "630692",
@@ -73,7 +73,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:34:17.586Z"
+      "fetchedAt": "2026-08-29T19:34:45.785Z"
     },
     {
       "id": "631057",
@@ -97,7 +97,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:34:17.586Z"
+      "fetchedAt": "2026-08-29T19:34:45.785Z"
     },
     {
       "id": "630963",
@@ -121,7 +121,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:34:17.586Z"
+      "fetchedAt": "2026-08-29T19:34:45.785Z"
     },
     {
       "id": "634976",
@@ -145,7 +145,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:34:17.586Z"
+      "fetchedAt": "2026-08-29T19:34:45.785Z"
     },
     {
       "id": "630805",
@@ -169,7 +169,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:34:17.586Z"
+      "fetchedAt": "2026-08-29T19:34:45.785Z"
     },
     {
       "id": "630733",
@@ -193,7 +193,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:34:17.586Z"
+      "fetchedAt": "2026-08-29T19:34:45.785Z"
     },
     {
       "id": "630883",
@@ -217,7 +217,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:34:17.586Z"
+      "fetchedAt": "2026-08-29T19:34:45.785Z"
     },
     {
       "id": "562802",
@@ -241,7 +241,69 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:34:17.586Z"
+      "fetchedAt": "2026-08-29T19:34:45.785Z"
+    },
+    {
+      "id": "1357388",
+      "platform": "polymarket",
+      "question": "Will the Los Angeles Chargers win the 2027 NFL league championship?",
+      "category": "sports",
+      "addedDate": "2026-08-29",
+      "outcomeIndex": 0,
+      "outcomeLabel": "Yes",
+      "probability": 4.6,
+      "volume": 4951403,
+      "volume24hr": 10795,
+      "liquidity": 147454,
+      "closed": false,
+      "active": true,
+      "endDate": "2027-03-31T23:55:00Z",
+      "slug": "pro-football-2027-champion-20260729185915366",
+      "eventId": "202857",
+      "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
+      "oneWeekPriceChange": 0.006,
+      "isMultiOutcome": true,
+      "outcomeCount": 22,
+      "outcomes": [
+        {
+          "id": "1357389",
+          "label": "Los Angeles Rams",
+          "probability": 15.5,
+          "tracked": false
+        },
+        {
+          "id": "1357374",
+          "label": "Buffalo Bills",
+          "probability": 8.5,
+          "tracked": false
+        },
+        {
+          "id": "1357399",
+          "label": "Seattle Seahawks",
+          "probability": 7.5,
+          "tracked": false
+        },
+        {
+          "id": "1357373",
+          "label": "Baltimore Ravens",
+          "probability": 7.4,
+          "tracked": false
+        },
+        {
+          "id": "1357386",
+          "label": "Kansas City Chiefs",
+          "probability": 6.4,
+          "tracked": false
+        },
+        {
+          "id": "1357388",
+          "label": "Los Angeles Chargers",
+          "probability": 4.6,
+          "outside": true,
+          "tracked": true
+        }
+      ],
+      "fetchedAt": "2026-08-29T19:34:45.785Z"
     }
   ]
 }
