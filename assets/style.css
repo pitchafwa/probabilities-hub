@@ -78,14 +78,15 @@ button {
 }
 :root[data-theme="light"] .ticker { background: #1a1712; }
 .ticker__track {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
   padding: 8px 0;
   will-change: transform;
   animation: ticker-scroll 60s linear infinite;
 }
 .ticker:hover .ticker__track,
 .ticker:focus-within .ticker__track { animation-play-state: paused; }
-.ticker__item { margin: 0 26px; display: inline-flex; align-items: center; line-height: 1; }
+.ticker__item { margin: 0 26px; flex: 0 0 auto; display: inline-flex; align-items: center; line-height: 1; }
 .ticker__item > * { line-height: 1; }
 .ticker__sym { color: var(--amber); letter-spacing: 0.06em; }
 .ticker__px { color: var(--text-hi); margin-left: 6px; }
