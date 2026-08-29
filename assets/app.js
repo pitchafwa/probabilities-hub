@@ -215,6 +215,144 @@ function trendingMovers(limit = 6) {
   return rows.slice(0, limit);
 }
 
+// ---------------------------------------------------------------- glance icons
+// Full US state / territory name -> USPS code. Checked longest-first so
+// "west virginia" wins over "virginia".
+const US_STATES = {
+  "district of columbia": "DC", "west virginia": "WV", "new hampshire": "NH",
+  "north carolina": "NC", "south carolina": "SC", "north dakota": "ND",
+  "south dakota": "SD", "rhode island": "RI", "new jersey": "NJ", "new mexico": "NM",
+  "new york": "NY", "puerto rico": "PR", "alabama": "AL", "alaska": "AK",
+  "arizona": "AZ", "arkansas": "AR", "california": "CA", "colorado": "CO",
+  "connecticut": "CT", "delaware": "DE", "florida": "FL", "georgia": "GA",
+  "hawaii": "HI", "idaho": "ID", "illinois": "IL", "indiana": "IN", "iowa": "IA",
+  "kansas": "KS", "kentucky": "KY", "louisiana": "LA", "maine": "ME",
+  "maryland": "MD", "massachusetts": "MA", "michigan": "MI", "minnesota": "MN",
+  "mississippi": "MS", "missouri": "MO", "montana": "MT", "nebraska": "NE",
+  "nevada": "NV", "ohio": "OH", "oklahoma": "OK", "oregon": "OR",
+  "pennsylvania": "PA", "tennessee": "TN", "texas": "TX", "utah": "UT",
+  "vermont": "VT", "virginia": "VA", "washington": "WA", "wisconsin": "WI",
+  "wyoming": "WY",
+};
+const STATE_NAMES = Object.keys(US_STATES).sort((a, b) => b.length - a.length);
+
+const NFL_TEAMS = "cardinals falcons ravens bills panthers bears bengals browns cowboys broncos lions packers texans colts jaguars chiefs raiders chargers rams dolphins vikings patriots saints giants jets eagles steelers 49ers seahawks buccaneers titans commanders".split(" ");
+const NBA_TEAMS = "hawks celtics nets hornets bulls cavaliers mavericks nuggets pistons warriors rockets pacers clippers lakers grizzlies heat bucks timberwolves pelicans knicks thunder magic 76ers sixers suns blazers trailblazers kings spurs raptors jazz wizards".split(" ");
+const OFFICE_RE = /\b(senate|senator|house|congress(ional)?|governor|gubernatorial|attorney general|secretary of state|legislature|district \d|\bhr\b)\b/;
+
+function hasWord(text, list) {
+  return list.some((w) => new RegExp("\\b" + w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b").test(text));
+}
+
+// -> { type: "icon", key } or { type: "state", key: "NC" }
+function classifyIcon(m) {
+  const cat = (m.category || "").toLowerCase();
+  const text = [
+    m.question,
+    m.leaderLabel,
+    ...(Array.isArray(m.outcomes) ? m.outcomes.map((o) => o.label) : []),
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+  const I = (key) => ({ type: "icon", key });
+
+  // Courts
+  if (/\b(supreme court|scotus|justice|court rules|court ruling|appeals court)\b/.test(text)) return I("scales");
+
+  // State-level races -> abbreviation badge
+  const nationalPolitics =
+    /\b(control of the|which party|majority in the|the senate in 20|the house in 20|electoral college|speaker of the house|presiden|impeach|government shutdown|debt ceiling|national popular vote)\b/.test(
+      text
+    );
+  if (OFFICE_RE.test(text) && !nationalPolitics) {
+    for (const name of STATE_NAMES) {
+      if (name === "washington" && /\b(d\.?c\.?|district of columbia)\b/.test(text)) continue;
+      if (text.includes(name)) return { type: "state", key: US_STATES[name] };
+    }
+  }
+
+  // Federal / national politics
+  if (
+    nationalPolitics ||
+    /\b(midterm|primary|caucus|ballot measure|referendum|redistrict)\b/.test(text) ||
+    (cat === "politics" && /\belection|vote|poll\b/.test(text))
+  ) {
+    if (/\bpresiden/.test(text)) return I("flag");
+    if (/\b(senate|house|congress|shutdown|debt ceiling|speaker)\b/.test(text)) return I("capitol");
+    return I("ballot");
+  }
+
+  // Sports
+  const sporty = cat === "sports" || /\b(championship|playoff|finals|mvp|title|cup|bowl|league)\b/.test(text);
+  if (/\b(nfl|super ?bowl|afc|nfc)\b/.test(text) || hasWord(text, NFL_TEAMS)) return I("nfl");
+  if (/\b(nba)\b/.test(text) || (/\bfinals|mvp\b/.test(text) && hasWord(text, NBA_TEAMS)) || hasWord(text, NBA_TEAMS))
+    return I("nba");
+  if (/\b(mlb|world series|baseball)\b/.test(text)) return I("mlb");
+  if (/\b(nhl|stanley cup|hockey)\b/.test(text)) return I("nhl");
+  if (/\b(premier league|la liga|world cup|uefa|fifa|champions league|soccer)\b/.test(text)) return I("soccer");
+  if (sporty) return I("trophy");
+
+  // Economics
+  if (
+    cat === "economics" ||
+    /\b(fed|fomc|federal reserve|rate cut|rate hike|interest rate|inflation|cpi|recession|gdp|jobs report|unemployment|tariff|jerome powell)\b/.test(
+      text
+    )
+  )
+    return I("bank");
+
+  // Crypto
+  if (/\b(bitcoin|btc)\b/.test(text)) return I("bitcoin");
+  if (/\b(ethereum|ether|eth)\b/.test(text)) return I("ethereum");
+  if (cat === "crypto" || /\b(crypto|solana|dogecoin|stablecoin|altcoin|token)\b/.test(text)) return I("coin");
+
+  // Science / climate / space
+  if (/\b(hottest year|temperature record|global temperature|hurricane|category [1-5]|wildfire|el niño|la niña)\b/.test(text))
+    return I("flame");
+  if (/\b(spacex|nasa|starship|rocket launch|falcon 9|moon landing|mars mission)\b/.test(text)) return I("rocket");
+  if (/\b(fusion|nuclear reactor|particle|quantum|cern)\b/.test(text)) return I("atom");
+
+  // Geopolitics / world
+  if (
+    /\b(ceasefire|hostage|invasion|\bwar\b|nato|sanctions|coup|prime minister|chancellor|parliament|referendum|border|missile|nuclear deal)\b/.test(
+      text
+    ) ||
+    /\b(ukraine|russia|israel|gaza|iran|china|taiwan|north korea|venezuela|france|germany|\buk\b|britain|canada|mexico|india|brazil)\b/.test(
+      text
+    )
+  )
+    return I("globe");
+
+  // Entertainment
+  if (/\b(oscar|academy award|grammy|emmy|golden globe|tony award|box office|rotten tomatoes|billboard|album|movie|film)\b/.test(text))
+    return I(/\b(grammy|billboard|album|song)\b/.test(text) ? "mic" : "film");
+  if (/\b(nobel|pulitzer|time person of the year|person of the year)\b/.test(text)) return I("award");
+
+  // Category fallbacks
+  if (cat === "politics") return I("ballot");
+  if (cat === "sports") return I("trophy");
+  if (cat === "economics") return I("bank");
+  if (cat === "crypto") return I("coin");
+  if (cat === "entertainment") return I("film");
+  return I("dot");
+}
+
+function iconEl(m, cls) {
+  const c = classifyIcon(m);
+  if (c.type === "state") {
+    return el("span", {
+      class: "gicon gicon--state" + (cls ? " " + cls : ""),
+      title: c.key,
+      text: c.key,
+    });
+  }
+  const span = el("span", { class: "gicon" + (cls ? " " + cls : ""), title: c.key });
+  span.innerHTML = (window.ICONS && window.ICONS[c.key]) || window.ICONS.dot;
+  return span;
+}
+
 // ---------------------------------------------------------------- rendering
 function sparkline(id) {
   const pts = state.history?.series?.[id];
@@ -304,7 +442,9 @@ function marketCard(m, opts = {}) {
     { href: m.url || "#", target: "_blank", rel: "noopener noreferrer" },
     m.question || "Untitled market"
   );
-  card.append(el("div", { class: "card__q" }, qLink));
+  card.append(
+    el("div", { class: "card__head" }, iconEl(m), el("div", { class: "card__q" }, qLink))
+  );
 
   if (multi) {
     card.append(outcomeBoard(m));
@@ -579,6 +719,7 @@ function renderTicker() {
       const d = deltaOver(m.id, DAY);
       const sym = tickerSymbol(m);
       const span = el("span", { class: "ticker__item" },
+        iconEl(m, "gicon--ticker"),
         el("span", { class: "ticker__sym", text: sym }),
         el("span", { class: "ticker__px", text: Math.round(m.probability) + "%" })
       );
@@ -816,12 +957,14 @@ function renderSearchResults(rows) {
     const node = tpl.content.firstElementChild.cloneNode(true);
     if (r.kind === "event") node.classList.add("result--event");
 
+    const cat = guessCategory(r.question + " " + (r.description || ""));
     const q = $(".result__q", node);
+    q.append(iconEl({ question: r.question, category: cat, leaderLabel: r.leaderLabel, outcomes: r.outcomes }, "gicon--result"));
     if (r.kind === "event") {
       q.append(el("span", { class: "result__tag", text: `▚ whole event · ${r.outcomeCount} outcomes` }));
       q.append(document.createTextNode(" " + r.question));
     } else {
-      q.textContent = r.question;
+      q.append(document.createTextNode(" " + r.question));
     }
 
     $(".result__desc", node).textContent = r.description || "";
@@ -831,7 +974,7 @@ function renderSearchResults(rows) {
         : (r.probability != null ? r.probability + "% · " : "") + fmtVol(r.volume) + " vol";
 
     const sel = $("select", node);
-    sel.value = guessCategory(r.question + " " + (r.description || ""));
+    sel.value = cat;
 
     const btn = $("button", node);
     if (r.already) {

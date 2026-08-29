@@ -170,15 +170,50 @@ button {
   min-height: 132px;
 }
 .card:hover { border-color: var(--amber-dim); }
+.card__head {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  padding: 0 20px;
+}
 .card__q {
   font-size: 12.5px;
   color: var(--text-hi);
   line-height: 1.32;
   min-height: 32px;
-  padding: 0 20px;
+  flex: 1 1 auto;
+  min-width: 0;
 }
 .card__q a { text-decoration: none; }
 .card__q a:hover { color: var(--amber); }
+
+/* ---------- Glance icons ---------- */
+.gicon {
+  flex: 0 0 auto;
+  width: 18px;
+  height: 18px;
+  color: var(--amber);
+  margin-top: 1px;
+}
+.gicon svg { width: 100%; height: 100%; display: block; }
+.gicon--state {
+  width: auto;
+  min-width: 21px;
+  height: 15px;
+  padding: 0 3px;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  border: 1px solid var(--amber-dim);
+  color: var(--amber);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.gicon--ticker { width: 12px; height: 12px; margin: 0 5px 0 0; vertical-align: -2px; }
+.gicon--ticker.gicon--state { height: 11px; min-width: 17px; font-size: 7.5px; padding: 0 2px; }
+.gicon--result { width: 14px; height: 14px; vertical-align: -2px; margin-right: 3px; }
+.gicon--result.gicon--state { height: 12px; min-width: 18px; font-size: 8px; }
 .card__prob { font-size: 26px; font-weight: 700; margin: 8px 0 2px; letter-spacing: 0.02em; }
 
 /* ---------- Drag handle / dragging ---------- */
