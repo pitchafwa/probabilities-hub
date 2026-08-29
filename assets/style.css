@@ -175,11 +175,53 @@ button {
   color: var(--text-hi);
   line-height: 1.32;
   min-height: 32px;
-  padding-right: 20px;
+  padding: 0 20px;
 }
 .card__q a { text-decoration: none; }
 .card__q a:hover { color: var(--amber); }
 .card__prob { font-size: 26px; font-weight: 700; margin: 8px 0 2px; letter-spacing: 0.02em; }
+
+/* ---------- Drag handle / dragging ---------- */
+.card__grip {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--line);
+  padding: 3px 4px;
+  cursor: grab;
+  transition: color 0.12s;
+}
+.card:hover .card__grip { color: var(--sub); }
+.card__grip:hover,
+.card__grip:focus-visible { color: var(--amber); }
+.card__grip:active { cursor: grabbing; }
+.card.is-dragging {
+  opacity: 0.55;
+  border-color: var(--amber);
+  border-style: dashed;
+}
+
+/* ---------- Multi-outcome leaderboard ---------- */
+.card__board { margin: 8px 0 2px; display: flex; flex-direction: column; gap: 3px; }
+.ob__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+  color: var(--text);
+  border-bottom: 1px dotted var(--line-soft);
+  padding-bottom: 2px;
+}
+.ob__row:last-child { border-bottom: none; }
+.ob__label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ob__pct { color: var(--text-hi); font-weight: 700; font-variant-numeric: tabular-nums; }
+.ob__row.is-tracked .ob__label { color: var(--amber); }
+.ob__row.is-tracked .ob__pct { color: var(--amber); }
+.ob__row.is-outside { opacity: 0.75; border-top: 1px dashed var(--line); padding-top: 3px; margin-top: 1px; }
+.ob__row.is-outside .ob__label::before { content: "· "; color: var(--sub); }
+.ob__more { font-size: 10px; color: var(--sub); margin-top: 2px; letter-spacing: 0.04em; }
 .card__delta { font-size: 11px; letter-spacing: 0.04em; min-height: 14px; }
 .card__spark { height: 26px; margin: 6px 0 2px; display: block; width: 100%; }
 .card__meta {

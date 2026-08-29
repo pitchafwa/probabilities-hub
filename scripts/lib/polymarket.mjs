@@ -66,11 +66,70 @@ function normalize(raw, entry) {
     active: raw.active !== false,
     endDate: raw.endDate || raw.endDateIso || null,
     slug: raw.events?.[0]?.slug || raw.slug || null,
+    eventId: raw.events?.[0]?.id != null ? String(raw.events[0].id) : null,
     url: marketUrl(raw),
     // Polymarket's own change fields, kept as a cross-check / fallback for deltas.
     oneWeekPriceChange: raw.oneWeekPriceChange != null ? toNum(raw.oneWeekPriceChange) : null,
+    // Populated by enrichMultiOutcome() when the parent event has 3+ live outcomes.
+    isMultiOutcome: false,
+    outcomeCount: null,
+    outcomes: null,
     fetchedAt: new Date().toISOString(),
   };
+}
+
+// Minimum probability (%) for a sibling market to count as a "serious" outcome
+// worth listing. Filters out the dead "Party C / Party D" placeholder legs.
+const SERIOUS_MIN_PCT = 1;
+const TOP_OUTCOMES = 5;
+
+// For markets whose parent event is a multi-way race (Super Bowl winner, a
+// crowded primary, MVP, ...), attach the leading outcomes so the card can show a
+// mini leaderboard instead of a single Yes price. History / deltas continue to
+// track the specific outcome on the watchlist (the one marked `tracked`).
+async function enrichMultiOutcome(markets) {
+  const eventIds = [...new Set(markets.map((m) => m.eventId).filter(Boolean))];
+  if (!eventIds.length) return;
+
+  const events = await Promise.all(
+    eventIds.map(async (id) => {
+      try {
+        return [id, await getJson(`${GAMMA}/events/${id}`)];
+      } catch {
+        return [id, null];
+      }
+    })
+  );
+  const byEvent = new Map(events);
+
+  for (const m of markets) {
+    const ev = byEvent.get(m.eventId);
+    if (!ev || !Array.isArray(ev.markets)) continue;
+
+    const rows = ev.markets
+      .filter((x) => !x.closed && x.active !== false)
+      .map((x) => {
+        const price = parseJsonArray(x.outcomePrices).map((p) => toNum(p))[0];
+        return {
+          id: String(x.id),
+          label: x.groupItemTitle || x.question || "—",
+          probability: Number.isFinite(price) ? Math.round(price * 1000) / 10 : null,
+        };
+      })
+      .filter((r) => r.probability != null && r.probability >= SERIOUS_MIN_PCT)
+      .sort((a, b) => b.probability - a.probability);
+
+    if (rows.length < 3) continue; // 2-way (most elections) -> keep single-value card
+
+    const top = rows.slice(0, TOP_OUTCOMES);
+    if (!top.some((r) => r.id === m.id)) {
+      const tracked = rows.find((r) => r.id === m.id);
+      if (tracked) top.push({ ...tracked, outside: true });
+    }
+    m.isMultiOutcome = true;
+    m.outcomeCount = rows.length;
+    m.outcomes = top.map((r) => ({ ...r, tracked: r.id === m.id }));
+  }
 }
 
 async function fetchMarkets(entries) {
@@ -97,6 +156,12 @@ async function fetchMarkets(entries) {
     } catch (err) {
       for (const id of chunk) errors.push({ id, error: String(err.message || err) });
     }
+  }
+
+  try {
+    await enrichMultiOutcome(out);
+  } catch (err) {
+    errors.push({ id: "*", error: `multi-outcome enrichment: ${String(err.message || err)}` });
   }
 
   return { markets: out, errors };

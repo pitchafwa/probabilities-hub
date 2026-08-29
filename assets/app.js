@@ -9,6 +9,7 @@ const LS = {
   token: "ph.ghToken",
   repo: "ph.repo",
   branch: "ph.branch",
+  order: "ph.order",
 };
 
 const DEFAULTS = { repo: "pitchafwa/probabilities-hub", branch: "main" };
@@ -101,6 +102,44 @@ function cfg() {
     branch: localStorage.getItem(LS.branch) || DEFAULTS.branch,
     token: localStorage.getItem(LS.token) || "",
   };
+}
+
+// ---------------------------------------------------------------- card ordering
+// User-defined card order, per device. A flat list of market ids across every
+// category; each category section sorts its own markets by their index here.
+function getOrder() {
+  try {
+    const v = JSON.parse(localStorage.getItem(LS.order) || "[]");
+    return Array.isArray(v) ? v.map(String) : [];
+  } catch {
+    return [];
+  }
+}
+function saveOrder(ids) {
+  try {
+    localStorage.setItem(LS.order, JSON.stringify(ids.map(String)));
+  } catch {}
+}
+// Rebuild the order list from what's currently in the DOM (after a drag / keyboard move).
+function commitOrderFromDom() {
+  const ids = $$("#sections .section .grid .card")
+    .map((c) => c.dataset.id)
+    .filter(Boolean);
+  // Preserve any ids not currently shown (e.g. a market mid-add) at the tail.
+  const shown = new Set(ids);
+  const tail = getOrder().filter((id) => !shown.has(id));
+  saveOrder([...ids, ...tail]);
+}
+function sortByOrder(list) {
+  const order = getOrder();
+  const rank = (id) => {
+    const i = order.indexOf(String(id));
+    return i === -1 ? Number.POSITIVE_INFINITY : i;
+  };
+  return list
+    .map((m, i) => [m, i])
+    .sort((a, b) => rank(a[0].id) - rank(b[0].id) || a[1] - b[1])
+    .map(([m]) => m);
 }
 
 // ---------------------------------------------------------------- data loading
@@ -216,13 +255,44 @@ function headlineEls(id) {
   return box;
 }
 
+// Mini leaderboard for a multi-way event (Super Bowl winner, crowded primary…).
+function outcomeBoard(m) {
+  const box = el("div", { class: "card__board" });
+  for (const o of m.outcomes) {
+    const row = el(
+      "div",
+      { class: "ob__row" + (o.tracked ? " is-tracked" : "") + (o.outside ? " is-outside" : "") },
+      el("span", { class: "ob__label", title: o.label, text: o.label }),
+      el("span", { class: "ob__pct", text: Math.round(o.probability) + "%" })
+    );
+    box.append(row);
+  }
+  const more = m.outcomeCount - m.outcomes.filter((o) => !o.outside).length;
+  if (more > 0) {
+    box.append(el("div", { class: "ob__more", text: `+${more} more on Polymarket` }));
+  }
+  return box;
+}
+
 function marketCard(m, opts = {}) {
   const wk = weekDelta(m);
-  const prob = m.probability == null ? "—" : Math.round(m.probability) + "%";
-  const probCls = m.probability == null ? "flat" : m.probability >= 50 ? "up" : "down";
+  const multi = !opts.trend && m.isMultiOutcome && Array.isArray(m.outcomes) && m.outcomes.length;
 
-  const card = el("div", { class: "card" + (opts.trend ? " card--trend" : "") });
+  const card = el("div", {
+    class: "card" + (opts.trend ? " card--trend" : "") + (multi ? " card--multi" : ""),
+    "data-id": m.id,
+  });
 
+  if (!opts.trend) {
+    card.append(
+      el("button", {
+        class: "card__grip",
+        "aria-label": "Reorder " + (m.question || "market") + " — drag, or press arrow keys",
+        title: "Drag to reorder (or focus + ↑/↓)",
+        text: "⠿",
+      })
+    );
+  }
   if (opts.trend) {
     card.append(el("div", { class: "card__rank", text: opts.rankLabel || "" }));
   }
@@ -234,8 +304,15 @@ function marketCard(m, opts = {}) {
   );
   card.append(el("div", { class: "card__q" }, qLink));
 
-  card.append(el("div", { class: "card__prob " + probCls, text: prob }));
+  if (multi) {
+    card.append(outcomeBoard(m));
+  } else {
+    const prob = m.probability == null ? "—" : Math.round(m.probability) + "%";
+    const probCls = m.probability == null ? "flat" : m.probability >= 50 ? "up" : "down";
+    card.append(el("div", { class: "card__prob " + probCls, text: prob }));
+  }
 
+  // Delta line. For multi-outcome cards it's labelled with the tracked outcome.
   if (opts.trend) {
     const d = opts.delta;
     card.append(
@@ -244,11 +321,17 @@ function marketCard(m, opts = {}) {
   } else if (m.pending) {
     card.append(el("div", { class: "card__delta flat", text: "· pending first refresh" }));
   } else {
+    let prefix = "";
+    if (multi) {
+      const tl = (m.outcomes.find((o) => o.tracked) || {}).label || "";
+      const w = tl.trim().split(/\s+/);
+      prefix = (w[w.length - 1] || tl).slice(0, 12) + " ";
+    }
     card.append(
       el(
         "div",
         { class: "card__delta " + trendClass(wk) },
-        wk == null ? "· no 7d data yet" : `${arrow(wk)} ${fmtPts(wk)} pts (7d)`
+        wk == null ? "· no 7d data yet" : `${prefix}${arrow(wk)} ${fmtPts(wk)} pts (7d)`
       )
     );
   }
@@ -280,6 +363,78 @@ function marketCard(m, opts = {}) {
   }
 
   return card;
+}
+
+// ---------------------------------------------------------------- drag to reorder
+function getDragAfterElement(container, x, y) {
+  const els = $$(".card:not(.is-dragging)", container);
+  let best = null;
+  let bestDist = Infinity;
+  for (const el of els) {
+    const b = el.getBoundingClientRect();
+    const cx = b.left + b.width / 2;
+    const cy = b.top + b.height / 2;
+    const d = Math.hypot(x - cx, y - cy);
+    if (d < bestDist) {
+      bestDist = d;
+      best = el;
+    }
+  }
+  if (!best) return null;
+  const b = best.getBoundingClientRect();
+  const cx = b.left + b.width / 2;
+  const cy = b.top + b.height / 2;
+  const before = y < cy - 4 || (Math.abs(y - cy) <= b.height / 2 && x < cx);
+  return before ? best : best.nextElementSibling;
+}
+
+function enableDnD(grid) {
+  $$(".card", grid).forEach((card) => {
+    const grip = $(".card__grip", card);
+    if (!grip) return;
+
+    const arm = () => { card.draggable = true; };
+    const disarm = () => { card.draggable = false; };
+    grip.addEventListener("mousedown", arm);
+    grip.addEventListener("touchstart", arm, { passive: true });
+    card.addEventListener("mouseup", disarm);
+
+    card.addEventListener("dragstart", (e) => {
+      card.classList.add("is-dragging");
+      e.dataTransfer.effectAllowed = "move";
+      try { e.dataTransfer.setData("text/plain", card.dataset.id || ""); } catch {}
+    });
+    card.addEventListener("dragend", () => {
+      card.classList.remove("is-dragging");
+      disarm();
+      commitOrderFromDom();
+    });
+
+    grip.addEventListener("keydown", (e) => {
+      if (e.key !== "ArrowUp" && e.key !== "ArrowDown") return;
+      e.preventDefault();
+      if (e.key === "ArrowUp" && card.previousElementSibling) {
+        grid.insertBefore(card, card.previousElementSibling);
+      } else if (e.key === "ArrowDown" && card.nextElementSibling) {
+        grid.insertBefore(card.nextElementSibling, card);
+      } else {
+        return;
+      }
+      commitOrderFromDom();
+      grip.focus();
+    });
+  });
+
+  grid.addEventListener("dragover", (e) => {
+    const dragging = $(".is-dragging", grid);
+    if (!dragging) return; // dragging from another section — ignore
+    e.preventDefault();
+    e.dataTransfer.dropEffect = "move";
+    const after = getDragAfterElement(grid, e.clientX, e.clientY);
+    if (after == null) grid.appendChild(dragging);
+    else if (after !== dragging) grid.insertBefore(dragging, after);
+  });
+  grid.addEventListener("drop", (e) => e.preventDefault());
 }
 
 function sectionEl(title, count, cards) {
@@ -346,8 +501,12 @@ function render() {
   });
   for (const key of ordered) {
     const label = CATEGORY_META[key]?.label || key.replace(/\b\w/g, (c) => c.toUpperCase());
-    const cards = groups.get(key).map((m) => marketCard(m));
-    root.append(sectionEl(label, cards.length, cards));
+    const items = sortByOrder(groups.get(key));
+    const cards = items.map((m) => marketCard(m));
+    const sec = sectionEl(label, cards.length, cards);
+    const grid = $(".grid", sec);
+    if (grid) enableDnD(grid);
+    root.append(sec);
   }
 
   // Trending (all categories, 24h movers).
