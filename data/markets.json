@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T19:29:25.754Z",
+  "updatedAt": "2026-08-29T19:34:17.216Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -14,7 +14,7 @@
       "probability": 50.5,
       "volume": 2387188,
       "volume24hr": 5747,
-      "liquidity": 184259,
+      "liquidity": 183879,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -25,117 +25,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:29:26.084Z"
-    },
-    {
-      "id": "1357374",
-      "platform": "polymarket",
-      "question": "Will the Buffalo Bills win the 2027 NFL league championship?",
-      "category": "sports",
-      "addedDate": "2026-08-29",
-      "outcomeIndex": 0,
-      "outcomeLabel": "Yes",
-      "probability": 8.5,
-      "volume": 684810,
-      "volume24hr": 5675,
-      "liquidity": 247832,
-      "closed": false,
-      "active": true,
-      "endDate": "2027-03-31T23:55:00Z",
-      "slug": "pro-football-2027-champion-20260729185915366",
-      "eventId": "202857",
-      "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
-      "oneWeekPriceChange": null,
-      "isMultiOutcome": true,
-      "outcomeCount": 22,
-      "outcomes": [
-        {
-          "id": "1357389",
-          "label": "Los Angeles Rams",
-          "probability": 15.5,
-          "tracked": false
-        },
-        {
-          "id": "1357374",
-          "label": "Buffalo Bills",
-          "probability": 8.5,
-          "tracked": true
-        },
-        {
-          "id": "1357399",
-          "label": "Seattle Seahawks",
-          "probability": 7.5,
-          "tracked": false
-        },
-        {
-          "id": "1357373",
-          "label": "Baltimore Ravens",
-          "probability": 7.4,
-          "tracked": false
-        },
-        {
-          "id": "1357386",
-          "label": "Kansas City Chiefs",
-          "probability": 6.4,
-          "tracked": false
-        }
-      ],
-      "fetchedAt": "2026-08-29T19:29:26.085Z"
-    },
-    {
-      "id": "1357373",
-      "platform": "polymarket",
-      "question": "Will the Baltimore Ravens win the 2027 NFL league championship?",
-      "category": "sports",
-      "addedDate": "2026-08-29",
-      "outcomeIndex": 0,
-      "outcomeLabel": "Yes",
-      "probability": 7.4,
-      "volume": 1198499,
-      "volume24hr": 16127,
-      "liquidity": 167766,
-      "closed": false,
-      "active": true,
-      "endDate": "2027-03-31T23:55:00Z",
-      "slug": "pro-football-2027-champion-20260729185915366",
-      "eventId": "202857",
-      "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
-      "oneWeekPriceChange": -0.0025,
-      "isMultiOutcome": true,
-      "outcomeCount": 22,
-      "outcomes": [
-        {
-          "id": "1357389",
-          "label": "Los Angeles Rams",
-          "probability": 15.5,
-          "tracked": false
-        },
-        {
-          "id": "1357374",
-          "label": "Buffalo Bills",
-          "probability": 8.5,
-          "tracked": false
-        },
-        {
-          "id": "1357399",
-          "label": "Seattle Seahawks",
-          "probability": 7.5,
-          "tracked": false
-        },
-        {
-          "id": "1357373",
-          "label": "Baltimore Ravens",
-          "probability": 7.4,
-          "tracked": true
-        },
-        {
-          "id": "1357386",
-          "label": "Kansas City Chiefs",
-          "probability": 6.4,
-          "tracked": false
-        }
-      ],
-      "fetchedAt": "2026-08-29T19:29:26.085Z"
+      "fetchedAt": "2026-08-29T19:34:17.586Z"
     },
     {
       "id": "630772",
@@ -148,7 +38,7 @@
       "probability": 69.5,
       "volume": 732358,
       "volume24hr": 122,
-      "liquidity": 67495,
+      "liquidity": 67681,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -159,7 +49,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:29:26.085Z"
+      "fetchedAt": "2026-08-29T19:34:17.586Z"
     },
     {
       "id": "630692",
@@ -172,7 +62,7 @@
       "probability": 93.5,
       "volume": 48405,
       "volume24hr": 0,
-      "liquidity": 33860,
+      "liquidity": 34642,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -183,7 +73,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:29:26.085Z"
+      "fetchedAt": "2026-08-29T19:34:17.586Z"
     },
     {
       "id": "631057",
@@ -196,7 +86,7 @@
       "probability": 54.5,
       "volume": 109618,
       "volume24hr": 454,
-      "liquidity": 33803,
+      "liquidity": 34051,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -207,7 +97,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:29:26.085Z"
+      "fetchedAt": "2026-08-29T19:34:17.586Z"
     },
     {
       "id": "630963",
@@ -220,7 +110,7 @@
       "probability": 49.5,
       "volume": 439147,
       "volume24hr": 75,
-      "liquidity": 70752,
+      "liquidity": 70917,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -231,7 +121,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:29:26.085Z"
+      "fetchedAt": "2026-08-29T19:34:17.586Z"
     },
     {
       "id": "634976",
@@ -244,7 +134,7 @@
       "probability": 64.5,
       "volume": 236340,
       "volume24hr": 553,
-      "liquidity": 32104,
+      "liquidity": 32180,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -255,7 +145,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:29:26.085Z"
+      "fetchedAt": "2026-08-29T19:34:17.586Z"
     },
     {
       "id": "630805",
@@ -268,7 +158,7 @@
       "probability": 64.5,
       "volume": 330421,
       "volume24hr": 602,
-      "liquidity": 105856,
+      "liquidity": 102653,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -279,7 +169,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:29:26.085Z"
+      "fetchedAt": "2026-08-29T19:34:17.586Z"
     },
     {
       "id": "630733",
@@ -292,7 +182,7 @@
       "probability": 40.5,
       "volume": 105749,
       "volume24hr": 0,
-      "liquidity": 78775,
+      "liquidity": 78941,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -303,7 +193,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:29:26.085Z"
+      "fetchedAt": "2026-08-29T19:34:17.586Z"
     },
     {
       "id": "630883",
@@ -316,7 +206,7 @@
       "probability": 91.5,
       "volume": 40806,
       "volume24hr": 0,
-      "liquidity": 21852,
+      "liquidity": 22033,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -327,7 +217,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:29:26.085Z"
+      "fetchedAt": "2026-08-29T19:34:17.586Z"
     },
     {
       "id": "562802",
@@ -339,7 +229,7 @@
       "outcomeLabel": "Yes",
       "probability": 88.5,
       "volume": 5605457,
-      "volume24hr": 36571,
+      "volume24hr": 36466,
       "liquidity": 570789,
       "closed": false,
       "active": true,
@@ -351,7 +241,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-29T19:29:26.084Z"
+      "fetchedAt": "2026-08-29T19:34:17.586Z"
     }
   ]
 }
