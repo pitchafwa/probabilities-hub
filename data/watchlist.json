@@ -75,5 +75,14 @@
     "question": "Pro Football: 2027 Champion — Los Angeles Chargers",
     "category": "sports",
     "addedDate": "2026-08-29"
+  },
+  {
+    "id": "event:202857",
+    "platform": "polymarket",
+    "kind": "event",
+    "eventId": "202857",
+    "question": "Pro Football: 2027 Champion",
+    "category": "sports",
+    "addedDate": "2026-08-29"
   }
 ]
