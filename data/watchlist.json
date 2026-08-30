@@ -102,5 +102,14 @@
     "question": "Pro Football: Team to Make Postseason — Los Angeles Chargers",
     "category": "sports",
     "addedDate": "2026-08-29"
+  },
+  {
+    "id": "event:30829",
+    "platform": "polymarket",
+    "kind": "event",
+    "eventId": "30829",
+    "question": "Democratic Presidential Nominee 2028",
+    "category": "politics",
+    "addedDate": "2026-08-30"
   }
 ]
