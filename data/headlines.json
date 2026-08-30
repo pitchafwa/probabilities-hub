@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T14:28:27.381Z",
+  "updatedAt": "2026-08-30T14:48:23.571Z",
   "byMarket": {
     "562793": [
       {
@@ -27,7 +27,14 @@
     "634976": [],
     "2155356": [],
     "event:202857": [],
-    "event:315364": [],
+    "event:315364": [
+      {
+        "title": "College football winners, losers in Week 0: Bill Belichick's biggest college win, NC State barely shows up",
+        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-week-0-bill-belichick-nc-state/",
+        "outlet": "CBS Sports",
+        "publishedAt": "2026-08-30T14:38:28.000Z"
+      }
+    ],
     "event:478277": []
   }
 }
