@@ -1,6 +1,7 @@
 {
-  "updatedAt": "2026-08-30T15:02:56.659Z",
+  "updatedAt": "2026-08-30T15:04:29.583Z",
   "byMarket": {
+    "559653": [],
     "562793": [
       {
         "title": "Civil rights groups make urgent plea for voting rights in DC ahead of midterm elections - AP News",
@@ -27,6 +28,7 @@
     "634976": [],
     "2155356": [],
     "event:202857": [],
+    "event:478277": [],
     "event:315364": [
       {
         "title": "College football winners, losers in Week 0: Bill Belichick's biggest college win, NC State barely shows up",
@@ -34,8 +36,6 @@
         "outlet": "CBS Sports",
         "publishedAt": "2026-08-30T14:38:28.000Z"
       }
-    ],
-    "event:478277": [],
-    "event:30829": []
+    ]
   }
 }
