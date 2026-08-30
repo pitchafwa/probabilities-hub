@@ -35,13 +35,6 @@
     "addedDate": "2026-08-29"
   },
   {
-    "id": "634976",
-    "platform": "polymarket",
-    "question": "Alaska Senate Election Winner — Mary Peltola",
-    "category": "politics",
-    "addedDate": "2026-08-29"
-  },
-  {
     "id": "630805",
     "platform": "polymarket",
     "question": "Michigan Senate Election Winner — Abdul El-Sayed (D)",
@@ -70,20 +63,18 @@
     "addedDate": "2026-08-29"
   },
   {
+    "id": "559653",
+    "platform": "polymarket",
+    "question": "Democratic Presidential Nominee 2028 — Alexandria Ocasio-Cortez",
+    "category": "politics",
+    "addedDate": "2026-08-30"
+  },
+  {
     "id": "event:202857",
     "platform": "polymarket",
     "kind": "event",
     "eventId": "202857",
     "question": "Pro Football: 2027 Champion",
-    "category": "sports",
-    "addedDate": "2026-08-29"
-  },
-  {
-    "id": "event:315364",
-    "platform": "polymarket",
-    "kind": "event",
-    "eventId": "315364",
-    "question": "Pro Football: 2026 MVP Winner",
     "category": "sports",
     "addedDate": "2026-08-29"
   },
@@ -104,10 +95,19 @@
     "addedDate": "2026-08-29"
   },
   {
-    "id": "559653",
+    "id": "event:315364",
     "platform": "polymarket",
-    "question": "Democratic Presidential Nominee 2028 — Alexandria Ocasio-Cortez",
+    "kind": "event",
+    "eventId": "315364",
+    "question": "Pro Football: 2026 MVP Winner",
+    "category": "sports",
+    "addedDate": "2026-08-29"
+  },
+  {
+    "id": "634976",
+    "platform": "polymarket",
+    "question": "Alaska Senate Election Winner — Mary Peltola",
     "category": "politics",
-    "addedDate": "2026-08-30"
+    "addedDate": "2026-08-29"
   }
 ]
