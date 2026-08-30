@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-30T15:22:14.626Z",
+  "updatedAt": "2026-08-30T15:23:33.757Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -14,7 +14,7 @@
       "probability": 50.5,
       "volume": 2387971,
       "volume24hr": 6089,
-      "liquidity": 187508,
+      "liquidity": 188525,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -25,7 +25,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.167Z"
     },
     {
       "id": "562802",
@@ -38,7 +38,7 @@
       "probability": 88.5,
       "volume": 5634371,
       "volume24hr": 59324,
-      "liquidity": 501569,
+      "liquidity": 501581,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -49,7 +49,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.167Z"
     },
     {
       "id": "630692",
@@ -62,7 +62,7 @@
       "probability": 93.5,
       "volume": 48433,
       "volume24hr": 28,
-      "liquidity": 34335,
+      "liquidity": 34594,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -73,7 +73,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.167Z"
     },
     {
       "id": "630883",
@@ -86,7 +86,7 @@
       "probability": 91.5,
       "volume": 40814,
       "volume24hr": 8,
-      "liquidity": 21988,
+      "liquidity": 22569,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -97,7 +97,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.167Z"
     },
     {
       "id": "630772",
@@ -121,7 +121,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.167Z"
     },
     {
       "id": "630805",
@@ -134,7 +134,7 @@
       "probability": 64.5,
       "volume": 330475,
       "volume24hr": 124,
-      "liquidity": 100267,
+      "liquidity": 97069,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -145,7 +145,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.167Z"
     },
     {
       "id": "631057",
@@ -169,7 +169,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.167Z"
     },
     {
       "id": "630963",
@@ -182,7 +182,7 @@
       "probability": 49.5,
       "volume": 441721,
       "volume24hr": 2573,
-      "liquidity": 77116,
+      "liquidity": 78007,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -193,7 +193,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.167Z"
     },
     {
       "id": "630733",
@@ -217,7 +217,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.167Z"
     },
     {
       "id": "559653",
@@ -230,7 +230,7 @@
       "probability": 19.6,
       "volume": 15076880,
       "volume24hr": 13106,
-      "liquidity": 322147,
+      "liquidity": 325610,
       "closed": false,
       "active": true,
       "endDate": "2028-11-07T00:00:00Z",
@@ -272,7 +272,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.167Z"
     },
     {
       "id": "event:202857",
@@ -333,7 +333,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-08-30T15:22:14.791Z"
+      "fetchedAt": "2026-08-30T15:23:34.010Z"
     },
     {
       "id": "2155356",
@@ -388,7 +388,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.168Z"
     },
     {
       "id": "event:478277",
@@ -449,7 +449,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-08-30T15:22:14.795Z"
+      "fetchedAt": "2026-08-30T15:23:33.997Z"
     },
     {
       "id": "event:315364",
@@ -510,7 +510,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-08-30T15:22:14.864Z"
+      "fetchedAt": "2026-08-30T15:23:34.014Z"
     },
     {
       "id": "634976",
@@ -523,7 +523,7 @@
       "probability": 65,
       "volume": 237007,
       "volume24hr": 667,
-      "liquidity": 38734,
+      "liquidity": 38511,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -534,31 +534,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
-    },
-    {
-      "id": "3407418",
-      "platform": "polymarket",
-      "question": "US recession by end of 2027?",
-      "category": "economics",
-      "addedDate": "2026-08-30",
-      "outcomeIndex": 0,
-      "outcomeLabel": "Yes",
-      "probability": 30.5,
-      "volume": 6012,
-      "volume24hr": 51,
-      "liquidity": 17559,
-      "closed": false,
-      "active": true,
-      "endDate": "2027-12-31T23:59:00Z",
-      "slug": "us-recession-by-end-of-2027-20260807185409760",
-      "eventId": "812474",
-      "url": "https://polymarket.com/event/us-recession-by-end-of-2027-20260807185409760",
-      "oneWeekPriceChange": 0.01,
-      "isMultiOutcome": false,
-      "outcomeCount": null,
-      "outcomes": null,
-      "fetchedAt": "2026-08-30T15:22:15.001Z"
+      "fetchedAt": "2026-08-30T15:23:34.168Z"
     }
   ]
 }
