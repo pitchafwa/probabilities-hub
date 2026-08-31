@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-31T18:48:32.835Z",
+  "updatedAt": "2026-08-31T19:08:30.572Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -14,7 +14,7 @@
       "probability": 50.5,
       "volume": 2388301,
       "volume24hr": 330,
-      "liquidity": 172745,
+      "liquidity": 174551,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -25,7 +25,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     },
     {
       "id": "562802",
@@ -37,8 +37,8 @@
       "outcomeLabel": "Yes",
       "probability": 88.5,
       "volume": 5639315,
-      "volume24hr": 4193,
-      "liquidity": 523073,
+      "volume24hr": 4111,
+      "liquidity": 350262,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -49,7 +49,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     },
     {
       "id": "630692",
@@ -62,7 +62,7 @@
       "probability": 93.5,
       "volume": 48533,
       "volume24hr": 100,
-      "liquidity": 34931,
+      "liquidity": 35111,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -73,7 +73,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     },
     {
       "id": "630883",
@@ -86,18 +86,18 @@
       "probability": 91.5,
       "volume": 40814,
       "volume24hr": 0,
-      "liquidity": 22705,
+      "liquidity": 22720,
       "closed": false,
       "active": true,
       "endDate": null,
       "slug": "north-carolina-senate-election-winner",
       "eventId": "57664",
       "url": "https://polymarket.com/event/north-carolina-senate-election-winner",
-      "oneWeekPriceChange": -0.005,
+      "oneWeekPriceChange": -0.01,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     },
     {
       "id": "630772",
@@ -109,8 +109,8 @@
       "outcomeLabel": "Yes",
       "probability": 69.5,
       "volume": 733531,
-      "volume24hr": 1128,
-      "liquidity": 73304,
+      "volume24hr": 128,
+      "liquidity": 73659,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -121,7 +121,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     },
     {
       "id": "630805",
@@ -134,7 +134,7 @@
       "probability": 64.5,
       "volume": 341340,
       "volume24hr": 10833,
-      "liquidity": 123221,
+      "liquidity": 108865,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -145,7 +145,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     },
     {
       "id": "631057",
@@ -158,18 +158,18 @@
       "probability": 54.5,
       "volume": 109809,
       "volume24hr": 105,
-      "liquidity": 34338,
+      "liquidity": 34344,
       "closed": false,
       "active": true,
       "endDate": null,
       "slug": "ohio-senate-election-winner",
       "eventId": "57682",
       "url": "https://polymarket.com/event/ohio-senate-election-winner",
-      "oneWeekPriceChange": 0.01,
+      "oneWeekPriceChange": null,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     },
     {
       "id": "630963",
@@ -179,21 +179,21 @@
       "addedDate": "2026-08-29",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 50,
+      "probability": 49.5,
       "volume": 445749,
       "volume24hr": 3503,
-      "liquidity": 54219,
+      "liquidity": 55485,
       "closed": false,
       "active": true,
       "endDate": null,
       "slug": "texas-senate-election-winner",
       "eventId": "57672",
       "url": "https://polymarket.com/event/texas-senate-election-winner",
-      "oneWeekPriceChange": -0.005,
+      "oneWeekPriceChange": -0.01,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     },
     {
       "id": "630733",
@@ -206,7 +206,7 @@
       "probability": 39.5,
       "volume": 107913,
       "volume24hr": 2164,
-      "liquidity": 87320,
+      "liquidity": 82933,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -217,7 +217,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     },
     {
       "id": "559653",
@@ -227,24 +227,24 @@
       "addedDate": "2026-08-30",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 19.8,
-      "volume": 15081405,
-      "volume24hr": 3234,
-      "liquidity": 289645,
+      "probability": 19.9,
+      "volume": 15081525,
+      "volume24hr": 3354,
+      "liquidity": 296552,
       "closed": false,
       "active": true,
       "endDate": "2028-11-07T00:00:00Z",
       "slug": "democratic-presidential-nominee-2028",
       "eventId": "30829",
       "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
-      "oneWeekPriceChange": -0.0075,
+      "oneWeekPriceChange": -0.0065,
       "isMultiOutcome": true,
       "outcomeCount": 13,
       "outcomes": [
         {
           "id": "559653",
           "label": "Alexandria Ocasio-Cortez",
-          "probability": 19.8,
+          "probability": 19.9,
           "tracked": true
         },
         {
@@ -272,7 +272,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     },
     {
       "id": "event:202857",
@@ -283,9 +283,9 @@
       "addedDate": "2026-08-29",
       "probability": 17.5,
       "leaderLabel": "Los Angeles Rams",
-      "volume": 48387366,
-      "volume24hr": 558421,
-      "liquidity": 6637028,
+      "volume": 48404882,
+      "volume24hr": 562384,
+      "liquidity": 5936963,
       "closed": false,
       "active": true,
       "endDate": "2027-02-14T23:55:00Z",
@@ -294,7 +294,7 @@
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": null,
       "isMultiOutcome": true,
-      "outcomeCount": 22,
+      "outcomeCount": 23,
       "outcomes": [
         {
           "id": "1357389",
@@ -333,7 +333,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-08-31T18:48:33.103Z"
+      "fetchedAt": "2026-08-31T19:08:30.707Z"
     },
     {
       "id": "2155356",
@@ -346,7 +346,7 @@
       "probability": 64.5,
       "volume": 12824,
       "volume24hr": 0,
-      "liquidity": 9036,
+      "liquidity": 9055,
       "closed": false,
       "active": true,
       "endDate": "2027-01-05T00:00:00Z",
@@ -395,7 +395,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     },
     {
       "id": "event:478277",
@@ -406,9 +406,9 @@
       "addedDate": "2026-08-29",
       "probability": 21.5,
       "leaderLabel": "Oklahoma City Thunder",
-      "volume": 20005296,
-      "volume24hr": 588423,
-      "liquidity": 10003363,
+      "volume": 20005823,
+      "volume24hr": 585857,
+      "liquidity": 9991473,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T00:00:00Z",
@@ -456,7 +456,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-08-31T18:48:33.105Z"
+      "fetchedAt": "2026-08-31T19:08:30.700Z"
     },
     {
       "id": "event:315364",
@@ -468,8 +468,8 @@
       "probability": 12.5,
       "leaderLabel": "Justin Herbert",
       "volume": 588986,
-      "volume24hr": 1421,
-      "liquidity": 494710,
+      "volume24hr": 1154,
+      "liquidity": 489048,
       "closed": false,
       "active": true,
       "endDate": "2027-02-15T00:00:00Z",
@@ -517,7 +517,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-08-31T18:48:33.250Z"
+      "fetchedAt": "2026-08-31T19:08:30.767Z"
     },
     {
       "id": "634976",
@@ -530,7 +530,7 @@
       "probability": 66.5,
       "volume": 239803,
       "volume24hr": 2796,
-      "liquidity": 45832,
+      "liquidity": 46545,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -541,7 +541,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-08-31T18:48:33.636Z"
+      "fetchedAt": "2026-08-31T19:08:30.893Z"
     }
   ]
 }
