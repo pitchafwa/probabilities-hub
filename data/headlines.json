@@ -1,9 +1,23 @@
 {
-  "updatedAt": "2026-09-01T17:48:55.811Z",
+  "updatedAt": "2026-09-01T18:18:57.035Z",
   "byMarket": {
     "559653": [],
-    "562793": [],
-    "562802": [],
+    "562793": [
+      {
+        "title": "House Votes to Avert Government Shutdown Before Midterm Elections",
+        "url": "https://www.nytimes.com/2026/09/01/us/politics/house-vote-government-shutdown.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-01T18:06:15.000Z"
+      }
+    ],
+    "562802": [
+      {
+        "title": "House Votes to Avert Government Shutdown Before Midterm Elections",
+        "url": "https://www.nytimes.com/2026/09/01/us/politics/house-vote-government-shutdown.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-01T18:06:15.000Z"
+      }
+    ],
     "630692": [],
     "630733": [],
     "630772": [],
@@ -15,10 +29,10 @@
         "publishedAt": "2026-09-01T14:01:39.000Z"
       },
       {
-        "title": "Vance calls Michigan Senate candidate El-Sayed 'evil' at campaign rally",
+        "title": "As Michigan Senate race heats up, Vance calls El-Sayed 'evil'",
         "url": "https://www.bbc.co.uk/news/articles/cn9w39py48xo?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC News",
-        "publishedAt": "2026-09-01T15:51:40.000Z"
+        "publishedAt": "2026-09-01T18:06:58.000Z"
       }
     ],
     "630883": [
