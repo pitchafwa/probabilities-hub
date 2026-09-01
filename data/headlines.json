@@ -1,23 +1,9 @@
 {
-  "updatedAt": "2026-09-01T09:52:27.910Z",
+  "updatedAt": "2026-09-01T10:16:51.475Z",
   "byMarket": {
     "559653": [],
-    "562793": [
-      {
-        "title": "Federal judge delays a mifepristone lawsuit until after midterms",
-        "url": "https://thehill.com/policy/healthcare/6062042-judge-pauses-mifepristone-lawsuit/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-08-31T21:24:33.000Z"
-      }
-    ],
-    "562802": [
-      {
-        "title": "Federal judge delays a mifepristone lawsuit until after midterms",
-        "url": "https://thehill.com/policy/healthcare/6062042-judge-pauses-mifepristone-lawsuit/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-08-31T21:24:33.000Z"
-      }
-    ],
+    "562793": [],
+    "562802": [],
     "630692": [],
     "630733": [],
     "630772": [],
@@ -37,7 +23,7 @@
     ],
     "630883": [
       {
-        "title": "North Carolina girl, 17, charged in role in California mosque attack - Reuters",
+        "title": "North Carolina girl, 17, charged in role in California mosque attack - reuters.com",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWFpIM0Y0cVhFc3k0clMtXzNZNmdYODRtb0prLUp6c3NieXhnN05hNmlENFdJNkQtWXZXVFdpVjRLYXdMdUliMXJKcWl1bFBvaUJvZHhkNjJjY1RHbnpmVUVIQXFBcUNkWlBUUEx4OXhnUVNYTllGN3BXNHZZRnAyWHBaRTUzQWxwb2gwRmZMd0E3V1RRa0gycGpuYzU3X1NTcVZRWk1jSEYxVVZzOWpGZXV6NA?oc=5",
         "outlet": "Reuters (Google News)",
         "publishedAt": "2026-08-31T22:44:39.000Z"
