@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T16:55:04.262Z",
+  "updatedAt": "2026-09-01T17:15:16.493Z",
   "byMarket": {
     "559653": [],
     "562793": [],
@@ -9,16 +9,16 @@
     "630772": [],
     "630805": [
       {
-        "title": "Vance calls Michigan Senate candidate El-Sayed 'evil' at campaign rally",
-        "url": "https://www.bbc.co.uk/news/articles/cn9w39py48xo?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC US & Canada",
-        "publishedAt": "2026-09-01T15:51:40.000Z"
-      },
-      {
         "title": "JD Vance Called Michigan Senate Candidate Abdul El-Sayed ‘Evil’ in Speech",
         "url": "https://www.nytimes.com/2026/08/31/us/politics/vance-el-sayed-michigan-speech.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-09-01T14:01:39.000Z"
+      },
+      {
+        "title": "Vance calls Michigan Senate candidate El-Sayed 'evil' at campaign rally",
+        "url": "https://www.bbc.co.uk/news/articles/cn9w39py48xo?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC News",
+        "publishedAt": "2026-09-01T15:51:40.000Z"
       }
     ],
     "630883": [
