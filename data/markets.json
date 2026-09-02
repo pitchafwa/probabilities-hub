@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T02:42:56.847Z",
+  "updatedAt": "2026-09-02T03:16:11.049Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -25,7 +25,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     },
     {
       "id": "562802",
@@ -49,7 +49,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     },
     {
       "id": "630692",
@@ -73,7 +73,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     },
     {
       "id": "630883",
@@ -97,7 +97,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     },
     {
       "id": "630772",
@@ -121,7 +121,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     },
     {
       "id": "630805",
@@ -145,7 +145,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     },
     {
       "id": "631057",
@@ -169,7 +169,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     },
     {
       "id": "630963",
@@ -193,7 +193,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     },
     {
       "id": "630733",
@@ -217,7 +217,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     },
     {
       "id": "559653",
@@ -272,7 +272,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     },
     {
       "id": "event:202857",
@@ -333,7 +333,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-02T02:42:57.137Z"
+      "fetchedAt": "2026-09-02T03:16:11.286Z"
     },
     {
       "id": "2155356",
@@ -395,7 +395,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     },
     {
       "id": "event:478277",
@@ -456,7 +456,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-02T02:42:57.139Z"
+      "fetchedAt": "2026-09-02T03:16:11.276Z"
     },
     {
       "id": "event:315364",
@@ -517,7 +517,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-02T02:42:57.283Z"
+      "fetchedAt": "2026-09-02T03:16:11.280Z"
     },
     {
       "id": "634976",
@@ -541,7 +541,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-02T02:42:57.530Z"
+      "fetchedAt": "2026-09-02T03:16:11.419Z"
     }
   ]
 }
