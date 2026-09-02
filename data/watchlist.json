@@ -49,18 +49,18 @@
     "addedDate": "2026-08-29"
   },
   {
-    "id": "559653",
-    "platform": "polymarket",
-    "question": "Democratic Presidential Nominee 2028 — Alexandria Ocasio-Cortez",
-    "category": "politics",
-    "addedDate": "2026-08-30"
-  },
-  {
     "id": "631044",
     "platform": "polymarket",
     "question": "Florida Senate Election Winner — Angie Nixon (D)",
     "category": "politics",
     "addedDate": "2026-09-02"
+  },
+  {
+    "id": "559653",
+    "platform": "polymarket",
+    "question": "Democratic Presidential Nominee 2028 — Alexandria Ocasio-Cortez",
+    "category": "politics",
+    "addedDate": "2026-08-30"
   },
   {
     "id": "event:202857",
