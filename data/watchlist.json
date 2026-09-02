@@ -1,19 +1,5 @@
 [
   {
-    "id": "562793",
-    "platform": "polymarket",
-    "question": "Democratic Party wins control of the Senate in 2026",
-    "category": "politics",
-    "addedDate": "2026-08-29"
-  },
-  {
-    "id": "562802",
-    "platform": "polymarket",
-    "question": "Which party will win the House in 2026? — Democratic Party",
-    "category": "politics",
-    "addedDate": "2026-08-29"
-  },
-  {
     "id": "630692",
     "platform": "polymarket",
     "question": "Georgia Senate Election Winner — Jon Ossoff (D) ",
@@ -35,9 +21,9 @@
     "addedDate": "2026-08-29"
   },
   {
-    "id": "630805",
+    "id": "634976",
     "platform": "polymarket",
-    "question": "Michigan Senate Election Winner — Abdul El-Sayed (D)",
+    "question": "Alaska Senate Election Winner — Mary Peltola",
     "category": "politics",
     "addedDate": "2026-08-29"
   },
@@ -68,6 +54,13 @@
     "question": "Democratic Presidential Nominee 2028 — Alexandria Ocasio-Cortez",
     "category": "politics",
     "addedDate": "2026-08-30"
+  },
+  {
+    "id": "631044",
+    "platform": "polymarket",
+    "question": "Florida Senate Election Winner — Angie Nixon (D)",
+    "category": "politics",
+    "addedDate": "2026-09-02"
   },
   {
     "id": "event:202857",
@@ -104,17 +97,24 @@
     "addedDate": "2026-08-29"
   },
   {
-    "id": "634976",
+    "id": "562793",
     "platform": "polymarket",
-    "question": "Alaska Senate Election Winner — Mary Peltola",
+    "question": "Democratic Party wins control of the Senate in 2026",
     "category": "politics",
     "addedDate": "2026-08-29"
   },
   {
-    "id": "631044",
+    "id": "562802",
     "platform": "polymarket",
-    "question": "Florida Senate Election Winner — Angie Nixon (D)",
+    "question": "Which party will win the House in 2026? — Democratic Party",
     "category": "politics",
-    "addedDate": "2026-09-02"
+    "addedDate": "2026-08-29"
+  },
+  {
+    "id": "630805",
+    "platform": "polymarket",
+    "question": "Michigan Senate Election Winner — Abdul El-Sayed (D)",
+    "category": "politics",
+    "addedDate": "2026-08-29"
   }
 ]
