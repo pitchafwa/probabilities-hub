@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T18:20:11.343Z",
+  "updatedAt": "2026-09-02T18:51:26.682Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -8,12 +8,6 @@
         "url": "https://www.nytimes.com/2026/09/01/us/politics/massachusetts-senate-democratic-primary.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-09-02T03:50:54.000Z"
-      },
-      {
-        "title": "House Votes to Avert Government Shutdown Before Midterm Elections",
-        "url": "https://www.nytimes.com/2026/09/01/us/politics/house-vote-government-shutdown.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-09-01T18:06:15.000Z"
       }
     ],
     "562802": [
@@ -22,12 +16,6 @@
         "url": "https://www.nytimes.com/2026/09/01/us/politics/massachusetts-democratic-primary-6th-district.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-09-02T02:31:16.000Z"
-      },
-      {
-        "title": "House Votes to Avert Government Shutdown Before Midterm Elections",
-        "url": "https://www.nytimes.com/2026/09/01/us/politics/house-vote-government-shutdown.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-09-01T18:06:15.000Z"
       }
     ],
     "630692": [],
