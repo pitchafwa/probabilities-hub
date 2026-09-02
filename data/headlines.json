@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T10:50:50.732Z",
+  "updatedAt": "2026-09-02T11:16:18.920Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -10,16 +10,16 @@
         "publishedAt": "2026-09-02T03:50:54.000Z"
       },
       {
-        "title": "Markey defeats Moulton in Massachusetts Democratic Senate primary",
-        "url": "https://thehill.com/homenews/campaign/6063607-markey-wins-massachusetts-senate-primary/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-09-02T00:31:46.000Z"
-      },
-      {
         "title": "House Votes to Avert Government Shutdown Before Midterm Elections",
         "url": "https://www.nytimes.com/2026/09/01/us/politics/house-vote-government-shutdown.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-09-01T18:06:15.000Z"
+      },
+      {
+        "title": "US House passes funding bill to avert government shutdown before midterm elections - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbURINHB6bk5KaFUxamZzSjFyQjdpQjhOS0k3SnpyNnM1QnJGTlNUeEdZSFM5NXU4V05McExhUUpxSk5YN3lqRTV2dndPVm80ZWZWMTI1ZTdWbllndE5mVWpoYlZLbDN0dEN5Y3UxWnpEVm93N1h3aTNJRDVVYmdDME1GVFZabVA4MEFSNHhlZ18zaS15b3Z0Sl9MUzdZa1c3eWx6MU81MG4zYk5qWnB0V0NibHF6dE44eFZsQkxn?oc=5",
+        "outlet": "Reuters (Google News)",
+        "publishedAt": "2026-09-01T18:28:55.000Z"
       }
     ],
     "562802": [
