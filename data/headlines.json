@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T20:32:53.460Z",
+  "updatedAt": "2026-09-03T20:49:10.176Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -7,7 +7,7 @@
         "title": "Trump again appeals to Supreme Court on mail-voting restrictions with midterm elections looming - AP News",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNci1PNmVNOTJNZ0ZmeUxKYmtpVUF0dEYwRzRxYld3YUFvOTZXRngwdlpIY3EyWEJXTmY0Z3hXM0Z5LVFCUFg3bXZRZGUtT0NYZ1Q2U3d0eExoX0d1WFp0dzJLX215RTVtd2ZQSHFCUjBpdGlSZGo1SVUxYkdnR1ZfalRob3dPSmYzaTAyRzhXdTJMRXpJMUVlbVVvZU84YXV2M0cw?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-09-03T20:27:00.000Z"
+        "publishedAt": "2026-09-03T20:36:00.000Z"
       },
       {
         "title": "Trump signs bill to avert government shutdown before midterm elections - Reuters",
@@ -21,7 +21,7 @@
         "title": "Trump again appeals to Supreme Court on mail-voting restrictions with midterm elections looming - AP News",
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNci1PNmVNOTJNZ0ZmeUxKYmtpVUF0dEYwRzRxYld3YUFvOTZXRngwdlpIY3EyWEJXTmY0Z3hXM0Z5LVFCUFg3bXZRZGUtT0NYZ1Q2U3d0eExoX0d1WFp0dzJLX215RTVtd2ZQSHFCUjBpdGlSZGo1SVUxYkdnR1ZfalRob3dPSmYzaTAyRzhXdTJMRXpJMUVlbVVvZU84YXV2M0cw?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-09-03T20:27:00.000Z"
+        "publishedAt": "2026-09-03T20:36:00.000Z"
       },
       {
         "title": "Trump signs bill to avert government shutdown before midterm elections - Reuters",
@@ -42,7 +42,14 @@
         "publishedAt": "2026-09-03T17:54:00.000Z"
       }
     ],
-    "630963": [],
+    "630963": [
+      {
+        "title": "Rove: 'Time is running out' for Paxton in Texas Senate race",
+        "url": "https://thehill.com/homenews/campaign/6070144-rove-paxton-texas-senate-time/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-09-03T20:44:38.000Z"
+      }
+    ],
     "631044": [],
     "631057": [],
     "634976": [],
