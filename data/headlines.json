@@ -1,9 +1,23 @@
 {
-  "updatedAt": "2026-09-03T13:33:51.122Z",
+  "updatedAt": "2026-09-03T13:51:13.941Z",
   "byMarket": {
     "559653": [],
-    "562793": [],
-    "562802": [],
+    "562793": [
+      {
+        "title": "Trump signs bill to avert government shutdown before midterm elections - reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTTJfTlZvbUVhMkVhSVQxSlFOdXM1Vzk4aXo3TTRwalJWVVF4bmU0cHYwRDBVaGYteDFoZy1sczEwOGNoeFlmel9GS0Y0cGlwdXRXNEFQVTR4dXhVVkRFQnBxUFhUUDMzaDh2R29VRVVpTW84TXVwcVV4TlhoY0tOdFF3TUxlbXNmbmVwNHh0ME94WlhVVHVxMTdjbkllQnFjOW9VZzFqREF2OHFUWmJOZ1E4OWFoVzYxcy1FTg?oc=5",
+        "outlet": "Reuters (Google News)",
+        "publishedAt": "2026-09-03T02:25:00.000Z"
+      }
+    ],
+    "562802": [
+      {
+        "title": "Trump signs bill to avert government shutdown before midterm elections - reuters.com",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTTJfTlZvbUVhMkVhSVQxSlFOdXM1Vzk4aXo3TTRwalJWVVF4bmU0cHYwRDBVaGYteDFoZy1sczEwOGNoeFlmel9GS0Y0cGlwdXRXNEFQVTR4dXhVVkRFQnBxUFhUUDMzaDh2R29VRVVpTW84TXVwcVV4TlhoY0tOdFF3TUxlbXNmbmVwNHh0ME94WlhVVHVxMTdjbkllQnFjOW9VZzFqREF2OHFUWmJOZ1E4OWFoVzYxcy1FTg?oc=5",
+        "outlet": "Reuters (Google News)",
+        "publishedAt": "2026-09-03T02:25:00.000Z"
+      }
+    ],
     "630692": [],
     "630733": [],
     "630772": [],
