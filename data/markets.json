@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-03T17:51:28.532Z",
+  "updatedAt": "2026-09-03T18:19:09.136Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -25,7 +25,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     },
     {
       "id": "630883",
@@ -49,7 +49,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     },
     {
       "id": "630772",
@@ -73,7 +73,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     },
     {
       "id": "634976",
@@ -97,7 +97,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     },
     {
       "id": "631057",
@@ -121,7 +121,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     },
     {
       "id": "630963",
@@ -145,7 +145,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     },
     {
       "id": "630733",
@@ -169,7 +169,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     },
     {
       "id": "631044",
@@ -193,7 +193,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     },
     {
       "id": "559653",
@@ -206,7 +206,7 @@
       "probability": 20,
       "volume": 15096223,
       "volume24hr": 5531,
-      "liquidity": 327764,
+      "liquidity": 327762,
       "closed": false,
       "active": true,
       "endDate": "2028-11-07T00:00:00Z",
@@ -248,7 +248,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.548Z"
     },
     {
       "id": "event:202857",
@@ -260,8 +260,8 @@
       "probability": 17.5,
       "leaderLabel": "Los Angeles Rams",
       "volume": 49480650,
-      "volume24hr": 642533,
-      "liquidity": 6051178,
+      "volume24hr": 510557,
+      "liquidity": 6051130,
       "closed": false,
       "active": true,
       "endDate": "2027-02-14T23:55:00Z",
@@ -309,7 +309,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-03T17:51:28.662Z"
+      "fetchedAt": "2026-09-03T18:19:09.372Z"
     },
     {
       "id": "2155356",
@@ -371,7 +371,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     },
     {
       "id": "event:478277",
@@ -383,7 +383,7 @@
       "probability": 21.5,
       "leaderLabel": "Oklahoma City Thunder",
       "volume": 20422999,
-      "volume24hr": 111752,
+      "volume24hr": 111741,
       "liquidity": 8439705,
       "closed": false,
       "active": true,
@@ -432,7 +432,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-03T17:51:28.666Z"
+      "fetchedAt": "2026-09-03T18:19:09.375Z"
     },
     {
       "id": "event:315364",
@@ -444,8 +444,8 @@
       "probability": 11.5,
       "leaderLabel": "Justin Herbert",
       "volume": 606122,
-      "volume24hr": 10851,
-      "liquidity": 372505,
+      "volume24hr": 10815,
+      "liquidity": 372499,
       "closed": false,
       "active": true,
       "endDate": "2027-02-15T00:00:00Z",
@@ -493,7 +493,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-03T17:51:28.669Z"
+      "fetchedAt": "2026-09-03T18:19:09.386Z"
     },
     {
       "id": "562793",
@@ -517,7 +517,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     },
     {
       "id": "562802",
@@ -541,7 +541,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     },
     {
       "id": "630805",
@@ -565,7 +565,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-03T17:51:28.814Z"
+      "fetchedAt": "2026-09-03T18:19:09.549Z"
     }
   ]
 }
