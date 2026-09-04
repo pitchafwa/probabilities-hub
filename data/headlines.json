@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T08:52:52.985Z",
+  "updatedAt": "2026-09-04T09:16:32.034Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -22,7 +22,14 @@
     "630733": [],
     "630772": [],
     "630805": [],
-    "630883": [],
+    "630883": [
+      {
+        "title": "North Carolina Set to Mail The Fall’s First Ballots As Trump Tries to Restrict Them",
+        "url": "https://www.nytimes.com/2026/09/04/us/politics/north-carolina-mails-first-ballots-of-fall-as-trump-tries-to-restrict-them.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-04T09:03:48.000Z"
+      }
+    ],
     "630963": [],
     "631044": [],
     "631057": [],
