@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T00:52:16.827Z",
+  "updatedAt": "2026-09-05T01:14:02.750Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -36,16 +36,16 @@
     "630805": [],
     "630883": [
       {
+        "title": "North Carolina Set to Mail The Fall’s First Ballots As Trump Tries to Restrict Them",
+        "url": "https://www.nytimes.com/2026/09/04/us/politics/north-carolina-mails-first-ballots-of-fall-as-trump-tries-to-restrict-them.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-05T01:01:30.000Z"
+      },
+      {
         "title": "North Carolina Adds New Restrictions to Vote-by-Mail Program",
         "url": "https://www.nytimes.com/2026/09/04/us/politics/north-carolina-adds-new-restrictions-to-vote-by-mail-program.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-09-04T23:00:34.000Z"
-      },
-      {
-        "title": "North Carolina Set to Mail The Fall’s First Ballots As Trump Tries to Restrict Them",
-        "url": "https://www.nytimes.com/2026/09/04/us/politics/north-carolina-mails-first-ballots-of-fall-as-trump-tries-to-restrict-them.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-09-04T15:16:35.000Z"
       }
     ],
     "630963": [],
