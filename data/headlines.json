@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T02:32:15.380Z",
+  "updatedAt": "2026-09-05T02:49:33.686Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -46,6 +46,12 @@
         "url": "https://www.nytimes.com/2026/09/04/us/politics/north-carolina-adds-new-restrictions-to-vote-by-mail-program.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-09-04T23:00:34.000Z"
+      },
+      {
+        "title": "Judge clears a lawsuit against Kyrsten Sinema under North Carolina’s ‘homewrecker’ law - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPQUpHby1JZVFZLVQxbmkzal9fcTNXbkVNaFd2U2k5ekVGUzBOek5fd29tNHNJOVRabU1zUU1uQnk3VFppandMelRKNktFOWczRURaaUdsV2U3bFZGdWpHSWRFZXhNYmdyOXNDZWpRemNwbDdUdXdZUW1aTXFQYkw4YWZQMmEyQXltd3AycUtKOC1PMHB2VUZ0R1dEOHg3U1o4d2tvcTFVOA?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-09-04T20:23:00.000Z"
       }
     ],
     "630963": [],
