@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T20:48:49.522Z",
+  "updatedAt": "2026-09-06T21:14:31.381Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -50,13 +50,6 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": [
-      {
-        "title": "College football winners, losers in Week 1: Dabo Swinney, Clemson in big trouble; WRs steal show",
-        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-week-1-year-of-wr-oklahoma-state/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-09-06T13:50:16.000Z"
-      }
-    ]
+    "event:315364": []
   }
 }
