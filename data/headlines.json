@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T01:14:30.366Z",
+  "updatedAt": "2026-09-06T01:30:57.513Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -68,6 +68,13 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": []
+    "event:315364": [
+      {
+        "title": "College football winners, losers in Week 1: Is this the year of the WR? New-look Oklahoma State falls flat",
+        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-week-1-year-of-wr-oklahoma-state/",
+        "outlet": "CBS Sports",
+        "publishedAt": "2026-09-06T01:02:29.000Z"
+      }
+    ]
   }
 }
