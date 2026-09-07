@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T14:16:53.247Z",
+  "updatedAt": "2026-09-07T14:34:59.026Z",
   "byMarket": {
     "559653": [
       {
@@ -17,7 +17,7 @@
         "publishedAt": "2026-09-05T09:03:09.000Z"
       },
       {
-        "title": "US House races to watch in the 2026 midterm elections - Reuters",
+        "title": "US House races to watch in the 2026 midterm elections - reuters.com",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSC0wZVVxbVROaG9nV3oxbG9OMDNCR3kxamYwOC1iemdqRWFZLXpDZ1RBSGdJaTdVQ3JvR3NVTjFzZUJtbnR6SXhkOXJ0ZGNIQ1ZMZUxFcm95UllpdTJJNHZlVUNMb1JoWFJHSTI2NDBzQzhWTkw1WjdGY2F1VEtBMGhMS1JlYWNtSDh0RGtoX2JCUQ?oc=5",
         "outlet": "Reuters (Google News)",
         "publishedAt": "2026-09-07T10:09:54.000Z"
@@ -37,7 +37,7 @@
         "publishedAt": "2026-09-05T09:03:09.000Z"
       },
       {
-        "title": "US House races to watch in the 2026 midterm elections - Reuters",
+        "title": "US House races to watch in the 2026 midterm elections - reuters.com",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSC0wZVVxbVROaG9nV3oxbG9OMDNCR3kxamYwOC1iemdqRWFZLXpDZ1RBSGdJaTdVQ3JvR3NVTjFzZUJtbnR6SXhkOXJ0ZGNIQ1ZMZUxFcm95UllpdTJJNHZlVUNMb1JoWFJHSTI2NDBzQzhWTkw1WjdGY2F1VEtBMGhMS1JlYWNtSDh0RGtoX2JCUQ?oc=5",
         "outlet": "Reuters (Google News)",
         "publishedAt": "2026-09-07T10:09:54.000Z"
@@ -53,7 +53,14 @@
     "630733": [],
     "630772": [],
     "630805": [],
-    "630883": [],
+    "630883": [
+      {
+        "title": "Is Roy Cooper Winning in North Carolina? Not if You Ask His Aides.",
+        "url": "https://www.nytimes.com/2026/09/07/opinion/roy-cooper-senate-carolina.html",
+        "outlet": "NYT HomePage",
+        "publishedAt": "2026-09-07T09:04:26.000Z"
+      }
+    ],
     "630963": [
       {
         "title": "Trump’s Super PAC Will Spend $10 Million on Texas Senate Race",
