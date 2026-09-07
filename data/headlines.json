@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-09-07T13:53:38.829Z",
+  "updatedAt": "2026-09-07T14:16:53.247Z",
   "byMarket": {
-    "559653": [],
+    "559653": [
+      {
+        "title": "The 2028 Democratic presidential nominee will likely be a governor",
+        "url": "https://thehill.com/opinion/campaign/6071988-democrats-seek-governors-for-2028/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-09-07T14:00:00.000Z"
+      }
+    ],
     "562793": [
       {
         "title": "Gallup Polls Show Democrats Outnumber Republicans Ahead of 2026 Midterm Elections",
