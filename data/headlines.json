@@ -1,10 +1,10 @@
 {
-  "updatedAt": "2026-09-09T14:54:01.799Z",
+  "updatedAt": "2026-09-09T15:16:51.987Z",
   "byMarket": {
     "559653": [],
     "562793": [
       {
-        "title": "Midterm elections head into the home stretch as candidates hit Labor Day events - apnews.com",
+        "title": "Midterm elections head into the home stretch as candidates hit Labor Day events - AP News",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUUNkOVg1TEpyVEdvMjM1b004MFlwRUczTUI0c253aERWdGg0blg1cXV3VVlnMF9sSnhYeTlhcHJVSEdJVXVrWnVuNlRmVFVhQlFJaFhlZTEtUzdDTzNlV0toSmNoNWRFT0h6czJtbDlDRTNuOFgzLXFPMkNnRC1iWl9nUVdDZTJKaUNCNU5VeHB0ZkNUVGRzMUh5SEFRY05DMENESjhSbHdObnhacl8zc1ZhMA?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-09-07T21:55:00.000Z"
@@ -12,7 +12,7 @@
     ],
     "562802": [
       {
-        "title": "Midterm elections head into the home stretch as candidates hit Labor Day events - apnews.com",
+        "title": "Midterm elections head into the home stretch as candidates hit Labor Day events - AP News",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUUNkOVg1TEpyVEdvMjM1b004MFlwRUczTUI0c253aERWdGg0blg1cXV3VVlnMF9sSnhYeTlhcHJVSEdJVXVrWnVuNlRmVFVhQlFJaFhlZTEtUzdDTzNlV0toSmNoNWRFT0h6czJtbDlDRTNuOFgzLXFPMkNnRC1iWl9nUVdDZTJKaUNCNU5VeHB0ZkNUVGRzMUh5SEFRY05DMENESjhSbHdObnhacl8zc1ZhMA?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-09-07T21:55:00.000Z"
@@ -21,7 +21,14 @@
     "630692": [],
     "630733": [],
     "630772": [],
-    "630805": [],
+    "630805": [
+      {
+        "title": "Rogers, El-Sayed deadlocked in Michigan Senate race: Survey",
+        "url": "https://thehill.com/homenews/campaign/6078750-michigan-senate-poll-rogers-elsayed/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-09-09T15:11:43.000Z"
+      }
+    ],
     "630883": [],
     "630963": [],
     "631044": [],
