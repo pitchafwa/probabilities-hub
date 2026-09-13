@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13T14:15:27.128Z",
+  "updatedAt": "2026-09-13T14:31:58.143Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -49,13 +49,6 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": [
-      {
-        "title": "College football winners, losers of Week 2: Rough day for Big Ten, Steve Sarksian breaks through",
-        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-week-2-oklahoma-state-oklahoma/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-09-13T04:43:03.000Z"
-      }
-    ]
+    "event:315364": []
   }
 }
