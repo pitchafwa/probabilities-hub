@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T23:48:24.978Z",
+  "updatedAt": "2026-09-13T00:24:19.303Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -49,6 +49,13 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": []
+    "event:315364": [
+      {
+        "title": "College football winners, losers of Week 2: Oklahoma State gets last laugh, Oklahoma looking for answers",
+        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-week-2-oklahoma-state-oklahoma/",
+        "outlet": "CBS Sports",
+        "publishedAt": "2026-09-12T23:59:22.000Z"
+      }
+    ]
   }
 }
