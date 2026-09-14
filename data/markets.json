@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T15:53:36.766Z",
+  "updatedAt": "2026-09-14T16:17:00.301Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -14,7 +14,7 @@
       "probability": 93,
       "volume": 52590,
       "volume24hr": 43,
-      "liquidity": 28119,
+      "liquidity": 28083,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -25,7 +25,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.728Z"
     },
     {
       "id": "630883",
@@ -38,7 +38,7 @@
       "probability": 92,
       "volume": 45544,
       "volume24hr": 0,
-      "liquidity": 24143,
+      "liquidity": 23726,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -49,7 +49,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.728Z"
     },
     {
       "id": "630772",
@@ -62,7 +62,7 @@
       "probability": 70.5,
       "volume": 803518,
       "volume24hr": 72,
-      "liquidity": 92533,
+      "liquidity": 92678,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -73,7 +73,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.728Z"
     },
     {
       "id": "634976",
@@ -86,7 +86,7 @@
       "probability": 66.5,
       "volume": 257774,
       "volume24hr": 1309,
-      "liquidity": 46494,
+      "liquidity": 46628,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -97,7 +97,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.729Z"
     },
     {
       "id": "631057",
@@ -109,8 +109,8 @@
       "outcomeLabel": "Yes",
       "probability": 53.5,
       "volume": 192472,
-      "volume24hr": 17536,
-      "liquidity": 67884,
+      "volume24hr": 17534,
+      "liquidity": 68725,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -121,7 +121,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.729Z"
     },
     {
       "id": "630963",
@@ -133,8 +133,8 @@
       "outcomeLabel": "Yes",
       "probability": 51,
       "volume": 530034,
-      "volume24hr": 9452,
-      "liquidity": 104085,
+      "volume24hr": 8868,
+      "liquidity": 104556,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -145,7 +145,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.728Z"
     },
     {
       "id": "630733",
@@ -158,7 +158,7 @@
       "probability": 39.5,
       "volume": 134773,
       "volume24hr": 518,
-      "liquidity": 27112,
+      "liquidity": 27441,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -169,7 +169,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.728Z"
     },
     {
       "id": "631044",
@@ -182,7 +182,7 @@
       "probability": 7.5,
       "volume": 56497,
       "volume24hr": 0,
-      "liquidity": 40444,
+      "liquidity": 40467,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -193,7 +193,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.729Z"
     },
     {
       "id": "559653",
@@ -203,24 +203,24 @@
       "addedDate": "2026-08-30",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 18,
+      "probability": 18.1,
       "volume": 15165425,
       "volume24hr": 3078,
-      "liquidity": 354229,
+      "liquidity": 359342,
       "closed": false,
       "active": true,
       "endDate": "2028-11-07T00:00:00Z",
       "slug": "democratic-presidential-nominee-2028",
       "eventId": "30829",
       "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
-      "oneWeekPriceChange": -0.003,
+      "oneWeekPriceChange": -0.0015,
       "isMultiOutcome": true,
       "outcomeCount": 14,
       "outcomes": [
         {
           "id": "559653",
           "label": "Alexandria Ocasio-Cortez",
-          "probability": 18,
+          "probability": 18.1,
           "tracked": true
         },
         {
@@ -248,7 +248,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.728Z"
     },
     {
       "id": "event:202857",
@@ -259,9 +259,9 @@
       "addedDate": "2026-08-29",
       "probability": 11.5,
       "leaderLabel": "Los Angeles Rams",
-      "volume": 54706797,
-      "volume24hr": 1559308,
-      "liquidity": 6264013,
+      "volume": 54774735,
+      "volume24hr": 1594607,
+      "liquidity": 6255200,
       "closed": false,
       "active": true,
       "endDate": "2027-02-14T23:55:00Z",
@@ -270,7 +270,7 @@
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": null,
       "isMultiOutcome": true,
-      "outcomeCount": 23,
+      "outcomeCount": 22,
       "outcomes": [
         {
           "id": "1357389",
@@ -309,7 +309,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-14T15:53:36.913Z"
+      "fetchedAt": "2026-09-14T16:17:00.497Z"
     },
     {
       "id": "2155356",
@@ -322,7 +322,7 @@
       "probability": 44.5,
       "volume": 14393,
       "volume24hr": 139,
-      "liquidity": 4244,
+      "liquidity": 4278,
       "closed": false,
       "active": true,
       "endDate": "2027-01-05T00:00:00Z",
@@ -336,7 +336,7 @@
         {
           "id": "2155364",
           "label": "Philadelphia Eagles",
-          "probability": 78,
+          "probability": 77.5,
           "tracked": false
         },
         {
@@ -371,7 +371,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-09-14T15:53:37.069Z"
+      "fetchedAt": "2026-09-14T16:17:00.729Z"
     },
     {
       "id": "event:478277",
@@ -382,9 +382,9 @@
       "addedDate": "2026-08-29",
       "probability": 21.5,
       "leaderLabel": "Oklahoma City Thunder",
-      "volume": 21630449,
-      "volume24hr": 108483,
-      "liquidity": 8502370,
+      "volume": 21651901,
+      "volume24hr": 129589,
+      "liquidity": 8484214,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T00:00:00Z",
@@ -432,7 +432,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-14T15:53:36.920Z"
+      "fetchedAt": "2026-09-14T16:17:00.488Z"
     },
     {
       "id": "event:315364",
@@ -444,8 +444,8 @@
       "probability": 16,
       "leaderLabel": "Caleb Williams",
       "volume": 865063,
-      "volume24hr": 88763,
-      "liquidity": 449738,
+      "volume24hr": 87875,
+      "liquidity": 448966,
       "closed": false,
       "active": true,
       "endDate": "2027-02-15T00:00:00Z",
@@ -493,7 +493,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-14T15:53:36.918Z"
+      "fetchedAt": "2026-09-14T16:17:00.491Z"
     },
     {
       "id": "562793",
@@ -505,8 +505,8 @@
       "outcomeLabel": "Yes",
       "probability": 52.5,
       "volume": 2633884,
-      "volume24hr": 16386,
-      "liquidity": 227453,
+      "volume24hr": 16286,
+      "liquidity": 225686,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -517,7 +517,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.728Z"
     },
     {
       "id": "562802",
@@ -530,7 +530,7 @@
       "probability": 86.5,
       "volume": 6308121,
       "volume24hr": 12373,
-      "liquidity": 363625,
+      "liquidity": 367209,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -541,7 +541,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.728Z"
     },
     {
       "id": "630805",
@@ -554,7 +554,7 @@
       "probability": 61.5,
       "volume": 448967,
       "volume24hr": 55419,
-      "liquidity": 136969,
+      "liquidity": 134830,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -565,7 +565,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-14T15:53:37.068Z"
+      "fetchedAt": "2026-09-14T16:17:00.728Z"
     }
   ]
 }
