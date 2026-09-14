@@ -1,23 +1,9 @@
 {
-  "updatedAt": "2026-09-14T08:56:36.840Z",
+  "updatedAt": "2026-09-14T09:19:37.820Z",
   "byMarket": {
     "559653": [],
-    "562793": [
-      {
-        "title": "Will Stark Warnings About AI Shape the Midterm Elections?",
-        "url": "https://www.nytimes.com/2026/09/11/us/politics/midterm-elections-trump-ai.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-09-11T22:21:17.000Z"
-      }
-    ],
-    "562802": [
-      {
-        "title": "Will Stark Warnings About AI Shape the Midterm Elections?",
-        "url": "https://www.nytimes.com/2026/09/11/us/politics/midterm-elections-trump-ai.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-09-11T22:21:17.000Z"
-      }
-    ],
+    "562793": [],
+    "562802": [],
     "630692": [],
     "630733": [],
     "630772": [],
