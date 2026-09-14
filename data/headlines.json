@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T19:50:20.968Z",
+  "updatedAt": "2026-09-14T20:16:43.520Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -20,14 +20,7 @@
     ],
     "630692": [],
     "630733": [],
-    "630772": [
-      {
-        "title": "Manchin endorses Collins in Maine Senate race",
-        "url": "https://thehill.com/homenews/senate/6088483-manchin-susan-collins-senate/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-09-14T17:17:46.000Z"
-      }
-    ],
+    "630772": [],
     "630805": [],
     "630883": [
       {
@@ -39,7 +32,14 @@
     ],
     "630963": [],
     "631044": [],
-    "631057": [],
+    "631057": [
+      {
+        "title": "Husted picks up Steak 'n Shake endorsement in Ohio Senate race",
+        "url": "https://thehill.com/homenews/state-watch/6088762-husted-steak-n-shake-endorsement-ohio-senate/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-09-14T20:07:11.000Z"
+      }
+    ],
     "634976": [],
     "2155356": [],
     "event:202857": [],
