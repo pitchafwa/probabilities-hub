@@ -1,9 +1,23 @@
 {
-  "updatedAt": "2026-09-14T12:22:19.838Z",
+  "updatedAt": "2026-09-14T12:56:18.808Z",
   "byMarket": {
     "559653": [],
-    "562793": [],
-    "562802": [],
+    "562793": [
+      {
+        "title": "Democrats and activist groups plan to push back if Trump tries to interfere in midterm elections - AP News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMmpnZDNuY1NGY3RsRmNPOFllZlNuMnlLaVRYRVlVZC1vZGNwcTlIbEVRMlRHalAyUy1XeDQtYkV3eko0MXZxcGdXZ2RZbmNQZm44YXYzWnIxdjJvTFJXY1l3d3BxZldSSFYtaFhNNnM2OUxXUFhPcmFEYVBwOEdQMllnQnl0SWNMaEhIWVo0NEtzT3RhNGlWVWlKajdDRWY1OGtNWVJKaUc0NDBoRkVyNkpWa2I?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-09-14T11:09:00.000Z"
+      }
+    ],
+    "562802": [
+      {
+        "title": "Democrats and activist groups plan to push back if Trump tries to interfere in midterm elections - AP News",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMmpnZDNuY1NGY3RsRmNPOFllZlNuMnlLaVRYRVlVZC1vZGNwcTlIbEVRMlRHalAyUy1XeDQtYkV3eko0MXZxcGdXZ2RZbmNQZm44YXYzWnIxdjJvTFJXY1l3d3BxZldSSFYtaFhNNnM2OUxXUFhPcmFEYVBwOEdQMllnQnl0SWNMaEhIWVo0NEtzT3RhNGlWVWlKajdDRWY1OGtNWVJKaUc0NDBoRkVyNkpWa2I?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-09-14T11:09:00.000Z"
+      }
+    ],
     "630692": [],
     "630733": [],
     "630772": [],
