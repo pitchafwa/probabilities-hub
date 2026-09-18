@@ -1,9 +1,23 @@
 {
-  "updatedAt": "2026-09-18T06:09:50.222Z",
+  "updatedAt": "2026-09-18T11:28:15.816Z",
   "byMarket": {
     "559653": [],
-    "562793": [],
-    "562802": [],
+    "562793": [
+      {
+        "title": "Ashley Hinson, a Republican ‘Minivan-Driving Mom,’ Steers Away From Trump in Midterm Elections",
+        "url": "https://www.nytimes.com/2026/09/18/us/politics/ashley-hinson-trump-iowa-senate-race.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-18T09:02:24.000Z"
+      }
+    ],
+    "562802": [
+      {
+        "title": "Ashley Hinson, a Republican ‘Minivan-Driving Mom,’ Steers Away From Trump in Midterm Elections",
+        "url": "https://www.nytimes.com/2026/09/18/us/politics/ashley-hinson-trump-iowa-senate-race.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-18T09:02:24.000Z"
+      }
+    ],
     "630692": [],
     "630733": [],
     "630772": [],
