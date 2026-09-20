@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T00:23:59.540Z",
+  "updatedAt": "2026-09-20T05:24:28.499Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -15,7 +15,7 @@
         "title": "MS NOW, CNN and Politico say their journalists were denied access to White House after Trump ban - AP News",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcUUtVjNhMUdzOUo3alRhSVRGVF9aeFVBVUJlSjg0b1RvVnBJYjNXNzh5bWlnbEFjbDg0QWlVSlZueDZWYXltMW11ampFUHphekE1VVdDdlp5MFVhV0lWUUVySmNBT21TZGJNZGh0YlF6c0ZKbmMzMVhKLWlaQWx5Q0RwTUhPZ2dudWc?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-09-19T20:11:00.000Z"
+        "publishedAt": "2026-09-19T22:36:00.000Z"
       },
       {
         "title": "Early voting begins in US midterm elections that could flip control of Congress - AP News",
@@ -34,12 +34,6 @@
         "url": "https://www.nytimes.com/2026/09/19/us/politics/democrat-north-carolina-don-davis-redistricting.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-09-19T09:01:51.000Z"
-      },
-      {
-        "title": "Music City Miscue gives Vanderbilt a win against North Carolina State no one saw coming - AP News",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQV9BWENnOVRZZEZJOTVVVWZkdTVqcmN3OGxFQ3VQSWlXdTBRRi1wQ0F0Ym4tUXRTUzhaWGlUTEtwVHhKMnJ2SWs0WFVJX1lZUWV1dUFEaDVFSDBCRVY0R1FkUERWMDR5cGZpOTluMXFVaFQzRkcyb21MN1BpYkpUMUZnbzljQjdzLTZYQg?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-09-19T21:21:00.000Z"
       },
       {
         "title": "Trump refers to Black man from racially offensive 1988 campaign ad while stumping in North Carolina - AP News",
@@ -62,6 +56,13 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": []
+    "event:315364": [
+      {
+        "title": "College football winners, losers: Alabama QB Keelon Russell has arrived, Texas A&M faceplants",
+        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-alabama-qb-keelon-russell-texas-a-m/",
+        "outlet": "CBS Sports",
+        "publishedAt": "2026-09-20T05:18:41.000Z"
+      }
+    ]
   }
 }
