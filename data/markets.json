@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T17:06:52.482Z",
+  "updatedAt": "2026-09-21T21:08:12.565Z",
   "source": "polymarket",
   "errors": [],
   "markets": [
@@ -14,7 +14,7 @@
       "probability": 93.5,
       "volume": 61133,
       "volume24hr": 26,
-      "liquidity": 82969,
+      "liquidity": 75076,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -25,7 +25,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-21T17:06:52.812Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "630883",
@@ -36,9 +36,9 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 92.5,
-      "volume": 71643,
-      "volume24hr": 1113,
-      "liquidity": 49130,
+      "volume": 71650,
+      "volume24hr": 1011,
+      "liquidity": 38782,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -49,7 +49,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-21T17:06:52.812Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "630772",
@@ -59,21 +59,21 @@
       "addedDate": "2026-08-29",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 70.5,
-      "volume": 871475,
-      "volume24hr": 11813,
-      "liquidity": 86657,
+      "probability": 69.5,
+      "volume": 872060,
+      "volume24hr": 12378,
+      "liquidity": 83314,
       "closed": false,
       "active": true,
       "endDate": null,
       "slug": "maine-senate-election-winner",
       "eventId": "57650",
       "url": "https://polymarket.com/event/maine-senate-election-winner",
-      "oneWeekPriceChange": null,
+      "oneWeekPriceChange": -0.01,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-21T17:06:52.812Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "634976",
@@ -84,9 +84,9 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 73.5,
-      "volume": 367418,
-      "volume24hr": 68336,
-      "liquidity": 85238,
+      "volume": 368647,
+      "volume24hr": 62900,
+      "liquidity": 90285,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -97,7 +97,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-21T17:06:52.813Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "631057",
@@ -107,21 +107,21 @@
       "addedDate": "2026-08-29",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 59.5,
-      "volume": 357830,
-      "volume24hr": 50164,
-      "liquidity": 78394,
+      "probability": 60.5,
+      "volume": 367265,
+      "volume24hr": 59599,
+      "liquidity": 115559,
       "closed": false,
       "active": true,
       "endDate": null,
       "slug": "ohio-senate-election-winner",
       "eventId": "57682",
       "url": "https://polymarket.com/event/ohio-senate-election-winner",
-      "oneWeekPriceChange": 0.06,
+      "oneWeekPriceChange": 0.07,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-21T17:06:52.813Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "630963",
@@ -132,20 +132,20 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 60.5,
-      "volume": 613598,
-      "volume24hr": 22721,
-      "liquidity": 134481,
+      "volume": 614313,
+      "volume24hr": 23400,
+      "liquidity": 121507,
       "closed": false,
       "active": true,
       "endDate": null,
       "slug": "texas-senate-election-winner",
       "eventId": "57672",
       "url": "https://polymarket.com/event/texas-senate-election-winner",
-      "oneWeekPriceChange": 0.095,
+      "oneWeekPriceChange": 0.08,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-21T17:06:52.812Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "630733",
@@ -155,21 +155,21 @@
       "addedDate": "2026-08-29",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 39.5,
-      "volume": 195086,
-      "volume24hr": 2588,
-      "liquidity": 78484,
+      "probability": 43.5,
+      "volume": 217124,
+      "volume24hr": 24621,
+      "liquidity": 86833,
       "closed": false,
       "active": true,
       "endDate": null,
       "slug": "iowa-senate-election-winner",
       "eventId": "57647",
       "url": "https://polymarket.com/event/iowa-senate-election-winner",
-      "oneWeekPriceChange": null,
+      "oneWeekPriceChange": 0.04,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-21T17:06:52.812Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "631044",
@@ -179,21 +179,21 @@
       "addedDate": "2026-09-02",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 9.5,
-      "volume": 59479,
-      "volume24hr": 87,
-      "liquidity": 58059,
+      "probability": 8.5,
+      "volume": 60519,
+      "volume24hr": 1127,
+      "liquidity": 68588,
       "closed": false,
       "active": true,
       "endDate": null,
       "slug": "florida-senate-election-winner",
       "eventId": "57681",
       "url": "https://polymarket.com/event/florida-senate-election-winner",
-      "oneWeekPriceChange": 0.02,
+      "oneWeekPriceChange": 0.01,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-21T17:06:52.812Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "559653",
@@ -203,36 +203,36 @@
       "addedDate": "2026-08-30",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 18.4,
-      "volume": 15218478,
-      "volume24hr": 9634,
-      "liquidity": 317310,
+      "probability": 18.5,
+      "volume": 15221124,
+      "volume24hr": 11674,
+      "liquidity": 339023,
       "closed": false,
       "active": true,
       "endDate": "2028-11-07T00:00:00Z",
       "slug": "democratic-presidential-nominee-2028",
       "eventId": "30829",
       "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
-      "oneWeekPriceChange": 0.003,
+      "oneWeekPriceChange": -0.006,
       "isMultiOutcome": true,
       "outcomeCount": 14,
       "outcomes": [
         {
           "id": "559653",
           "label": "Alexandria Ocasio-Cortez",
-          "probability": 18.4,
+          "probability": 18.5,
           "tracked": true
         },
         {
           "id": "559661",
           "label": "Jon Ossoff",
-          "probability": 17.2,
+          "probability": 17.3,
           "tracked": false
         },
         {
           "id": "559652",
           "label": "Gavin Newsom",
-          "probability": 13.7,
+          "probability": 13.5,
           "tracked": false
         },
         {
@@ -244,11 +244,11 @@
         {
           "id": "559655",
           "label": "Josh Shapiro",
-          "probability": 5.8,
+          "probability": 6.1,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-21T17:06:52.812Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "event:202857",
@@ -257,11 +257,11 @@
       "question": "Pro Football: 2027 Champion",
       "category": "sports",
       "addedDate": "2026-08-29",
-      "probability": 11.5,
-      "leaderLabel": "Buffalo Bills",
-      "volume": 58397821,
-      "volume24hr": 1042611,
-      "liquidity": 6116565,
+      "probability": 12.5,
+      "leaderLabel": "Los Angeles Rams",
+      "volume": 58505836,
+      "volume24hr": 624937,
+      "liquidity": 6760020,
       "closed": false,
       "active": true,
       "endDate": "2027-02-14T23:55:00Z",
@@ -273,21 +273,21 @@
       "outcomeCount": 21,
       "outcomes": [
         {
+          "id": "1357389",
+          "label": "Los Angeles Rams",
+          "probability": 12.5,
+          "tracked": false
+        },
+        {
           "id": "1357374",
           "label": "Buffalo Bills",
           "probability": 11.5,
           "tracked": false
         },
         {
-          "id": "1357389",
-          "label": "Los Angeles Rams",
-          "probability": 11.5,
-          "tracked": false
-        },
-        {
           "id": "1357398",
           "label": "San Francisco 49ers",
-          "probability": 8.5,
+          "probability": 8.4,
           "tracked": false
         },
         {
@@ -309,7 +309,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-21T17:06:52.636Z"
+      "fetchedAt": "2026-09-21T21:08:12.727Z"
     },
     {
       "id": "2155356",
@@ -322,14 +322,14 @@
       "probability": 22.5,
       "volume": 15479,
       "volume24hr": 756,
-      "liquidity": 8146,
+      "liquidity": 7685,
       "closed": false,
       "active": true,
       "endDate": "2027-01-05T00:00:00Z",
       "slug": "nfl-team-to-make-postseason",
       "eventId": "448179",
       "url": "https://polymarket.com/event/nfl-team-to-make-postseason",
-      "oneWeekPriceChange": -0.22,
+      "oneWeekPriceChange": -0.265,
       "isMultiOutcome": true,
       "outcomeCount": 32,
       "outcomes": [
@@ -346,20 +346,20 @@
           "tracked": false
         },
         {
-          "id": "2155354",
-          "label": "Kansas City Chiefs",
+          "id": "2155364",
+          "label": "Philadelphia Eagles",
           "probability": 76,
           "tracked": false
         },
         {
-          "id": "2155364",
-          "label": "Philadelphia Eagles",
-          "probability": 75,
+          "id": "2155354",
+          "label": "Kansas City Chiefs",
+          "probability": 75.5,
           "tracked": false
         },
         {
-          "id": "2155366",
-          "label": "San Francisco 49ers",
+          "id": "2155345",
+          "label": "Cincinnati Bengals",
           "probability": 74.5,
           "tracked": false
         },
@@ -371,7 +371,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-09-21T17:06:52.813Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "event:478277",
@@ -382,9 +382,9 @@
       "addedDate": "2026-08-29",
       "probability": 21.5,
       "leaderLabel": "Oklahoma City Thunder",
-      "volume": 22068753,
-      "volume24hr": 96661,
-      "liquidity": 8566984,
+      "volume": 22070735,
+      "volume24hr": 12211,
+      "liquidity": 9381346,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T00:00:00Z",
@@ -432,7 +432,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-21T17:06:52.639Z"
+      "fetchedAt": "2026-09-21T21:08:12.730Z"
     },
     {
       "id": "event:315364",
@@ -443,9 +443,9 @@
       "addedDate": "2026-08-29",
       "probability": 28,
       "leaderLabel": "Josh Allen",
-      "volume": 1008406,
-      "volume24hr": 31094,
-      "liquidity": 411379,
+      "volume": 1011032,
+      "volume24hr": 9086,
+      "liquidity": 450963,
       "closed": false,
       "active": true,
       "endDate": "2027-02-15T00:00:00Z",
@@ -454,7 +454,7 @@
       "url": "https://polymarket.com/event/pro-football-2026-mvp-winner",
       "oneWeekPriceChange": null,
       "isMultiOutcome": true,
-      "outcomeCount": 17,
+      "outcomeCount": 18,
       "outcomes": [
         {
           "id": "1747716",
@@ -465,7 +465,13 @@
         {
           "id": "1747735",
           "label": "Brock Purdy",
-          "probability": 12.2,
+          "probability": 12,
+          "tracked": false
+        },
+        {
+          "id": "1747718",
+          "label": "Lamar Jackson",
+          "probability": 9,
           "tracked": false
         },
         {
@@ -475,25 +481,19 @@
           "tracked": false
         },
         {
-          "id": "1747718",
-          "label": "Lamar Jackson",
-          "probability": 8.5,
+          "id": "1747724",
+          "label": "Patrick Mahomes",
+          "probability": 7,
           "tracked": false
         },
         {
           "id": "1747730",
           "label": "Caleb Williams",
-          "probability": 8.3,
-          "tracked": false
-        },
-        {
-          "id": "1747737",
-          "label": "Trevor Lawrence",
-          "probability": 7.1,
+          "probability": 6.4,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-09-21T17:06:52.643Z"
+      "fetchedAt": "2026-09-21T21:08:12.857Z"
     },
     {
       "id": "562793",
@@ -503,10 +503,10 @@
       "addedDate": "2026-08-29",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 62.5,
-      "volume": 2884330,
-      "volume24hr": 47003,
-      "liquidity": 387406,
+      "probability": 63.5,
+      "volume": 2915099,
+      "volume24hr": 77520,
+      "liquidity": 346258,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
@@ -517,7 +517,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-21T17:06:52.812Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "562802",
@@ -528,20 +528,20 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 92.5,
-      "volume": 6938837,
-      "volume24hr": 83862,
-      "liquidity": 569945,
+      "volume": 6940343,
+      "volume24hr": 78021,
+      "liquidity": 631013,
       "closed": false,
       "active": true,
       "endDate": "2026-11-03T00:00:00Z",
       "slug": "which-party-will-win-the-house-in-2026",
       "eventId": "32225",
       "url": "https://polymarket.com/event/which-party-will-win-the-house-in-2026",
-      "oneWeekPriceChange": 0.06,
+      "oneWeekPriceChange": 0.05,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-21T17:06:52.812Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     },
     {
       "id": "630805",
@@ -552,9 +552,9 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 67,
-      "volume": 480283,
-      "volume24hr": 508,
-      "liquidity": 82156,
+      "volume": 480604,
+      "volume24hr": 819,
+      "liquidity": 77755,
       "closed": false,
       "active": true,
       "endDate": null,
@@ -565,7 +565,7 @@
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-09-21T17:06:52.812Z"
+      "fetchedAt": "2026-09-21T21:08:13.000Z"
     }
   ]
 }
