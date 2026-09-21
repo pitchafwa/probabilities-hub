@@ -1,11 +1,18 @@
 {
-  "updatedAt": "2026-09-21T05:28:59.399Z",
+  "updatedAt": "2026-09-21T11:06:00.246Z",
   "byMarket": {
     "559653": [],
-    "562793": [],
+    "562793": [
+      {
+        "title": "The Crypto Industry Targets Sherrod Brown of Ohio, a Top Democratic Senate Candidate",
+        "url": "https://www.nytimes.com/2026/09/21/us/politics/crypto-sherrod-brown-ohio-senate-race.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-21T09:00:45.000Z"
+      }
+    ],
     "562802": [
       {
-        "title": "MS NOW, CNN and Politico say their journalists were denied access to White House after Trump ban - apnews.com",
+        "title": "MS NOW, CNN and Politico say their journalists were denied access to White House after Trump ban - AP News",
         "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcUUtVjNhMUdzOUo3alRhSVRGVF9aeFVBVUJlSjg0b1RvVnBJYjNXNzh5bWlnbEFjbDg0QWlVSlZueDZWYXltMW11ampFUHphekE1VVdDdlp5MFVhV0lWUUVySmNBT21TZGJNZGh0YlF6c0ZKbmMzMVhKLWlaQWx5Q0RwTUhPZ2dudWc?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-09-19T22:36:00.000Z"
@@ -15,14 +22,7 @@
     "630733": [],
     "630772": [],
     "630805": [],
-    "630883": [
-      {
-        "title": "After North Carolina’s Gerrymander, Democrat Don Davis Trumpets His Centrism in 1st District",
-        "url": "https://www.nytimes.com/2026/09/19/us/politics/democrat-north-carolina-don-davis-redistricting.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-09-20T18:10:11.000Z"
-      }
-    ],
+    "630883": [],
     "630963": [],
     "631044": [],
     "631057": [],
