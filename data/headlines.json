@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T11:06:00.246Z",
+  "updatedAt": "2026-09-21T17:06:52.482Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -7,7 +7,7 @@
         "title": "The Crypto Industry Targets Sherrod Brown of Ohio, a Top Democratic Senate Candidate",
         "url": "https://www.nytimes.com/2026/09/21/us/politics/crypto-sherrod-brown-ohio-senate-race.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-09-21T09:00:45.000Z"
+        "publishedAt": "2026-09-21T14:39:54.000Z"
       }
     ],
     "562802": [
@@ -22,8 +22,22 @@
     "630733": [],
     "630772": [],
     "630805": [],
-    "630883": [],
-    "630963": [],
+    "630883": [
+      {
+        "title": "Watch live: Vance rallies GOP voters in North Carolina ahead of midterms",
+        "url": "https://thehill.com/video-clips/6102011-watch-live-jd-vance-north-carolina-rally-midterms/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-09-21T16:33:58.000Z"
+      }
+    ],
+    "630963": [
+      {
+        "title": "Talarico holds slight lead in Texas Senate race poll",
+        "url": "https://thehill.com/homenews/campaign/6101881-talarico-leads-paxton-texas-senate-poll/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-09-21T15:52:53.000Z"
+      }
+    ],
     "631044": [],
     "631057": [],
     "634976": [],
