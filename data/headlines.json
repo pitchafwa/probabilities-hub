@@ -1,9 +1,16 @@
 {
-  "updatedAt": "2026-09-24T17:02:31.583Z",
+  "updatedAt": "2026-09-24T20:33:23.638Z",
   "byMarket": {
     "559653": [],
     "562793": [],
-    "562802": [],
+    "562802": [
+      {
+        "title": "3 US news outlets return to White House after judge orders Trump to lift ban - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNFNUM3VIUEdwTndqbnFYUjk4OUYzUHNvQ0syOVNEQmNNSUxvd1FzNWdDYnpZcjJyV0xKU1BWUzc0eFVqeFRka3VNU05MeGRIT1ppWDJnbE1xMjZDbVVIc0hZT0pfUDBfNGZLUzhIOVRfU1h2N0I3SjJTajNuYUFrSFVONEVxYlpLa0F1TjcyT3diOU9nNWhhVU1zQW1XeTNSNWw1ekdMdXdQeEk?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-09-24T20:29:00.000Z"
+      }
+    ],
     "630692": [],
     "630733": [],
     "630772": [
@@ -15,6 +22,12 @@
       }
     ],
     "630805": [
+      {
+        "title": "El-Sayed Holds a Narrow Lead Over Rogers in New Michigan Senate Polls: 7 Takeaways",
+        "url": "https://www.nytimes.com/2026/09/24/us/politics/michigan-senate-poll-el-sayed-rogers.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-24T18:16:35.000Z"
+      },
       {
         "title": "Democrats Show Strength in Michigan Senate Race but Trail in Maine, Polls Find",
         "url": "https://www.nytimes.com/2026/09/24/us/politics/senate-democrats-michigan-maine-polls.html",
