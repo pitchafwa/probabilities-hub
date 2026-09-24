@@ -1,37 +1,23 @@
 {
-  "updatedAt": "2026-09-24T11:58:06.326Z",
+  "updatedAt": "2026-09-24T17:02:31.583Z",
   "byMarket": {
-    "559653": [
-      {
-        "title": "Beshear-Moore ticket? Democratic presidential hopefuls are pairing up",
-        "url": "https://thehill.com/homenews/campaign/6106824-democrats-test-running-mate-alliances/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-09-24T10:00:00.000Z"
-      }
-    ],
-    "562793": [
-      {
-        "title": "How Worried Should We Be About the Midterm Elections?",
-        "url": "https://www.nytimes.com/2026/09/24/opinion/interesting-times-sarah-isgur-rick-pildes.html",
-        "outlet": "NYT HomePage",
-        "publishedAt": "2026-09-24T09:01:51.000Z"
-      }
-    ],
-    "562802": [
-      {
-        "title": "How Worried Should We Be About the Midterm Elections?",
-        "url": "https://www.nytimes.com/2026/09/24/opinion/interesting-times-sarah-isgur-rick-pildes.html",
-        "outlet": "NYT HomePage",
-        "publishedAt": "2026-09-24T09:01:51.000Z"
-      }
-    ],
+    "559653": [],
+    "562793": [],
+    "562802": [],
     "630692": [],
     "630733": [],
-    "630772": [],
+    "630772": [
+      {
+        "title": "Collins Leads Jackson in Maine Senate Race: 7 Takeaways From a New Poll",
+        "url": "https://www.nytimes.com/2026/09/24/us/politics/maine-senate-poll-collins-jackson-midterms.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-24T15:06:22.000Z"
+      }
+    ],
     "630805": [
       {
         "title": "Democrats Show Strength in Michigan Senate Race but Trail in Maine, Polls Find",
-        "url": "https://www.nytimes.com/2026/09/24/us/politics/democrats-show-strength-in-michigan-senate-race-but-trail-in-maine-polls-find.html",
+        "url": "https://www.nytimes.com/2026/09/24/us/politics/senate-democrats-michigan-maine-polls.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-09-24T09:02:40.000Z"
       }
