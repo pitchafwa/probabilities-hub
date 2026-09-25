@@ -1,26 +1,32 @@
 {
-  "updatedAt": "2026-09-25T12:58:20.862Z",
+  "updatedAt": "2026-09-25T17:54:11.725Z",
   "byMarket": {
     "559653": [],
-    "562793": [],
+    "562793": [
+      {
+        "title": "Fed Faces Prospect of Another Interest Rate Increase Just Before Midterm Elections",
+        "url": "https://www.nytimes.com/2026/09/25/business/fed-interest-rates-midterms.html",
+        "outlet": "NYT HomePage",
+        "publishedAt": "2026-09-25T15:38:16.000Z"
+      }
+    ],
     "562802": [
       {
         "title": "3 US news outlets return to White House after judge orders Trump to lift ban - AP News",
         "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNFNUM3VIUEdwTndqbnFYUjk4OUYzUHNvQ0syOVNEQmNNSUxvd1FzNWdDYnpZcjJyV0xKU1BWUzc0eFVqeFRka3VNU05MeGRIT1ppWDJnbE1xMjZDbVVIc0hZT0pfUDBfNGZLUzhIOVRfU1h2N0I3SjJTajNuYUFrSFVONEVxYlpLa0F1TjcyT3diOU9nNWhhVU1zQW1XeTNSNWw1ekdMdXdQeEk?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-09-25T00:50:00.000Z"
+      },
+      {
+        "title": "Fed Faces Prospect of Another Interest Rate Increase Just Before Midterm Elections",
+        "url": "https://www.nytimes.com/2026/09/25/business/fed-interest-rates-midterms.html",
+        "outlet": "NYT HomePage",
+        "publishedAt": "2026-09-25T15:38:16.000Z"
       }
     ],
     "630692": [],
     "630733": [],
-    "630772": [
-      {
-        "title": "Collins Leads Jackson in Maine Senate Race: 7 Takeaways From a New Poll",
-        "url": "https://www.nytimes.com/2026/09/24/us/politics/maine-senate-poll-collins-jackson-midterms.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-09-24T15:06:22.000Z"
-      }
-    ],
+    "630772": [],
     "630805": [
       {
         "title": "El-Sayed Holds a Narrow Lead Over Rogers in New Michigan Senate Polls: 7 Takeaways",
@@ -34,7 +40,7 @@
         "title": "Michael Whatley, the Republican Senate Candidate in North Carolina, Sticks By Trump",
         "url": "https://www.nytimes.com/2026/09/25/us/politics/north-carolina-senate-roy-cooper-michael-whatley.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-09-25T11:30:30.000Z"
+        "publishedAt": "2026-09-25T16:57:13.000Z"
       },
       {
         "title": "NRSC Chair Tim Scott leaves Georgia, North Carolina off his list of top Senate targets",
