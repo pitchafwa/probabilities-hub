@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26T23:41:15.842Z",
+  "updatedAt": "2026-09-27T04:59:04.175Z",
   "byMarket": {
     "559653": [],
     "562793": [],
@@ -9,12 +9,6 @@
         "url": "https://thehill.com/homenews/6112836-live-updates-trump-college-football-gop/",
         "outlet": "The Hill",
         "publishedAt": "2026-09-26T19:33:51.000Z"
-      },
-      {
-        "title": "3 US news outlets return to White House after judge orders Trump to lift ban - AP News",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNFNUM3VIUEdwTndqbnFYUjk4OUYzUHNvQ0syOVNEQmNNSUxvd1FzNWdDYnpZcjJyV0xKU1BWUzc0eFVqeFRka3VNU05MeGRIT1ppWDJnbE1xMjZDbVVIc0hZT0pfUDBfNGZLUzhIOVRfU1h2N0I3SjJTajNuYUFrSFVONEVxYlpLa0F1TjcyT3diOU9nNWhhVU1zQW1XeTNSNWw1ekdMdXdQeEk?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-09-25T00:50:00.000Z"
       }
     ],
     "630692": [],
@@ -27,6 +21,12 @@
         "url": "https://www.politico.com/news/2026/09/23/nrsc-tim-scott-georgia-north-carolina-senate-01090764",
         "outlet": "Politico",
         "publishedAt": "2026-09-23T21:43:52.000Z"
+      },
+      {
+        "title": "Graham, Andrews neck and neck in South Carolina Senate race: Poll",
+        "url": "https://thehill.com/homenews/campaign/6113414-graham-andrews-south-carolina-poll-close/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-09-27T02:17:18.000Z"
       }
     ],
     "630963": [],
@@ -36,6 +36,13 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": []
+    "event:315364": [
+      {
+        "title": "College football winners, losers in Week 4: Iowa emerges as Big Ten title threat, John Mateer struggles again",
+        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-week-4-iowa-oklahoma-john-mateer/",
+        "outlet": "CBS Sports",
+        "publishedAt": "2026-09-27T04:35:20.000Z"
+      }
+    ]
   }
 }
