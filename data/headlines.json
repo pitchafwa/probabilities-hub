@@ -1,14 +1,21 @@
 {
-  "updatedAt": "2026-09-27T10:30:24.011Z",
+  "updatedAt": "2026-09-27T15:18:29.674Z",
   "byMarket": {
     "559653": [],
-    "562793": [],
+    "562793": [
+      {
+        "title": "Trump’s War With Iran Drags Down Republicans in Midterm Elections",
+        "url": "https://www.nytimes.com/2026/09/27/us/politics/iran-war-republicans-midterms-trump.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-27T15:16:22.000Z"
+      }
+    ],
     "562802": [
       {
-        "title": "Live updates: Trump returns to White House after Texas-Tennessee game; Iran's proposal to reopen Strait of Hormuz rejected",
-        "url": "https://thehill.com/homenews/6112836-live-updates-trump-college-football-gop/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-09-26T19:33:51.000Z"
+        "title": "Trump’s War With Iran Drags Down Republicans in Midterm Elections",
+        "url": "https://www.nytimes.com/2026/09/27/us/politics/iran-war-republicans-midterms-trump.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-27T15:16:22.000Z"
       }
     ],
     "630692": [],
@@ -21,15 +28,16 @@
         "url": "https://www.politico.com/news/2026/09/23/nrsc-tim-scott-georgia-north-carolina-senate-01090764",
         "outlet": "Politico",
         "publishedAt": "2026-09-23T21:43:52.000Z"
-      },
-      {
-        "title": "Graham, Andrews neck and neck in South Carolina Senate race: Poll",
-        "url": "https://thehill.com/homenews/campaign/6113414-graham-andrews-south-carolina-poll-close/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-09-27T02:17:18.000Z"
       }
     ],
-    "630963": [],
+    "630963": [
+      {
+        "title": "Talarico leads Paxton by 5 points in Texas Senate race poll",
+        "url": "https://thehill.com/homenews/campaign/6113603-talarico-leads-paxton-texas-senate/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-09-27T12:34:50.000Z"
+      }
+    ],
     "631044": [],
     "631057": [],
     "634976": [
@@ -37,19 +45,12 @@
         "title": "‘She’s One of Us’: Mary Peltola’s Bumpy Rise to Political Power",
         "url": "https://www.nytimes.com/2026/09/27/us/politics/mary-peltola-alaska-senate.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-09-27T09:01:36.000Z"
+        "publishedAt": "2026-09-27T14:31:23.000Z"
       }
     ],
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": [
-      {
-        "title": "College football winners, losers in Week 4: Iowa emerges as Big Ten title threat, John Mateer struggles again",
-        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-week-4-iowa-oklahoma-john-mateer/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-09-27T04:35:20.000Z"
-      }
-    ]
+    "event:315364": []
   }
 }
