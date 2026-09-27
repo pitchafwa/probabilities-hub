@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T04:59:04.175Z",
+  "updatedAt": "2026-09-27T10:30:24.011Z",
   "byMarket": {
     "559653": [],
     "562793": [],
@@ -32,7 +32,14 @@
     "630963": [],
     "631044": [],
     "631057": [],
-    "634976": [],
+    "634976": [
+      {
+        "title": "‘She’s One of Us’: Mary Peltola’s Bumpy Rise to Political Power",
+        "url": "https://www.nytimes.com/2026/09/27/us/politics/mary-peltola-alaska-senate.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-09-27T09:01:36.000Z"
+      }
+    ],
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
