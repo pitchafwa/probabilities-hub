@@ -1,12 +1,45 @@
 {
-  "updatedAt": "2026-10-01T13:53:49.173Z",
+  "updatedAt": "2026-10-01T19:23:56.908Z",
   "byMarket": {
     "559653": [],
-    "562793": [],
-    "562802": [],
+    "562793": [
+      {
+        "title": "Senate punts bill to permanently ban Chinese cars until after midterm elections - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3lRTGtGSm9xYlpVTjg2c2NCbzE0Qmd1MlpYOEhndEJsOEJzczJBTEVaZm1VeE9wc2ZQMjg3cEIyS3BuajNvdlVJZFU1UWU3emd1T2RRNjRpaDRYdS1Xa3NIMTNJVlFIUVRpa2p0WVJfNmNGX0RyME0yZ1BBVXhOVk1ER2FNZW5NekJQNEhZZjlLcWdJVFU0UU1IdE41dUYyUFdPVG5OOA?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-09-30T22:15:00.000Z"
+      },
+      {
+        "title": "Ken Paxton reveals GOP polling 'dropped' after midterm convention: NYT",
+        "url": "https://thehill.com/opinion/lindseys-lens/6123990-trump-poll-numbers-drop-republicans/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-01T17:53:29.000Z"
+      }
+    ],
+    "562802": [
+      {
+        "title": "Senate punts bill to permanently ban Chinese cars until after midterm elections - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3lRTGtGSm9xYlpVTjg2c2NCbzE0Qmd1MlpYOEhndEJsOEJzczJBTEVaZm1VeE9wc2ZQMjg3cEIyS3BuajNvdlVJZFU1UWU3emd1T2RRNjRpaDRYdS1Xa3NIMTNJVlFIUVRpa2p0WVJfNmNGX0RyME0yZ1BBVXhOVk1ER2FNZW5NekJQNEhZZjlLcWdJVFU0UU1IdE41dUYyUFdPVG5OOA?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-09-30T22:15:00.000Z"
+      },
+      {
+        "title": "Ken Paxton reveals GOP polling 'dropped' after midterm convention: NYT",
+        "url": "https://thehill.com/opinion/lindseys-lens/6123990-trump-poll-numbers-drop-republicans/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-01T17:53:29.000Z"
+      }
+    ],
     "630692": [],
     "630733": [],
-    "630772": [],
+    "630772": [
+      {
+        "title": "Jackson holds edge over Collins in Maine Senate race: Poll",
+        "url": "https://thehill.com/homenews/campaign/6123742-troy-jackson-susan-collins-maine-aarp-poll/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-01T16:38:24.000Z"
+      }
+    ],
     "630805": [],
     "630883": [],
     "630963": [],
