@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T09:00:21.720Z",
+  "updatedAt": "2026-10-02T15:53:09.241Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -8,6 +8,12 @@
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3lRTGtGSm9xYlpVTjg2c2NCbzE0Qmd1MlpYOEhndEJsOEJzczJBTEVaZm1VeE9wc2ZQMjg3cEIyS3BuajNvdlVJZFU1UWU3emd1T2RRNjRpaDRYdS1Xa3NIMTNJVlFIUVRpa2p0WVJfNmNGX0RyME0yZ1BBVXhOVk1ER2FNZW5NekJQNEhZZjlLcWdJVFU0UU1IdE41dUYyUFdPVG5OOA?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-09-30T22:15:00.000Z"
+      },
+      {
+        "title": "US jobs market sees sharp slowdown ahead of midterm elections",
+        "url": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC US & Canada",
+        "publishedAt": "2026-10-02T14:30:48.000Z"
       }
     ],
     "562802": [
@@ -16,14 +22,34 @@
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS3lRTGtGSm9xYlpVTjg2c2NCbzE0Qmd1MlpYOEhndEJsOEJzczJBTEVaZm1VeE9wc2ZQMjg3cEIyS3BuajNvdlVJZFU1UWU3emd1T2RRNjRpaDRYdS1Xa3NIMTNJVlFIUVRpa2p0WVJfNmNGX0RyME0yZ1BBVXhOVk1ER2FNZW5NekJQNEhZZjlLcWdJVFU0UU1IdE41dUYyUFdPVG5OOA?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-09-30T22:15:00.000Z"
+      },
+      {
+        "title": "US jobs market sees sharp slowdown ahead of midterm elections",
+        "url": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC US & Canada",
+        "publishedAt": "2026-10-02T14:30:48.000Z"
       }
     ],
     "630692": [],
     "630733": [],
     "630772": [],
     "630805": [],
-    "630883": [],
-    "630963": [],
+    "630883": [
+      {
+        "title": "Republicans Pull Money From North Carolina Senate Race As Midterm Prospects Dim",
+        "url": "https://www.nytimes.com/2026/10/02/us/midterms-election-republicans-north-carolina-kansas.html",
+        "outlet": "NYT HomePage",
+        "publishedAt": "2026-10-02T15:37:58.000Z"
+      }
+    ],
+    "630963": [
+      {
+        "title": "Talarico leads Paxton by 2 points in tightening Texas Senate race: Survey",
+        "url": "https://thehill.com/homenews/campaign/6126023-talarico-paxton-texas-poll/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-02T15:31:58.000Z"
+      }
+    ],
     "631044": [],
     "631057": [],
     "634976": [],
