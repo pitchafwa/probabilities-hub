@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T12:51:08.393Z",
+  "updatedAt": "2026-10-04T17:24:46.331Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -55,13 +55,6 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": [
-      {
-        "title": "College football winners, losers in Week 5: Keelon Russell sparks Alabama to new level, Florida collapses",
-        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-week-5-2026-scores-results/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-10-04T04:00:18.000Z"
-      }
-    ]
+    "event:315364": []
   }
 }
