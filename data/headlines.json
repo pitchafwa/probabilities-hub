@@ -1,8 +1,14 @@
 {
-  "updatedAt": "2026-10-05T02:24:09.780Z",
+  "updatedAt": "2026-10-05T09:36:15.730Z",
   "byMarket": {
     "559653": [],
     "562793": [
+      {
+        "title": "Democrats Expect Record Number of Women in Party in House After Midterm Elections",
+        "url": "https://www.nytimes.com/2026/10/05/us/politics/democrats-congress-women-house.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-05T09:03:07.000Z"
+      },
       {
         "title": "US jobs market sees sharp slowdown ahead of midterm elections",
         "url": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
@@ -17,6 +23,12 @@
       }
     ],
     "562802": [
+      {
+        "title": "Democrats Expect Record Number of Women in Party in House After Midterm Elections",
+        "url": "https://www.nytimes.com/2026/10/05/us/politics/democrats-congress-women-house.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-05T09:03:07.000Z"
+      },
       {
         "title": "US jobs market sees sharp slowdown ahead of midterm elections",
         "url": "https://www.bbc.co.uk/news/articles/cm2d6gg0642yo?at_medium=RSS&at_campaign=rss",
@@ -40,12 +52,6 @@
         "url": "https://www.politico.com/news/2026/10/02/republicans-slf-scale-back-north-carolina-senate-spending-01104964",
         "outlet": "Politico",
         "publishedAt": "2026-10-02T17:03:21.000Z"
-      },
-      {
-        "title": "Bill Belichick joins Giants' 1986 reunion following North Carolina's loss to Notre Dame",
-        "url": "https://www.cbssports.com/nfl/news/bill-belichick-joins-giants-reunion-following-north-carolinas-loss/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-10-04T22:01:50.000Z"
       }
     ],
     "630963": [],
