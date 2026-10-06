@@ -1,7 +1,14 @@
 {
-  "updatedAt": "2026-10-06T00:43:07.489Z",
+  "updatedAt": "2026-10-06T07:26:00.614Z",
   "byMarket": {
-    "559653": [],
+    "559653": [
+      {
+        "title": "Alexandria Ocasio-Cortez Says, ‘If Abdul Can Win in Michigan, Anybody Can Win Anywhere’",
+        "url": "https://www.nytimes.com/2026/10/05/us/politics/aoc-abdul-el-sayed-2028.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-06T06:34:56.000Z"
+      }
+    ],
     "562793": [
       {
         "title": "Democrats Expect Record Number of Women in Party in House After Midterm Elections",
