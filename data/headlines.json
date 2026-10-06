@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T14:27:52.287Z",
+  "updatedAt": "2026-10-06T19:49:22.942Z",
   "byMarket": {
     "559653": [
       {
@@ -11,18 +11,18 @@
     ],
     "562793": [
       {
-        "title": "Republicans return to tough-on-crime message ahead of difficult midterm elections - AP News",
+        "title": "Republicans return to tough-on-crime message before difficult midterm elections - AP News",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaUN1cHRpR3o3Wlp4V3lodUd3dXAyS2RGaFFHRmlXRURNT2NSQXhrVjFmbGJLc0NBblllckxycjZLUWFNZURBSDA2c2VVVHdObjVTUjFkWUZTRnNubEp0SFZiQ19Hb1BDOU1ULW9iSzdqWEF6c3p3Y3hGQ0gzUHNjNXlPMWhGMmFER01ZbFVwQnMyWEpkYW53?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-06T04:03:00.000Z"
+        "publishedAt": "2026-10-06T13:52:00.000Z"
       }
     ],
     "562802": [
       {
-        "title": "Republicans return to tough-on-crime message ahead of difficult midterm elections - AP News",
+        "title": "Republicans return to tough-on-crime message before difficult midterm elections - AP News",
         "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOaUN1cHRpR3o3Wlp4V3lodUd3dXAyS2RGaFFHRmlXRURNT2NSQXhrVjFmbGJLc0NBblllckxycjZLUWFNZURBSDA2c2VVVHdObjVTUjFkWUZTRnNubEp0SFZiQ19Hb1BDOU1ULW9iSzdqWEF6c3p3Y3hGQ0gzUHNjNXlPMWhGMmFER01ZbFVwQnMyWEpkYW53?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-06T04:03:00.000Z"
+        "publishedAt": "2026-10-06T13:52:00.000Z"
       }
     ],
     "630692": [],
@@ -35,6 +35,12 @@
         "url": "https://www.politico.com/news/2026/10/02/republicans-slf-scale-back-north-carolina-senate-spending-01104964",
         "outlet": "Politico",
         "publishedAt": "2026-10-02T17:03:21.000Z"
+      },
+      {
+        "title": "Republicans are spending to aid Darline Graham as the South Carolina Senate race tightens.",
+        "url": "https://www.nytimes.com/live/2026/10/06/us/midterms-elections/darline-graham-south-carolina-senate",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-06T16:14:51.000Z"
       }
     ],
     "630963": [],
