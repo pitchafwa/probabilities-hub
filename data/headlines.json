@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T11:59:38.973Z",
+  "updatedAt": "2026-10-07T18:52:14.913Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -38,36 +38,25 @@
         "url": "https://www.nytimes.com/2026/10/06/us/politics/maine-senate-debate-takeaways.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-07T10:46:55.000Z"
-      },
-      {
-        "title": "Collins, Jackson clash in first Maine Senate debate: 4 takeaways",
-        "url": "https://thehill.com/homenews/campaign/6132984-maine-senate-debate-collins-jackson/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-07T01:34:17.000Z"
       }
     ],
     "630805": [],
     "630883": [
       {
-        "title": "Top GOP groups retreat from North Carolina Senate race as hopes fade",
-        "url": "https://www.politico.com/news/2026/10/02/republicans-slf-scale-back-north-carolina-senate-spending-01104964",
-        "outlet": "Politico",
-        "publishedAt": "2026-10-02T17:03:21.000Z"
-      },
-      {
-        "title": "Republicans are spending to aid Darline Graham as the South Carolina Senate race tightens.",
-        "url": "https://www.nytimes.com/live/2026/10/06/us/midterms-elections/darline-graham-south-carolina-senate",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-06T16:14:51.000Z"
-      },
-      {
         "title": "Republicans to spend $5 million in South Carolina Senate race as Trump plans trip there - AP News",
         "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc2tJNWppNkVSZmxOM3JwNVRYXzJvVm9vSUxpbUl6eUpNYURkQ3NNODdCTWNHOGpiNlFrYTloQ2V5dFBkYl96MXlDZzZUTm1ENkZibDNIZ0FvMGtpY1pydmNtRDM5cjJSdVI0dTFEZFNkdGxXcDFPRkZxWDNYSVI4WFZlUVlrX0tQTVdMdnlWTGthRWFyZmdNUlJiMmEtNEU4YjQwUw?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-06T19:58:00.000Z"
+        "publishedAt": "2026-10-06T20:16:28.000Z"
       }
     ],
-    "630963": [],
+    "630963": [
+      {
+        "title": "Talarico steps off Texas Senate campaign trail after flu diagnosis",
+        "url": "https://thehill.com/homenews/campaign/6134160-talarico-flu-diagnosis-attack-ads/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-07T17:18:51.000Z"
+      }
+    ],
     "631044": [],
     "631057": [],
     "634976": [],
