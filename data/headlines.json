@@ -1,14 +1,7 @@
 {
-  "updatedAt": "2026-10-06T23:42:58.771Z",
+  "updatedAt": "2026-10-07T05:34:13.227Z",
   "byMarket": {
-    "559653": [
-      {
-        "title": "Alexandria Ocasio-Cortez Says, ‘If Abdul Can Win in Michigan, Anybody Can Win Anywhere’",
-        "url": "https://www.nytimes.com/2026/10/05/us/politics/aoc-abdul-el-sayed-2028.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-06T06:34:57.000Z"
-      }
-    ],
+    "559653": [],
     "562793": [
       {
         "title": "Republicans return to tough-on-crime message before difficult midterm elections - AP News",
@@ -27,7 +20,20 @@
     ],
     "630692": [],
     "630733": [],
-    "630772": [],
+    "630772": [
+      {
+        "title": "Takeaways From the First Maine Senate Debate Between Susan Collins and Troy Jackson",
+        "url": "https://www.nytimes.com/2026/10/06/us/politics/maine-senate-debate-takeaways.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-07T02:43:16.000Z"
+      },
+      {
+        "title": "Collins, Jackson clash in first Maine Senate debate: 4 takeaways",
+        "url": "https://thehill.com/homenews/campaign/6132984-maine-senate-debate-collins-jackson/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-07T01:34:17.000Z"
+      }
+    ],
     "630805": [],
     "630883": [
       {
@@ -41,6 +47,12 @@
         "url": "https://www.nytimes.com/live/2026/10/06/us/midterms-elections/darline-graham-south-carolina-senate",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-06T16:14:51.000Z"
+      },
+      {
+        "title": "Republicans to spend $5 million in South Carolina Senate race as Trump plans trip there - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOc2tJNWppNkVSZmxOM3JwNVRYXzJvVm9vSUxpbUl6eUpNYURkQ3NNODdCTWNHOGpiNlFrYTloQ2V5dFBkYl96MXlDZzZUTm1ENkZibDNIZ0FvMGtpY1pydmNtRDM5cjJSdVI0dTFEZFNkdGxXcDFPRkZxWDNYSVI4WFZlUVlrX0tQTVdMdnlWTGthRWFyZmdNUlJiMmEtNEU4YjQwUw?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-06T20:16:28.000Z"
       }
     ],
     "630963": [],
