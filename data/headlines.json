@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T18:52:14.913Z",
+  "updatedAt": "2026-10-07T23:32:05.475Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -38,6 +38,12 @@
         "url": "https://www.nytimes.com/2026/10/06/us/politics/maine-senate-debate-takeaways.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-07T10:46:55.000Z"
+      },
+      {
+        "title": "In first Maine Senate debate, Collins seeks to distance herself from Trump - AP News",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbXVlNk81Q3JJY3I1a2o3UmRKTklQZnNxYzh3OHc1d0ZaRkU3RXNqT0txLWgwV0kxYzR5cGlyMTBnY0RKY054bTg0WkRXeUliaHJfME1EWHNTY1hFcTM5Q2xkbUhDd3JSbEJoUGRjcTd5cHBkNUhUVGxLc3h0MWllZkE1ZDdwb055dWJPZ2JDZzg0QQ?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-07T01:48:00.000Z"
       }
     ],
     "630805": [],
@@ -51,10 +57,10 @@
     ],
     "630963": [
       {
-        "title": "Talarico steps off Texas Senate campaign trail after flu diagnosis",
-        "url": "https://thehill.com/homenews/campaign/6134160-talarico-flu-diagnosis-attack-ads/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-07T17:18:51.000Z"
+        "title": "Who Is Ken Paxton Turning to for Help in the Texas Senate Race?",
+        "url": "https://www.nytimes.com/2026/10/07/us/politics/ken-paxton-texas-senate-race.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-07T22:56:44.000Z"
       }
     ],
     "631044": [],
