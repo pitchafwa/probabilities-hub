@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T16:36:21.716Z",
+  "updatedAt": "2026-10-09T21:17:36.626Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -7,7 +7,7 @@
         "title": "Trump says US will not resume military strikes on Iran before the Nov. 3 midterm elections - AP News",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0thVWlRMWtDWlpWNHJDakpfMS1oM2N0bDdKSWVNRUVUNi04aGRHYmdXdnNxQnV5d1FoLWdGRC1xS01CeHdVZnZvMkE1U1RYSXhLbkhBamhjcFBsVmhseVhlWERlVmFFNG4yNy1ZWFdpQmVsSHNBRmEzOXAxOFN2SWE1QnFmSmxsOVJ4U0h4ZnphblZN?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-08T17:34:00.000Z"
+        "publishedAt": "2026-10-08T16:34:38.000Z"
       }
     ],
     "562802": [
@@ -15,25 +15,37 @@
         "title": "Trump says US will not resume military strikes on Iran before the Nov. 3 midterm elections - AP News",
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0thVWlRMWtDWlpWNHJDakpfMS1oM2N0bDdKSWVNRUVUNi04aGRHYmdXdnNxQnV5d1FoLWdGRC1xS01CeHdVZnZvMkE1U1RYSXhLbkhBamhjcFBsVmhseVhlWERlVmFFNG4yNy1ZWFdpQmVsSHNBRmEzOXAxOFN2SWE1QnFmSmxsOVJ4U0h4ZnphblZN?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-08T17:34:00.000Z"
+        "publishedAt": "2026-10-08T16:34:38.000Z"
       }
     ],
     "630692": [],
-    "630733": [
+    "630733": [],
+    "630772": [
       {
-        "title": "5 Takeaways From the First Iowa Senate Debate",
-        "url": "https://www.nytimes.com/2026/10/07/us/politics/iowa-senate-debate-ashley-hinson-josh-turek.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-08T03:56:52.000Z"
+        "title": "Jackson holds slight lead over Collins in Maine Senate race survey",
+        "url": "https://thehill.com/homenews/campaign/6139683-jackson-leads-collins-poll/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-09T19:58:08.000Z"
       }
     ],
-    "630772": [],
     "630805": [
+      {
+        "title": "Michigan Senate debate spotlights increase in anti-Muslim rhetoric as midterms race heats up",
+        "url": "https://www.bbc.co.uk/news/articles/ck5yndgnwez1o?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC US & Canada",
+        "publishedAt": "2026-10-09T19:45:29.000Z"
+      },
       {
         "title": "5 Key Moments From Hostile Michigan Senate Debate Between El-Sayed and Rogers",
         "url": "https://www.nytimes.com/2026/10/08/us/politics/michigan-senate-debate-moments-el-sayed-rogers.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-09T14:51:01.000Z"
+      },
+      {
+        "title": "Rogers and El-Sayed trade attacks in combative first Michigan Senate debate - AP News",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdjAydXBMZXdCOUJLSG41X0g3LXJGd0ZzS2FlUEViREw3aFlQVlVsSVltX0N3aS1nYk1aZURoamdhZmdEZGY4VnNZMUdjNDcyTVJBd2paa1g2ckFZNHBZTllrR3ZYUHVQLTA2YXlibTRHTVFrc2YtN1RjcXk1b1pvSV93ekpEUXBtb1FKQnZGMlFCVjZyS1RKZ0l5am00QQ?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-09T02:39:00.000Z"
       }
     ],
     "630883": [
@@ -44,23 +56,9 @@
         "publishedAt": "2026-10-08T15:35:00.000Z"
       }
     ],
-    "630963": [
-      {
-        "title": "Who Is Ken Paxton Turning to for Help in the Texas Senate Race?",
-        "url": "https://www.nytimes.com/2026/10/07/us/politics/ken-paxton-texas-senate-race.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-07T22:56:44.000Z"
-      }
-    ],
+    "630963": [],
     "631044": [],
-    "631057": [
-      {
-        "title": "Watch live: Vance rallies home state voters as Ohio Senate race tightens",
-        "url": "https://thehill.com/video-clips/6138685-watch-live-jd-vance-ohio-senate-campaign-rally/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-09T16:30:00.000Z"
-      }
-    ],
+    "631057": [],
     "634976": [],
     "2155356": [],
     "event:202857": [],
