@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T22:28:09.212Z",
+  "updatedAt": "2026-10-09T02:33:42.040Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -30,7 +30,20 @@
         "publishedAt": "2026-10-08T17:22:39.000Z"
       }
     ],
-    "630692": [],
+    "630692": [
+      {
+        "title": "Fiery Georgia Senate debate gets personal: 4 takeaways",
+        "url": "https://thehill.com/homenews/campaign/6138009-georgia-senate-debate-ossoff-collins-takeaways/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-09T01:37:35.000Z"
+      },
+      {
+        "title": "Key Moments From the Georgia Senate Debate Beween Ossoff and Collins",
+        "url": "https://www.nytimes.com/2026/10/08/us/georgia-debate-ossoff-collins.html",
+        "outlet": "NYT HomePage",
+        "publishedAt": "2026-10-09T01:56:40.000Z"
+      }
+    ],
     "630733": [
       {
         "title": "5 Takeaways From the First Iowa Senate Debate",
@@ -41,24 +54,24 @@
     ],
     "630772": [
       {
-        "title": "In first Maine Senate debate, Collins seeks to distance herself from Trump - AP News",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbXVlNk81Q3JJY3I1a2o3UmRKTklQZnNxYzh3OHc1d0ZaRkU3RXNqT0txLWgwV0kxYzR5cGlyMTBnY0RKY054bTg0WkRXeUliaHJfME1EWHNTY1hFcTM5Q2xkbUhDd3JSbEJoUGRjcTd5cHBkNUhUVGxLc3h0MWllZkE1ZDdwb055dWJPZ2JDZzg0QQ?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-07T01:48:00.000Z"
+        "title": "Second Maine Senate debate takes testy turn: 3 takeaways",
+        "url": "https://thehill.com/homenews/campaign/6138012-second-maine-senate-debate-collins-jackson-takeaways/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-09T02:17:40.000Z"
       }
     ],
     "630805": [
       {
-        "title": "Live updates: El-Sayed, Rogers to showdown in Michigan Senate debate",
-        "url": "https://thehill.com/homenews/administration/6135113-live-updates-trump-midterm-elections-debates-tech-iran/",
+        "title": "Michigan Senate debate goes off the rails: 4 takeaways",
+        "url": "https://thehill.com/homenews/campaign/6137958-michigan-senate-debate-el-sayed-rogers-takeaways/",
         "outlet": "The Hill",
-        "publishedAt": "2026-10-08T22:26:00.000Z"
+        "publishedAt": "2026-10-09T02:01:03.000Z"
       },
       {
-        "title": "Watch live: El-Sayed, Rogers to square off in Nexstar's Michigan Senate debate",
-        "url": "https://thehill.com/video-clips/6136870-watch-live-nexstar-wood-tv-live-coverage-michigan-senate-debate-el-sayed-rogers/",
+        "title": "Live updates: El-Sayed, Rogers clash at Michigan Senate debate",
+        "url": "https://thehill.com/homenews/administration/6135113-live-updates-trump-midterm-elections-debates-tech-iran/",
         "outlet": "The Hill",
-        "publishedAt": "2026-10-08T20:30:00.000Z"
+        "publishedAt": "2026-10-08T23:57:14.000Z"
       }
     ],
     "630883": [
