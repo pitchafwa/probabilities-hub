@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T09:37:39.275Z",
+  "updatedAt": "2026-10-09T16:36:21.716Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -8,12 +8,6 @@
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0thVWlRMWtDWlpWNHJDakpfMS1oM2N0bDdKSWVNRUVUNi04aGRHYmdXdnNxQnV5d1FoLWdGRC1xS01CeHdVZnZvMkE1U1RYSXhLbkhBamhjcFBsVmhseVhlWERlVmFFNG4yNy1ZWFdpQmVsSHNBRmEzOXAxOFN2SWE1QnFmSmxsOVJ4U0h4ZnphblZN?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-10-08T17:34:00.000Z"
-      },
-      {
-        "title": "Trump says US will not attack Iran before midterm elections in November - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMmV2ZUhoRklKSzBPaFkzWHVFdkwxVDlVVU8tdDV2NXc4NEkxTjZSTVhoaklIeTlJX3BCUTFkRUREY1VDVGpTY1lhZEQ4OHgyRG81S0RLa0JJVEZHTWpiUFJVRy0xZmVSWEpVbDZsVFBSRzZ4bmw2RnhtMXlBelJ1Vi1GUnVuZ3htemdTdExuTktpQ2dKdzhFRmRMd0MwMlYtd3JPb1J0NVlKcVNtWUlNNHRoNVFWaFBWUHNTdg?oc=5",
-        "outlet": "Reuters (Google News)",
-        "publishedAt": "2026-10-08T16:23:00.000Z"
       }
     ],
     "562802": [
@@ -22,22 +16,9 @@
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0thVWlRMWtDWlpWNHJDakpfMS1oM2N0bDdKSWVNRUVUNi04aGRHYmdXdnNxQnV5d1FoLWdGRC1xS01CeHdVZnZvMkE1U1RYSXhLbkhBamhjcFBsVmhseVhlWERlVmFFNG4yNy1ZWFdpQmVsSHNBRmEzOXAxOFN2SWE1QnFmSmxsOVJ4U0h4ZnphblZN?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-10-08T17:34:00.000Z"
-      },
-      {
-        "title": "Trump says US will not attack Iran before midterm elections in November - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMmV2ZUhoRklKSzBPaFkzWHVFdkwxVDlVVU8tdDV2NXc4NEkxTjZSTVhoaklIeTlJX3BCUTFkRUREY1VDVGpTY1lhZEQ4OHgyRG81S0RLa0JJVEZHTWpiUFJVRy0xZmVSWEpVbDZsVFBSRzZ4bmw2RnhtMXlBelJ1Vi1GUnVuZ3htemdTdExuTktpQ2dKdzhFRmRMd0MwMlYtd3JPb1J0NVlKcVNtWUlNNHRoNVFWaFBWUHNTdg?oc=5",
-        "outlet": "Reuters (Google News)",
-        "publishedAt": "2026-10-08T16:23:00.000Z"
       }
     ],
-    "630692": [
-      {
-        "title": "Fiery Georgia Senate debate gets personal: 4 takeaways",
-        "url": "https://thehill.com/homenews/campaign/6138009-georgia-senate-debate-ossoff-collins-takeaways/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-09T01:37:35.000Z"
-      }
-    ],
+    "630692": [],
     "630733": [
       {
         "title": "5 Takeaways From the First Iowa Senate Debate",
@@ -46,32 +27,13 @@
         "publishedAt": "2026-10-08T03:56:52.000Z"
       }
     ],
-    "630772": [
-      {
-        "title": "Second Maine Senate debate takes testy turn: 3 takeaways",
-        "url": "https://thehill.com/homenews/campaign/6138012-second-maine-senate-debate-collins-jackson-takeaways/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-09T02:17:40.000Z"
-      }
-    ],
+    "630772": [],
     "630805": [
       {
         "title": "5 Key Moments From Hostile Michigan Senate Debate Between El-Sayed and Rogers",
         "url": "https://www.nytimes.com/2026/10/08/us/politics/michigan-senate-debate-moments-el-sayed-rogers.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-10-09T04:19:19.000Z"
-      },
-      {
-        "title": "Michigan Senate debate goes off the rails: 4 takeaways",
-        "url": "https://thehill.com/homenews/campaign/6137958-michigan-senate-debate-el-sayed-rogers-takeaways/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-09T02:01:03.000Z"
-      },
-      {
-        "title": "Live updates: El-Sayed, Rogers clash at Michigan Senate debate",
-        "url": "https://thehill.com/homenews/administration/6135113-live-updates-trump-midterm-elections-debates-tech-iran/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-08T23:57:14.000Z"
+        "publishedAt": "2026-10-09T14:51:01.000Z"
       }
     ],
     "630883": [
@@ -91,7 +53,14 @@
       }
     ],
     "631044": [],
-    "631057": [],
+    "631057": [
+      {
+        "title": "Watch live: Vance rallies home state voters as Ohio Senate race tightens",
+        "url": "https://thehill.com/video-clips/6138685-watch-live-jd-vance-ohio-senate-campaign-rally/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-09T16:30:00.000Z"
+      }
+    ],
     "634976": [],
     "2155356": [],
     "event:202857": [],
