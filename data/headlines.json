@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T07:17:12.635Z",
+  "updatedAt": "2026-10-10T13:52:36.056Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -14,12 +14,6 @@
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0thVWlRMWtDWlpWNHJDakpfMS1oM2N0bDdKSWVNRUVUNi04aGRHYmdXdnNxQnV5d1FoLWdGRC1xS01CeHdVZnZvMkE1U1RYSXhLbkhBamhjcFBsVmhseVhlWERlVmFFNG4yNy1ZWFdpQmVsSHNBRmEzOXAxOFN2SWE1QnFmSmxsOVJ4U0h4ZnphblZN?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-10-08T17:34:00.000Z"
-      },
-      {
-        "title": "The midterm elections won't keep Trump from college football on Saturday. A hurricane might - AP News",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU3FxbkJrMlBOams2OUV4S0xUVHVqVU9hazRGcW5OUVUyX3VkaC04aDhUUjk0d2NOMWJLLXhzWi1PV1U3VzBRR20zV0o4aFRBLTdYeG9iU0cwcVJ0Q1dfTGx4aXZFUEFLb1g3UzRCVjBCV1hfc3VfX0c2RXRmeHZQWmpzMlV0X2ZwZDRTOVhDV2VEMDI4QVhSOXpRY2Z6bk1FZm9v?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-08T13:44:00.000Z"
       }
     ],
     "562802": [
@@ -34,12 +28,6 @@
         "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN0thVWlRMWtDWlpWNHJDakpfMS1oM2N0bDdKSWVNRUVUNi04aGRHYmdXdnNxQnV5d1FoLWdGRC1xS01CeHdVZnZvMkE1U1RYSXhLbkhBamhjcFBsVmhseVhlWERlVmFFNG4yNy1ZWFdpQmVsSHNBRmEzOXAxOFN2SWE1QnFmSmxsOVJ4U0h4ZnphblZN?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-10-08T17:34:00.000Z"
-      },
-      {
-        "title": "The midterm elections won't keep Trump from college football on Saturday. A hurricane might - AP News",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU3FxbkJrMlBOams2OUV4S0xUVHVqVU9hazRGcW5OUVUyX3VkaC04aDhUUjk0d2NOMWJLLXhzWi1PV1U3VzBRR20zV0o4aFRBLTdYeG9iU0cwcVJ0Q1dfTGx4aXZFUEFLb1g3UzRCVjBCV1hfc3VfX0c2RXRmeHZQWmpzMlV0X2ZwZDRTOVhDV2VEMDI4QVhSOXpRY2Z6bk1FZm9v?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-08T13:44:00.000Z"
       }
     ],
     "630692": [],
@@ -67,10 +55,22 @@
     ],
     "630883": [
       {
-        "title": "PVC pipes swept away by Hurricane Helene flooding still dominate cleanup of North Carolina river - AP News",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTWIweW9ZRFVnQkNHYkFlWEJ0TDJ6b3dmWlFEZGNRc3hzUEZkMzFsak83MXhGVWowTHlkV2J5ZEREOS1hMUNHQ2Qyc3F3eXB0MlMwY0NmQzRIMGdSMmMxM2JfanhJVmtXQzVwcHNZZm5ibm9PaEltLXZxQmxQYzB1RzhrMURpLXgzUGdlSS01MU5lT2RMYVdxMEZLRlFsLWYxaXJVYl82aDBvSUpQTkJGYQ?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-08T15:35:00.000Z"
+        "title": "David Plouffe warns Dems: Don’t take North Carolina for granted",
+        "url": "https://www.politico.com/news/2026/10/10/david-plouffe-dems-north-carolina-01115652",
+        "outlet": "Politico",
+        "publishedAt": "2026-10-10T13:00:00.000Z"
+      },
+      {
+        "title": "Fact-Checking Senate Ads in Iowa, New Hampshire and North Carolina",
+        "url": "https://www.nytimes.com/2026/10/10/us/politics/fact-check-senate-ads-iowa-new-hampshire-north-carolina.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-10T09:01:19.000Z"
+      },
+      {
+        "title": "North Carolina vs. Pitt odds, picks, predictions, time: Betting preview for college football Week 6 Saturday",
+        "url": "https://www.cbssports.com/betting/news/north-carolina-vs-pitt-odds-picks-predictions-time-betting-preview-college-football-week-6-saturday/",
+        "outlet": "CBS Sports",
+        "publishedAt": "2026-10-10T13:30:21.000Z"
       }
     ],
     "630963": [],
