@@ -1,9 +1,23 @@
 {
-  "updatedAt": "2026-10-11T00:53:23.949Z",
+  "updatedAt": "2026-10-11T06:58:35.371Z",
   "byMarket": {
     "559653": [],
-    "562793": [],
-    "562802": [],
+    "562793": [
+      {
+        "title": "Homeland Security targets Democratic campaign after ICE arrest in Pennsylvania - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEliTUFrdTR3MEczeTVHakhPRG45dkU4aDJTR0dLMS1YTDB5NDJvMG01MnVOYTFiNzJYYWU4bzFRMlF1T1FuWVpYVm5LaWZ5cDNLSzZSNW9qVnJyWEJURTE3MFlmeWJXbzhqbTJlT2ZVemo1blJNd29nTDZtTmhTUlY0dlN6TXpZcWFwSmsweTVOSkVxdXNHZmtUR3ZzWV9TbE5ULUpLZU1uejVwSlAzYkh0dnNUbGhsSDlkRWdHWVY?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-11T03:20:58.000Z"
+      }
+    ],
+    "562802": [
+      {
+        "title": "Homeland Security targets Democratic campaign after ICE arrest in Pennsylvania - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdEliTUFrdTR3MEczeTVHakhPRG45dkU4aDJTR0dLMS1YTDB5NDJvMG01MnVOYTFiNzJYYWU4bzFRMlF1T1FuWVpYVm5LaWZ5cDNLSzZSNW9qVnJyWEJURTE3MFlmeWJXbzhqbTJlT2ZVemo1blJNd29nTDZtTmhTUlY0dlN6TXpZcWFwSmsweTVOSkVxdXNHZmtUR3ZzWV9TbE5ULUpLZU1uejVwSlAzYkh0dnNUbGhsSDlkRWdHWVY?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-11T03:20:58.000Z"
+      }
+    ],
     "630692": [],
     "630733": [],
     "630772": [],
@@ -13,12 +27,6 @@
         "url": "https://www.bbc.co.uk/news/articles/ck5yndgnwez1o?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-10-09T19:45:29.000Z"
-      },
-      {
-        "title": "Rogers and El-Sayed trade attacks in combative first Michigan Senate debate - AP News",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdjAydXBMZXdCOUJLSG41X0g3LXJGd0ZzS2FlUEViREw3aFlQVlVsSVltX0N3aS1nYk1aZURoamdhZmdEZGY4VnNZMUdjNDcyTVJBd2paa1g2ckFZNHBZTllrR3ZYUHVQLTA2YXlibTRHTVFrc2YtN1RjcXk1b1pvSV93ekpEUXBtb1FKQnZGMlFCVjZyS1RKZ0l5am00QQ?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-09T02:39:00.000Z"
       }
     ],
     "630883": [
@@ -42,6 +50,13 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": []
+    "event:315364": [
+      {
+        "title": "College football winners, losers in Week 6: UCLA's turnaround continues, while Texas stumbles",
+        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-week-6-2026-scores-results/",
+        "outlet": "CBS Sports",
+        "publishedAt": "2026-10-11T04:12:11.000Z"
+      }
+    ]
   }
 }
