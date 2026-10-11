@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T06:58:35.371Z",
+  "updatedAt": "2026-10-11T13:55:54.330Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -50,13 +50,6 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": [
-      {
-        "title": "College football winners, losers in Week 6: UCLA's turnaround continues, while Texas stumbles",
-        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-week-6-2026-scores-results/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-10-11T04:12:11.000Z"
-      }
-    ]
+    "event:315364": []
   }
 }
