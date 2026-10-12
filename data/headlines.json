@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T02:13:12.634Z",
+  "updatedAt": "2026-10-12T09:25:18.013Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -28,14 +28,7 @@
         "publishedAt": "2026-10-11T22:22:16.000Z"
       }
     ],
-    "630805": [
-      {
-        "title": "Michigan Senate debate spotlights increase in anti-Muslim rhetoric as midterms race heats up",
-        "url": "https://www.bbc.co.uk/news/articles/ck5yndgnwez1o?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC US & Canada",
-        "publishedAt": "2026-10-09T19:45:29.000Z"
-      }
-    ],
+    "630805": [],
     "630883": [
       {
         "title": "Why North Carolina is shifting Democratic",
@@ -50,10 +43,10 @@
         "publishedAt": "2026-10-10T13:00:00.000Z"
       },
       {
-        "title": "Fact-Checking Senate Ads in Iowa, New Hampshire and North Carolina",
-        "url": "https://www.nytimes.com/2026/10/10/us/politics/fact-check-senate-ads-iowa-new-hampshire-north-carolina.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-10T09:01:19.000Z"
+        "title": "Lone debate for South Carolina Senate gets testy: 5 takeaways",
+        "url": "https://thehill.com/homenews/campaign/6141971-sc-senate-debate-graham-andrews/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-12T01:53:32.000Z"
       }
     ],
     "630963": [],
