@@ -1,23 +1,9 @@
 {
-  "updatedAt": "2026-10-12T09:25:18.013Z",
+  "updatedAt": "2026-10-12T19:18:56.611Z",
   "byMarket": {
     "559653": [],
-    "562793": [
-      {
-        "title": "Chair of Texas Democratic Party says 'we're full steam ahead' after Talarico's flu recovery",
-        "url": "https://thehill.com/homenews/campaign/6141753-talarico-campaign-full-steam-ahead/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-11T21:40:25.000Z"
-      }
-    ],
-    "562802": [
-      {
-        "title": "Chair of Texas Democratic Party says 'we're full steam ahead' after Talarico's flu recovery",
-        "url": "https://thehill.com/homenews/campaign/6141753-talarico-campaign-full-steam-ahead/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-11T21:40:25.000Z"
-      }
-    ],
+    "562793": [],
+    "562802": [],
     "630692": [],
     "630733": [],
     "630772": [
@@ -25,28 +11,16 @@
         "title": "In Maine Senate Race, Anxious Democrats Turn to Bernie Sanders for a Jolt",
         "url": "https://www.nytimes.com/2026/10/11/us/politics/maine-bernie-sanders-troy-jackson-seante-democrats.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-10-11T22:22:16.000Z"
+        "publishedAt": "2026-10-11T22:22:17.000Z"
       }
     ],
     "630805": [],
     "630883": [
       {
-        "title": "Why North Carolina is shifting Democratic",
-        "url": "https://thehill.com/homenews/campaign/6139667-north-carolina-roy-cooper-democrats-midterm-elections/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-11T21:00:00.000Z"
-      },
-      {
         "title": "David Plouffe warns Dems: Don’t take North Carolina for granted",
         "url": "https://www.politico.com/news/2026/10/10/david-plouffe-dems-north-carolina-01115652",
         "outlet": "Politico",
         "publishedAt": "2026-10-10T13:00:00.000Z"
-      },
-      {
-        "title": "Lone debate for South Carolina Senate gets testy: 5 takeaways",
-        "url": "https://thehill.com/homenews/campaign/6141971-sc-senate-debate-graham-andrews/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-12T01:53:32.000Z"
       }
     ],
     "630963": [],
