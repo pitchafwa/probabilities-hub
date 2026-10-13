@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T01:29:32.915Z",
+  "updatedAt": "2026-10-13T08:25:47.364Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -8,9 +8,22 @@
         "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZkJYTU1GREtZZmxqVHBTOElVMEFkclFicnExNWhtd3AtOW5ySzNWa0YtVHF2bmhKZm9vOG41LWRMSERKRjVISW1CdTlBaEVwVXlwMHBObG81UWEzN0h1TEw0NmItOGE2SjNPNTl2WUtoQzZ1MFNxSngwLXhXdGtxUmZHRVNUODdSeGJUbkZHREVNdWh3Q3ZobzR6TlhUd0FRdUUw?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-10-12T21:32:00.000Z"
+      },
+      {
+        "title": "Where the US midterm elections will be won and lost",
+        "url": "https://www.bbc.co.uk/news/articles/cr20wlp09gn3o?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC News",
+        "publishedAt": "2026-10-13T05:02:44.000Z"
       }
     ],
-    "562802": [],
+    "562802": [
+      {
+        "title": "Where the US midterm elections will be won and lost",
+        "url": "https://www.bbc.co.uk/news/articles/cr20wlp09gn3o?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC News",
+        "publishedAt": "2026-10-13T05:02:44.000Z"
+      }
+    ],
     "630692": [],
     "630733": [],
     "630772": [
