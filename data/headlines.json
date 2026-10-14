@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T15:29:33.237Z",
+  "updatedAt": "2026-10-14T19:41:23.366Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -16,10 +16,10 @@
         "publishedAt": "2026-10-12T21:32:00.000Z"
       },
       {
-        "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near - AP News",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHFWOXRoc2RvT291ZElaYW5MOWYyZ01rX1I3N093NGJ4bGNxRU1JS2tLS2J5TjhHNk9WQWNfY0xyMnZvbkdoa0N1LWs2OWlGQ19tc1pCZkdJUG5qTl9mMnJJOVE4cXM3V3YweDVGRG1RNnFPeDE0U1F4NW43TjVpNzNRMVRGZkxGOXh5a25EUm1QQTdBT0YwYk5INHByWl9ILXNBQU5R?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-14T14:49:00.000Z"
+        "title": "Higher Energy Prices Pushed U.S. Inflation Up to 3.7% Ahead of Midterm Elections",
+        "url": "https://www.nytimes.com/2026/10/14/business/economy/inflation-cpi.html",
+        "outlet": "NYT HomePage",
+        "publishedAt": "2026-10-14T18:54:07.000Z"
       }
     ],
     "562802": [
@@ -30,16 +30,16 @@
         "publishedAt": "2026-10-13T05:02:44.000Z"
       },
       {
+        "title": "Higher Energy Prices Pushed U.S. Inflation Up to 3.7% Ahead of Midterm Elections",
+        "url": "https://www.nytimes.com/2026/10/14/business/economy/inflation-cpi.html",
+        "outlet": "NYT HomePage",
+        "publishedAt": "2026-10-14T18:54:07.000Z"
+      },
+      {
         "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near - AP News",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHFWOXRoc2RvT291ZElaYW5MOWYyZ01rX1I3N093NGJ4bGNxRU1JS2tLS2J5TjhHNk9WQWNfY0xyMnZvbkdoa0N1LWs2OWlGQ19tc1pCZkdJUG5qTl9mMnJJOVE4cXM3V3YweDVGRG1RNnFPeDE0U1F4NW43TjVpNzNRMVRGZkxGOXh5a25EUm1QQTdBT0YwYk5INHByWl9ILXNBQU5R?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-14T14:49:00.000Z"
-      },
-      {
-        "title": "House Democrats plan a first 100-days agenda if they sweep to power in midterm elections - AP News",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMF9PdUhBMkM5MkF2Vmh0QzVvNWx5LWdXV3VZaWF1ZllSc2Rjdk5zZm1wN0EyWnRwNkN3R2dIYmdFLUU3Q0NrY2NFQWkxZkk0aUx5blU4RksyNlJpSVRiaWUwUVNnY1FZQTl3NVRwQngtMFYzNm5nOThQWktfYWc4MmZjRE82eFhoSEZyYXVFaUJrZ2xVNkZIWlFmZl80ajRLNl8xOG9SWWpBZFhpNTZFVmRB?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-14T04:14:00.000Z"
+        "publishedAt": "2026-10-14T15:54:00.000Z"
       }
     ],
     "630692": [
@@ -47,7 +47,13 @@
         "title": "7 Takeaways From the Second Georgia Senate Debate",
         "url": "https://www.nytimes.com/2026/10/13/us/politics/georgia-senate-debate-ossoff-collins.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-10-14T03:58:16.000Z"
+        "publishedAt": "2026-10-14T18:37:05.000Z"
+      },
+      {
+        "title": "Jon Ossoff Says He Won’t Run for President in 2028 in Georgia Senate Debate",
+        "url": "https://www.nytimes.com/2026/10/14/us/politics/jon-ossoff-georgia-senate-term-president.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-14T15:57:50.000Z"
       }
     ],
     "630733": [],
