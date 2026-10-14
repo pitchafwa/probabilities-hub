@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T00:36:34.650Z",
+  "updatedAt": "2026-10-14T05:24:52.291Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -36,16 +36,42 @@
         "publishedAt": "2026-10-13T16:38:26.000Z"
       }
     ],
-    "630692": [],
-    "630733": [
+    "630692": [
       {
-        "title": "Watch live: Hinson, Turek set for rematch in Nexstar's Iowa Senate debate",
-        "url": "https://thehill.com/video-clips/6146008-watch-live-hinson-turek-nexstar-iowa-senate-debate/",
+        "title": "7 Takeaways From the Second Georgia Senate Debate",
+        "url": "https://www.nytimes.com/2026/10/13/us/politics/georgia-senate-debate-ossoff-collins.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-14T03:58:16.000Z"
+      },
+      {
+        "title": "Ossoff, Collins clash in second Georgia Senate debate: 4 takeaways",
+        "url": "https://thehill.com/homenews/campaign/6146910-ossoff-collins-second-georgia-senate-debate-takeaways/",
         "outlet": "The Hill",
-        "publishedAt": "2026-10-13T22:00:00.000Z"
+        "publishedAt": "2026-10-14T02:25:08.000Z"
       }
     ],
-    "630772": [],
+    "630733": [
+      {
+        "title": "Hinson, Turek tangle in fierce final Iowa Senate debate",
+        "url": "https://thehill.com/homenews/campaign/6147065-hinson-turek-iowa-senate-debate/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-14T04:37:41.000Z"
+      }
+    ],
+    "630772": [
+      {
+        "title": "5 Takeaways From a Heated and Personal Maine Senate Debate",
+        "url": "https://www.nytimes.com/2026/10/13/us/politics/maine-senate-debate-collins-jackson.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-14T03:59:46.000Z"
+      },
+      {
+        "title": "Collins, Jackson duke it out in third Maine Senate debate: 3 takeaways",
+        "url": "https://thehill.com/homenews/campaign/6146875-collins-jackson-third-maine-senate-debate-takeaways/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-14T02:09:58.000Z"
+      }
+    ],
     "630805": [],
     "630883": [
       {
