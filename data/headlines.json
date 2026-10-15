@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-15T12:07:06.259Z",
+  "updatedAt": "2026-10-15T17:10:31.769Z",
   "byMarket": {
     "559653": [],
     "562793": [
+      {
+        "title": "How backlash against data centres could shape the US midterm elections",
+        "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC US & Canada",
+        "publishedAt": "2026-10-14T23:02:57.000Z"
+      },
       {
         "title": "Where the US midterm elections will be won and lost",
         "url": "https://www.bbc.co.uk/news/articles/cr20wlp09gn3o?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-10-13T05:02:44.000Z"
-      },
-      {
-        "title": "How backlash against data centres could shape the US midterm elections",
-        "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC News",
-        "publishedAt": "2026-10-14T23:02:57.000Z"
       },
       {
         "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near - AP News",
@@ -24,16 +24,16 @@
     ],
     "562802": [
       {
+        "title": "How backlash against data centres could shape the US midterm elections",
+        "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC US & Canada",
+        "publishedAt": "2026-10-14T23:02:57.000Z"
+      },
+      {
         "title": "Where the US midterm elections will be won and lost",
         "url": "https://www.bbc.co.uk/news/articles/cr20wlp09gn3o?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-10-13T05:02:44.000Z"
-      },
-      {
-        "title": "How backlash against data centres could shape the US midterm elections",
-        "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC News",
-        "publishedAt": "2026-10-14T23:02:57.000Z"
       },
       {
         "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near - AP News",
@@ -42,26 +42,19 @@
         "publishedAt": "2026-10-14T15:54:00.000Z"
       }
     ],
-    "630692": [
-      {
-        "title": "Jon Ossoff Says He Won’t Run for President in 2028 in Georgia Senate Debate",
-        "url": "https://www.nytimes.com/2026/10/14/us/politics/jon-ossoff-georgia-senate-term-president.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-14T15:57:50.000Z"
-      }
-    ],
+    "630692": [],
     "630733": [],
     "630772": [],
     "630805": [],
-    "630883": [
+    "630883": [],
+    "630963": [
       {
-        "title": "David Plouffe warns Dems: Don’t take North Carolina for granted",
-        "url": "https://www.politico.com/news/2026/10/10/david-plouffe-dems-north-carolina-01115652",
-        "outlet": "Politico",
-        "publishedAt": "2026-10-10T13:00:00.000Z"
+        "title": "James Talarico Raises Quarterly Record of $64 Million in Texas Senate Race Against Ken Paxton",
+        "url": "https://www.nytimes.com/2026/10/15/us/politics/james-talarico-fundraising-texas-senate.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-15T15:42:09.000Z"
       }
     ],
-    "630963": [],
     "631044": [],
     "631057": [],
     "634976": [],
