@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T19:42:02.390Z",
+  "updatedAt": "2026-10-16T22:43:45.845Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -32,13 +32,26 @@
     ],
     "630692": [],
     "630733": [],
-    "630772": [],
+    "630772": [
+      {
+        "title": "Troy Jackson tells Susan Collins to ‘shut up’ during heated Maine Senate debate - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQODRWSzl0TTA3b2pHeXEzQmRVTnpvWG1va2EwTEo1WXdINTFVWWZLSGMtNThHU081NWVWeGw5SHI1OHlDelY4RWtUb19OV0xhNkFpZk5qTXN3SlRDeEs5SWk5bVpjWkg3YTVVYVlnM2lvWVlzMUdiZENQczZCTHQybVc3Q1RrS0gzOGZERTFVdGpEdG9WTXNKWFI5ZkNJcXVWdzhvQXZ3QXY5QQ?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-16T02:56:00.000Z"
+      }
+    ],
     "630805": [
+      {
+        "title": "AOC transfers $1M to El-Sayed in final push for Michigan senate race",
+        "url": "https://thehill.com/homenews/6154613-aoc-transfers-1m-to-el-sayed-in-final-push-for-michigan-senate-race-yt/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-16T22:00:00.000Z"
+      },
       {
         "title": "Ocasio-Cortez Transfers $1 Million to Help El-Sayed in Michigan Senate Race",
         "url": "https://www.nytimes.com/2026/10/16/us/politics/aoc-el-sayed-million-transfer-midterms.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-10-16T19:13:21.000Z"
+        "publishedAt": "2026-10-16T20:21:49.000Z"
       },
       {
         "title": "In Michigan Senate Race, Ocasio-Cortez Joins El-Sayed on Trail in Trump Country",
