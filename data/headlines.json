@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T11:54:13.292Z",
+  "updatedAt": "2026-10-16T16:28:48.158Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -14,12 +14,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cr20wlp09gn3o?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-10-13T05:02:44.000Z"
-      },
-      {
-        "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near - AP News",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHFWOXRoc2RvT291ZElaYW5MOWYyZ01rX1I3N093NGJ4bGNxRU1JS2tLS2J5TjhHNk9WQWNfY0xyMnZvbkdoa0N1LWs2OWlGQ19tc1pCZkdJUG5qTl9mMnJJOVE4cXM3V3YweDVGRG1RNnFPeDE0U1F4NW43TjVpNzNRMVRGZkxGOXh5a25EUm1QQTdBT0YwYk5INHByWl9ILXNBQU5R?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-14T15:54:00.000Z"
       }
     ],
     "562802": [
@@ -34,50 +28,37 @@
         "url": "https://www.bbc.co.uk/news/articles/cr20wlp09gn3o?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-10-13T05:02:44.000Z"
-      },
-      {
-        "title": "Inflation worsened last month to 3.7% in sign that prices remain elevated as midterm elections near - AP News",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdHFWOXRoc2RvT291ZElaYW5MOWYyZ01rX1I3N093NGJ4bGNxRU1JS2tLS2J5TjhHNk9WQWNfY0xyMnZvbkdoa0N1LWs2OWlGQ19tc1pCZkdJUG5qTl9mMnJJOVE4cXM3V3YweDVGRG1RNnFPeDE0U1F4NW43TjVpNzNRMVRGZkxGOXh5a25EUm1QQTdBT0YwYk5INHByWl9ILXNBQU5R?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-14T15:54:00.000Z"
       }
     ],
     "630692": [],
     "630733": [],
-    "630772": [
-      {
-        "title": "Troy Jackson tells Susan Collins to 'shut up' during Maine Senate debate",
-        "url": "https://thehill.com/homenews/campaign/6153163-troy-jackson-susan-collins-heated-debate-maine-senate-race/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-16T11:53:56.000Z"
-      },
-      {
-        "title": "Collins, Jackson trade jabs in final Maine Senate debate: 3 takeaways",
-        "url": "https://thehill.com/homenews/campaign/6152820-susan-collins-troy-jackson-debate-takeaways/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-16T01:08:02.000Z"
-      }
-    ],
+    "630772": [],
     "630805": [
       {
         "title": "In Michigan Senate Race, Ocasio-Cortez Joins El-Sayed on Trail in Trump Country",
         "url": "https://www.nytimes.com/2026/10/15/us/politics/ocasio-cortez-el-sayed-michigan-vance-trump-senate.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-10-16T03:16:51.000Z"
+        "publishedAt": "2026-10-16T16:19:33.000Z"
+      },
+      {
+        "title": "Ocasio-Cortez Transfers $1 Million to Help El-Sayed in Michigan Senate Race",
+        "url": "https://www.nytimes.com/2026/10/16/us/politics/aoc-el-sayed-million-transfer-midterms.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-16T14:32:40.000Z"
       }
     ],
     "630883": [],
-    "630963": [
-      {
-        "title": "James Talarico Raises Quarterly Record of $64 Million in Texas Senate Race Against Ken Paxton",
-        "url": "https://www.nytimes.com/2026/10/15/us/politics/james-talarico-fundraising-texas-senate.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-15T15:42:09.000Z"
-      }
-    ],
+    "630963": [],
     "631044": [],
     "631057": [],
-    "634976": [],
+    "634976": [
+      {
+        "title": "Peltola, Sullivan spar in fiery final Alaska Senate debate: ‘Let’s have some decorum’",
+        "url": "https://thehill.com/homenews/campaign/6153803-peltola-sullivan-final-alaska-senate-debate/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-16T14:46:59.000Z"
+      }
+    ],
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
