@@ -1,50 +1,57 @@
 {
-  "updatedAt": "2026-10-18T18:33:25.367Z",
+  "updatedAt": "2026-10-18T21:02:14.016Z",
   "byMarket": {
     "559653": [],
     "562793": [
+      {
+        "title": "Mulvaney predicts Wiles is in a 'powerful place' in the White House but will leave after midterms",
+        "url": "https://thehill.com/homenews/administration/6156830-mulvaney-expects-wiles-departure/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-18T19:49:47.000Z"
+      },
+      {
+        "title": "2028 Presidential ‘Shadow Primary’ Descends on the Midterm Elections",
+        "url": "https://www.nytimes.com/2026/10/18/us/politics/midterms-2028-presidential-race-democrats-republicans.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-18T19:47:09.000Z"
+      },
       {
         "title": "Pro-Western opposition keeps control of Czech Senate after big election gains - AP News",
         "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd2RSWG9nUmh5Q3FwOUx3S25PdWxCMTMtN1JERDFPSkFqOU5hOUhnQWUzTzBTLUd2cGNOUGJ0XzRKMVByNEtnUllTcHNhVF9LU21odmpnTm42Q0gyMkJWX1pSU0VXWnM0UFdVZjl5UVlhN1JzSDY3T3oyYy1PS24wVm1zOWFxdkJtREV3VTk0X0JyaEpfZUR1QTRPM00?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-10-17T16:58:00.000Z"
-      },
-      {
-        "title": "Where the US midterm elections will be won and lost",
-        "url": "https://www.bbc.co.uk/news/articles/cr20wlp09gn3o?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC US & Canada",
-        "publishedAt": "2026-10-16T18:41:54.000Z"
-      },
-      {
-        "title": "How backlash against data centres could shape the US midterm elections",
-        "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC US & Canada",
-        "publishedAt": "2026-10-14T23:02:57.000Z"
       }
     ],
     "562802": [
       {
+        "title": "Mulvaney predicts Wiles is in a 'powerful place' in the White House but will leave after midterms",
+        "url": "https://thehill.com/homenews/administration/6156830-mulvaney-expects-wiles-departure/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-18T19:49:47.000Z"
+      },
+      {
+        "title": "2028 Presidential ‘Shadow Primary’ Descends on the Midterm Elections",
+        "url": "https://www.nytimes.com/2026/10/18/us/politics/midterms-2028-presidential-race-democrats-republicans.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-18T19:47:09.000Z"
+      },
+      {
         "title": "Where the US midterm elections will be won and lost",
         "url": "https://www.bbc.co.uk/news/articles/cr20wlp09gn3o?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-10-16T18:41:54.000Z"
-      },
-      {
-        "title": "How backlash against data centres could shape the US midterm elections",
-        "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC US & Canada",
-        "publishedAt": "2026-10-14T23:02:57.000Z"
-      },
-      {
-        "title": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections - AP News",
-        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHB4YWgwWHRUS2RUWDd2V0hFVXF3dGVuRk5xRmR4MUtaVHVGaVhoWUVLZ2lIUGFjbkY1Zm5raXQzekI5QWZ1UUhEZ3QxV29QX3dtSDhmeDM4QmJMTzNDOGpucDFsZUMwRm9idGdFSW45NEUzb1BPSXpEWUZwanlFZzFRaWpwMl9WQmtMR2kxUlMzVkU?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-17T21:54:00.000Z"
       }
     ],
     "630692": [],
     "630733": [],
-    "630772": [],
+    "630772": [
+      {
+        "title": "Jackson doesn't regret telling Collins to 'shut up' after protester interrupted Maine Senate debate - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZDVDbkNPRzBydjVKSWJHS0hXNFkyUXJLUFRYLTRNMnNkdGJmaWxoZ2UxdTdQbEcyNkxFa0hwNnlsNHpxRW9lM1F4UTJFTjJ6UV8tSmdwRzBfRTlOeXdTYnYwdXlrTkZXME8xdVoxei1peC1tNTVwLUNnc3lMbUdIWmlHYTNuNzhmaEpEajdoYUFrWFdwdmlEVVBGM3U2MEVDNzBGdXZR?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-18T17:24:00.000Z"
+      }
+    ],
     "630805": [
       {
         "title": "A bitter Michigan Senate race rattles Jewish and Muslim voters already on edge over the war in Gaza - AP News",
@@ -58,7 +65,7 @@
         "title": "Roy Cooper's North Carolina playbook is working. Can other Democrats copy it? - Reuters",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSXVOM1JwQnJBTlRESW5tSjFSVERkbnRrNDBlSkx2bEJ6UENYaVVpNEpnbTlLaGdncWp1dkNZTE5yUjJZZVBtd3BNUHN2WElaeXRZdnJrOFFCS2dSc2RPRUF6WmJwNWRTRFBFVWUtcXRHYklNSXc5T3lzY0pkWW95M3YtcnY2ak5hMkxJUEJWV0lLcFY5Vlk3RDlxaGJ6dndraGtwMW4xN2xYX29Sc2E0YnREZWZXa2wwbUhhc3BPMjlZSjM1NHc?oc=5",
         "outlet": "Reuters (Google News)",
-        "publishedAt": "2026-10-18T12:46:22.000Z"
+        "publishedAt": "2026-10-18T19:56:05.000Z"
       }
     ],
     "630963": [],
