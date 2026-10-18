@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T11:43:12.355Z",
+  "updatedAt": "2026-10-18T15:44:19.399Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -34,6 +34,12 @@
         "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-10-14T23:02:57.000Z"
+      },
+      {
+        "title": "Trump touts his power at Kentucky rally to energize voters ahead of midterm elections - AP News",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdHB4YWgwWHRUS2RUWDd2V0hFVXF3dGVuRk5xRmR4MUtaVHVGaVhoWUVLZ2lIUGFjbkY1Zm5raXQzekI5QWZ1UUhEZ3QxV29QX3dtSDhmeDM4QmJMTzNDOGpucDFsZUMwRm9idGdFSW45NEUzb1BPSXpEWUZwanlFZzFRaWpwMl9WQmtMR2kxUlMzVkU?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-17T21:54:00.000Z"
       }
     ],
     "630692": [],
@@ -47,7 +53,14 @@
         "publishedAt": "2026-10-17T16:06:00.000Z"
       }
     ],
-    "630883": [],
+    "630883": [
+      {
+        "title": "Roy Cooper's North Carolina playbook is working. Can other Democrats copy it? - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSXVOM1JwQnJBTlRESW5tSjFSVERkbnRrNDBlSkx2bEJ6UENYaVVpNEpnbTlLaGdncWp1dkNZTE5yUjJZZVBtd3BNUHN2WElaeXRZdnJrOFFCS2dSc2RPRUF6WmJwNWRTRFBFVWUtcXRHYklNSXc5T3lzY0pkWW95M3YtcnY2ak5hMkxJUEJWV0lLcFY5Vlk3RDlxaGJ6dndraGtwMW4xN2xYX29Sc2E0YnREZWZXa2wwbUhhc3BPMjlZSjM1NHc?oc=5",
+        "outlet": "Reuters (Google News)",
+        "publishedAt": "2026-10-18T12:46:22.000Z"
+      }
+    ],
     "630963": [],
     "631044": [],
     "631057": [],
@@ -55,6 +68,13 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": []
+    "event:315364": [
+      {
+        "title": "College football winners, losers in Week 7: BYU is the toast of historic weekend, Texas has a Sark problem",
+        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-in-week-7-byu-is-the-toast-of-historic-weekend-texas-has-a-sark-problem/",
+        "outlet": "CBS Sports",
+        "publishedAt": "2026-10-18T13:36:00.000Z"
+      }
+    ]
   }
 }
