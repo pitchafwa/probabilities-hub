@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T15:44:19.399Z",
+  "updatedAt": "2026-10-18T18:33:25.367Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -16,10 +16,10 @@
         "publishedAt": "2026-10-16T18:41:54.000Z"
       },
       {
-        "title": "FACT FOCUS: Posts falsely claim Democratic Senate candidate James Talarico was at a mental facility - AP News",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZkJYTU1GREtZZmxqVHBTOElVMEFkclFicnExNWhtd3AtOW5ySzNWa0YtVHF2bmhKZm9vOG41LWRMSERKRjVISW1CdTlBaEVwVXlwMHBObG81UWEzN0h1TEw0NmItOGE2SjNPNTl2WUtoQzZ1MFNxSngwLXhXdGtxUmZHRVNUODdSeGJUbkZHREVNdWh3Q3ZobzR6TlhUd0FRdUUw?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-16T16:21:16.000Z"
+        "title": "How backlash against data centres could shape the US midterm elections",
+        "url": "https://www.bbc.co.uk/news/articles/c0rezqpnekro?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC US & Canada",
+        "publishedAt": "2026-10-14T23:02:57.000Z"
       }
     ],
     "562802": [
@@ -68,13 +68,6 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": [
-      {
-        "title": "College football winners, losers in Week 7: BYU is the toast of historic weekend, Texas has a Sark problem",
-        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-in-week-7-byu-is-the-toast-of-historic-weekend-texas-has-a-sark-problem/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-10-18T13:36:00.000Z"
-      }
-    ]
+    "event:315364": []
   }
 }
