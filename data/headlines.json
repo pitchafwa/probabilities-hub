@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T21:02:14.016Z",
+  "updatedAt": "2026-10-18T23:22:37.715Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -54,6 +54,12 @@
     ],
     "630805": [
       {
+        "title": "This Week on the Hill: Michigan Senate debate, Trump rallies and Obama hits the trail",
+        "url": "https://thehill.com/newsletters/this-week-on-the-hill/6155364-trump-obama-midterm-election-rallies-debates/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-18T21:00:00.000Z"
+      },
+      {
         "title": "A bitter Michigan Senate race rattles Jewish and Muslim voters already on edge over the war in Gaza - AP News",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdDc3TmplVHhQU05mQkZtU2d0QnhQWjhWMWcyNDY2Q0U3T2dlY3Z1cnR1eTA0Z0VhRVp2MDBkUVJfcW1Db1YzUTdpanBRVnFaYU96ZFVwMzJMQ1daYXRVbUVsYzJQblFwYUk2UVlXVzI0NmowcmdUQkhYby03RWhzaWlXV2JsUzZaVzM3OEY2aTFubWNLdzI5ckM3bWV2bzVFWXR2VUJB?oc=5",
         "outlet": "AP (Google News)",
@@ -66,6 +72,12 @@
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSXVOM1JwQnJBTlRESW5tSjFSVERkbnRrNDBlSkx2bEJ6UENYaVVpNEpnbTlLaGdncWp1dkNZTE5yUjJZZVBtd3BNUHN2WElaeXRZdnJrOFFCS2dSc2RPRUF6WmJwNWRTRFBFVWUtcXRHYklNSXc5T3lzY0pkWW95M3YtcnY2ak5hMkxJUEJWV0lLcFY5Vlk3RDlxaGJ6dndraGtwMW4xN2xYX29Sc2E0YnREZWZXa2wwbUhhc3BPMjlZSjM1NHc?oc=5",
         "outlet": "Reuters (Google News)",
         "publishedAt": "2026-10-18T19:56:05.000Z"
+      },
+      {
+        "title": "McGill’s late TD lifts North Carolina past Duke 24-20 - AP News",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQclBaMzF6ZHdEUkh3eHRmU09KREpIclNqVW43UXlYc0RpTUNld1N5Y3lPQnBCNGlGWXFIbDcyZ0xXVk5MRlVEZDFUbW9ZeVVrblQ4SGh5bTF5ejVOUnlrQmN5RmxjMTJmdlVVdmMyd1BqdWVFTjJ2cGhkbU9RU2dJenNQNWpRSHM5aHVtTUNoNFp0MzRmOUduYWVR?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-18T00:56:00.000Z"
       }
     ],
     "630963": [],
