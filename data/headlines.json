@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-10-19T07:36:32.092Z",
+  "updatedAt": "2026-10-19T14:58:51.227Z",
   "byMarket": {
     "559653": [],
     "562793": [
       {
-        "title": "Mulvaney predicts Wiles is in a 'powerful place' in the White House but will leave after midterms",
-        "url": "https://thehill.com/homenews/administration/6156830-mulvaney-expects-wiles-departure/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-18T19:49:47.000Z"
+        "title": "Midterm Elections: Who Is Winning the Race for Congress?",
+        "url": "https://www.nytimes.com/2026/10/19/us/politics/midterms-elections-senate-house-congress.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-19T12:36:33.000Z"
       },
       {
         "title": "2028 Presidential ‘Shadow Primary’ Descends on the Midterm Elections",
@@ -24,10 +24,10 @@
     ],
     "562802": [
       {
-        "title": "Mulvaney predicts Wiles is in a 'powerful place' in the White House but will leave after midterms",
-        "url": "https://thehill.com/homenews/administration/6156830-mulvaney-expects-wiles-departure/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-18T19:49:47.000Z"
+        "title": "Midterm Elections: Who Is Winning the Race for Congress?",
+        "url": "https://www.nytimes.com/2026/10/19/us/politics/midterms-elections-senate-house-congress.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-19T12:36:33.000Z"
       },
       {
         "title": "2028 Presidential ‘Shadow Primary’ Descends on the Midterm Elections",
@@ -36,10 +36,10 @@
         "publishedAt": "2026-10-19T04:04:39.000Z"
       },
       {
-        "title": "Where the US midterm elections will be won and lost",
-        "url": "https://www.bbc.co.uk/news/articles/cr20wlp09gn3o?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC US & Canada",
-        "publishedAt": "2026-10-16T18:41:54.000Z"
+        "title": "What you need to know about the 2026 US midterm elections - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQb25zakJSUXdaWnMxY0VpS2s4X2tGOGdVNGZwdHYzUGpzUVVhZzNsNjc5SUZ2aFRLUFhPbGNLYWE5dEtDN3piWl9MS1RibnFGcFlnNm00OWlZeWxZeVh2WnFyWDhfdE9yWDJtTGdsWFFYSk1lVWtQNGRMOWFtaHV2WkthSExabUNLeFRHaThYRWYwUTRpd1l5YVhhbw?oc=5",
+        "outlet": "Reuters (Google News)",
+        "publishedAt": "2026-10-19T09:03:55.000Z"
       }
     ],
     "630692": [],
@@ -54,32 +54,13 @@
     ],
     "630805": [
       {
-        "title": "This Week on the Hill: Michigan Senate debate, Trump rallies and Obama hits the trail",
-        "url": "https://thehill.com/newsletters/this-week-on-the-hill/6155364-trump-obama-midterm-election-rallies-debates/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-18T21:00:00.000Z"
-      },
-      {
         "title": "A bitter Michigan Senate race rattles Jewish and Muslim voters already on edge over the war in Gaza - AP News",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdDc3TmplVHhQU05mQkZtU2d0QnhQWjhWMWcyNDY2Q0U3T2dlY3Z1cnR1eTA0Z0VhRVp2MDBkUVJfcW1Db1YzUTdpanBRVnFaYU96ZFVwMzJMQ1daYXRVbUVsYzJQblFwYUk2UVlXVzI0NmowcmdUQkhYby03RWhzaWlXV2JsUzZaVzM3OEY2aTFubWNLdzI5ckM3bWV2bzVFWXR2VUJB?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-10-17T16:06:00.000Z"
       }
     ],
-    "630883": [
-      {
-        "title": "Roy Cooper's North Carolina playbook is working. Can other Democrats copy it? - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSXVOM1JwQnJBTlRESW5tSjFSVERkbnRrNDBlSkx2bEJ6UENYaVVpNEpnbTlLaGdncWp1dkNZTE5yUjJZZVBtd3BNUHN2WElaeXRZdnJrOFFCS2dSc2RPRUF6WmJwNWRTRFBFVWUtcXRHYklNSXc5T3lzY0pkWW95M3YtcnY2ak5hMkxJUEJWV0lLcFY5Vlk3RDlxaGJ6dndraGtwMW4xN2xYX29Sc2E0YnREZWZXa2wwbUhhc3BPMjlZSjM1NHc?oc=5",
-        "outlet": "Reuters (Google News)",
-        "publishedAt": "2026-10-18T10:03:00.000Z"
-      },
-      {
-        "title": "McGill’s late TD lifts North Carolina past Duke 24-20 - AP News",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQclBaMzF6ZHdEUkh3eHRmU09KREpIclNqVW43UXlYc0RpTUNld1N5Y3lPQnBCNGlGWXFIbDcyZ0xXVk5MRlVEZDFUbW9ZeVVrblQ4SGh5bTF5ejVOUnlrQmN5RmxjMTJmdlVVdmMyd1BqdWVFTjJ2cGhkbU9RU2dJenNQNWpRSHM5aHVtTUNoNFp0MzRmOUduYWVR?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-18T00:56:00.000Z"
-      }
-    ],
+    "630883": [],
     "630963": [],
     "631044": [],
     "631057": [],
