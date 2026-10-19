@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T20:31:58.113Z",
+  "updatedAt": "2026-10-19T23:55:46.948Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -8,12 +8,6 @@
         "url": "https://www.nytimes.com/2026/10/19/us/politics/midterms-elections-senate-house-congress.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-19T16:29:53.000Z"
-      },
-      {
-        "title": "2028 Presidential ‘Shadow Primary’ Descends on the Midterm Elections",
-        "url": "https://www.nytimes.com/2026/10/18/us/politics/midterms-2028-presidential-race-democrats-republicans.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-19T04:04:39.000Z"
       },
       {
         "title": "What you need to know about the 2026 US midterm elections - Reuters",
@@ -28,12 +22,6 @@
         "url": "https://www.nytimes.com/2026/10/19/us/politics/midterms-elections-senate-house-congress.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-19T16:29:53.000Z"
-      },
-      {
-        "title": "2028 Presidential ‘Shadow Primary’ Descends on the Midterm Elections",
-        "url": "https://www.nytimes.com/2026/10/18/us/politics/midterms-2028-presidential-race-democrats-republicans.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-19T04:04:39.000Z"
       },
       {
         "title": "What you need to know about the 2026 US midterm elections - Reuters",
@@ -53,14 +41,7 @@
       }
     ],
     "630805": [],
-    "630883": [
-      {
-        "title": "Indiana shows size in rout of North Carolina, Quinn Ellis stars for St. John's lead top exhibition takeaways",
-        "url": "https://www.cbssports.com/college-basketball/news/indiana-shows-size-in-rout-of-north-carolina-quinn-ellis-stars-for-st-johns-lead-top-exhibition-takeaways/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-10-19T18:29:55.000Z"
-      }
-    ],
+    "630883": [],
     "630963": [],
     "631044": [],
     "631057": [],
