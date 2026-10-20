@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T18:43:47.591Z",
+  "updatedAt": "2026-10-20T22:11:53.102Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -14,6 +14,12 @@
         "url": "https://www.nytimes.com/2026/10/20/us/politics/iran-trump-midterm-elections.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-20T09:01:54.000Z"
+      },
+      {
+        "title": "Explainer: Three issues defining the 2026 US midterm elections - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLWRpTF93cTF0cl9YYWU4bDBNcHRtSmlaR21FemFtZ3BFZkFOWng3NjhtTHhQNWhtSnRUbm5TZTNld3ZUTmxWSDFRVXRzQTNHUElfU0pibVAtQWxPc3NIcjNjWkVnNG5kb24tN0NvU0VCbDl4OFpxRjc3VC1pTlRXb2hrbkVpaGJjRTFSS1p3TTdSclhVX2NF?oc=5",
+        "outlet": "Reuters (Google News)",
+        "publishedAt": "2026-10-20T19:13:32.000Z"
       }
     ],
     "562802": [
@@ -28,14 +34,41 @@
         "url": "https://www.nytimes.com/2026/10/20/us/politics/iran-trump-midterm-elections.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-20T09:01:54.000Z"
+      },
+      {
+        "title": "Explainer: Three issues defining the 2026 US midterm elections - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLWRpTF93cTF0cl9YYWU4bDBNcHRtSmlaR21FemFtZ3BFZkFOWng3NjhtTHhQNWhtSnRUbm5TZTNld3ZUTmxWSDFRVXRzQTNHUElfU0pibVAtQWxPc3NIcjNjWkVnNG5kb24tN0NvU0VCbDl4OFpxRjc3VC1pTlRXb2hrbkVpaGJjRTFSS1p3TTdSclhVX2NF?oc=5",
+        "outlet": "Reuters (Google News)",
+        "publishedAt": "2026-10-20T19:13:32.000Z"
       }
     ],
     "630692": [],
-    "630733": [],
+    "630733": [
+      {
+        "title": "Republican Women Hail Working-Mom Credentials to Boost Hinson in Iowa Senate Race",
+        "url": "https://www.nytimes.com/2026/10/20/us/politics/republican-women-iowa-senate-race.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-20T20:42:40.000Z"
+      }
+    ],
     "630772": [],
     "630805": [],
-    "630883": [],
-    "630963": [],
+    "630883": [
+      {
+        "title": "North Carolina mail-in ballot restrictions to remain through midterms, judge rules",
+        "url": "https://thehill.com/homenews/state-watch/6161350-judge-upholds-nc-mailballot-rules/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-20T21:39:12.000Z"
+      }
+    ],
+    "630963": [
+      {
+        "title": "Musk endorses Paxton in Texas Senate race",
+        "url": "https://thehill.com/homenews/campaign/6161202-musk-endorses-paxton-in-texas-senate-race/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-20T21:23:40.000Z"
+      }
+    ],
     "631044": [],
     "631057": [],
     "634976": [],
