@@ -1,8 +1,14 @@
 {
-  "updatedAt": "2026-10-23T05:22:20.174Z",
+  "updatedAt": "2026-10-23T10:30:24.891Z",
   "byMarket": {
     "559653": [],
     "562793": [
+      {
+        "title": "Most Voters Believe the Midterm Elections Will Be Accurate, Poll Finds",
+        "url": "https://www.nytimes.com/2026/10/23/us/politics/election-integrity-trust-poll.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-23T09:03:11.000Z"
+      },
       {
         "title": "Key Trump Health Adviser Resigns Ahead of Midterm Elections",
         "url": "https://www.nytimes.com/2026/10/22/us/politics/calley-means-resigns-rfk-trump.html",
@@ -11,6 +17,12 @@
       }
     ],
     "562802": [
+      {
+        "title": "Most Voters Believe the Midterm Elections Will Be Accurate, Poll Finds",
+        "url": "https://www.nytimes.com/2026/10/23/us/politics/election-integrity-trust-poll.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-23T09:03:11.000Z"
+      },
       {
         "title": "Key Trump Health Adviser Resigns Ahead of Midterm Elections",
         "url": "https://www.nytimes.com/2026/10/22/us/politics/calley-means-resigns-rfk-trump.html",
@@ -27,6 +39,12 @@
         "url": "https://www.nytimes.com/2026/10/21/us/politics/michigan-senate-debate-takeaways-el-sayed-rogers.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-22T08:03:32.000Z"
+      },
+      {
+        "title": "The Michigan Senate Race Keeps Getting Nastier",
+        "url": "https://www.nytimes.com/2026/10/23/us/rogers-michigan-republican-senate.html",
+        "outlet": "NYT HomePage",
+        "publishedAt": "2026-10-23T10:22:31.000Z"
       }
     ],
     "630883": [],
