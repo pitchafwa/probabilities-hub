@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T21:45:13.439Z",
+  "updatedAt": "2026-10-23T00:30:35.007Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -13,7 +13,7 @@
         "title": "Key Trump Health Adviser Resigns Ahead of Midterm Elections",
         "url": "https://www.nytimes.com/2026/10/22/us/politics/calley-means-resigns-rfk-trump.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-10-22T20:45:27.000Z"
+        "publishedAt": "2026-10-22T23:33:19.000Z"
       }
     ],
     "562802": [
@@ -27,7 +27,7 @@
         "title": "Key Trump Health Adviser Resigns Ahead of Midterm Elections",
         "url": "https://www.nytimes.com/2026/10/22/us/politics/calley-means-resigns-rfk-trump.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-10-22T20:45:27.000Z"
+        "publishedAt": "2026-10-22T23:33:19.000Z"
       }
     ],
     "630692": [],
@@ -39,22 +39,9 @@
         "url": "https://www.nytimes.com/2026/10/21/us/politics/michigan-senate-debate-takeaways-el-sayed-rogers.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-22T08:03:32.000Z"
-      },
-      {
-        "title": "AIPAC Makes Last-Minute Donation to Boost Rogers in Michigan Senate Race Against El-Sayed",
-        "url": "https://www.nytimes.com/2026/10/21/us/politics/aipac-michigan-senate-rogers-donation.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-21T20:43:02.000Z"
       }
     ],
-    "630883": [
-      {
-        "title": "New Rules in North Carolina Threaten Thousands of Mail Ballots",
-        "url": "https://www.nytimes.com/2026/10/21/us/politics/north-carolina-senate-mail-ballot-rejections.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-21T23:11:59.000Z"
-      }
-    ],
+    "630883": [],
     "630963": [],
     "631044": [],
     "631057": [],
