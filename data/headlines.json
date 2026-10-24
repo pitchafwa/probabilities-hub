@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T14:40:12.454Z",
+  "updatedAt": "2026-10-24T18:01:22.820Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -30,16 +30,16 @@
         "publishedAt": "2026-10-24T09:03:03.000Z"
       },
       {
-        "title": "Fever clean house after failed season, but issues lie deeper than a front office refresh around Caitlin Clark",
-        "url": "https://www.cbssports.com/wnba/news/fever-front-office-caitlin-clark-fans/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-10-24T01:19:04.000Z"
-      },
-      {
         "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
         "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-10-24T00:36:47.000Z"
+      },
+      {
+        "title": "US consumer sentiment near record low ahead of midterm elections - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR05CVGk5UUlBVHZBTDJObFp0eHJZUlpOdGdnSkxWZUtQWWR5V1BvRkZIQTQwSGtoa21PTFNNUHFPbGpkSm05QXc5MXB0Q3VNWTBxd21hQmpSdDlhc1pHNkhMeWhLd2xpR21nQ2Rxa0d4Ym0yQ0Jtb2I1dWlMYlUzenFWVkVlNG9xbmxKUENEQjFzWnhFTFZLQkhCR2Fucmd0ZUhCU0ttQ2xXUQ?oc=5",
+        "outlet": "Reuters (Google News)",
+        "publishedAt": "2026-10-23T15:48:17.000Z"
       }
     ],
     "630692": [],
@@ -54,14 +54,8 @@
       {
         "title": "Trump Officials Seek Block on Alaska Senate Race Results if the Republican Dan Sullivan Loses",
         "url": "https://www.nytimes.com/2026/10/23/us/politics/justice-dept-alaska-senate-race-sullivan.html",
-        "outlet": "NYT Politics",
+        "outlet": "NYT HomePage",
         "publishedAt": "2026-10-24T02:15:51.000Z"
-      },
-      {
-        "title": "Peltola calls Alaska lawsuit a 'desperate attempt' for GOP to 'cling to power'",
-        "url": "https://thehill.com/blogs/ballot-box/6169725-peltola-slams-alaska-doj-lawsuit-sullivan/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-24T01:53:56.000Z"
       }
     ],
     "2155356": [],
