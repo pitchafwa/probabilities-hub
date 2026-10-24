@@ -1,8 +1,14 @@
 {
-  "updatedAt": "2026-10-24T06:00:14.930Z",
+  "updatedAt": "2026-10-24T11:17:00.470Z",
   "byMarket": {
     "559653": [],
     "562793": [
+      {
+        "title": "U.S. Pressures Mexico to Deliver a Security Win Ahead of Midterm Elections",
+        "url": "https://www.nytimes.com/2026/10/24/world/americas/us-mexico-security-cartels.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-24T09:03:03.000Z"
+      },
       {
         "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
         "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
@@ -10,13 +16,19 @@
         "publishedAt": "2026-10-24T00:36:47.000Z"
       },
       {
-        "title": "Most Voters Believe the Midterm Elections Will Be Accurate, Poll Finds",
-        "url": "https://www.nytimes.com/2026/10/23/us/politics/election-integrity-trust-poll.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-23T19:21:32.000Z"
+        "title": "US consumer sentiment near record low ahead of midterm elections - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR05CVGk5UUlBVHZBTDJObFp0eHJZUlpOdGdnSkxWZUtQWWR5V1BvRkZIQTQwSGtoa21PTFNNUHFPbGpkSm05QXc5MXB0Q3VNWTBxd21hQmpSdDlhc1pHNkhMeWhLd2xpR21nQ2Rxa0d4Ym0yQ0Jtb2I1dWlMYlUzenFWVkVlNG9xbmxKUENEQjFzWnhFTFZLQkhCR2Fucmd0ZUhCU0ttQ2xXUQ?oc=5",
+        "outlet": "Reuters (Google News)",
+        "publishedAt": "2026-10-23T15:48:17.000Z"
       }
     ],
     "562802": [
+      {
+        "title": "U.S. Pressures Mexico to Deliver a Security Win Ahead of Midterm Elections",
+        "url": "https://www.nytimes.com/2026/10/24/world/americas/us-mexico-security-cartels.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-24T09:03:03.000Z"
+      },
       {
         "title": "Fever clean house after failed season, but issues lie deeper than a front office refresh around Caitlin Clark",
         "url": "https://www.cbssports.com/wnba/news/fever-front-office-caitlin-clark-fans/",
@@ -28,12 +40,6 @@
         "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-10-24T00:36:47.000Z"
-      },
-      {
-        "title": "Most Voters Believe the Midterm Elections Will Be Accurate, Poll Finds",
-        "url": "https://www.nytimes.com/2026/10/23/us/politics/election-integrity-trust-poll.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-23T19:21:32.000Z"
       }
     ],
     "630692": [],
