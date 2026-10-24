@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-23T22:37:34.742Z",
+  "updatedAt": "2026-10-24T01:08:09.663Z",
   "byMarket": {
     "559653": [],
     "562793": [
+      {
+        "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+        "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC US & Canada",
+        "publishedAt": "2026-10-24T00:36:47.000Z"
+      },
       {
         "title": "Most Voters Believe the Midterm Elections Will Be Accurate, Poll Finds",
         "url": "https://www.nytimes.com/2026/10/23/us/politics/election-integrity-trust-poll.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-23T19:21:32.000Z"
-      },
-      {
-        "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
-        "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC News",
-        "publishedAt": "2026-10-23T22:25:06.000Z"
       },
       {
         "title": "US consumer sentiment near record low ahead of midterm elections - Reuters",
@@ -24,16 +24,16 @@
     ],
     "562802": [
       {
+        "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+        "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC US & Canada",
+        "publishedAt": "2026-10-24T00:36:47.000Z"
+      },
+      {
         "title": "Most Voters Believe the Midterm Elections Will Be Accurate, Poll Finds",
         "url": "https://www.nytimes.com/2026/10/23/us/politics/election-integrity-trust-poll.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-23T19:21:32.000Z"
-      },
-      {
-        "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
-        "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC News",
-        "publishedAt": "2026-10-23T22:25:06.000Z"
       },
       {
         "title": "US consumer sentiment near record low ahead of midterm elections - Reuters",
@@ -62,7 +62,7 @@
         "title": "Trump Officials Seek Block on Alaska Senate Race Results if the Republican Dan Sullivan Loses",
         "url": "https://www.nytimes.com/2026/10/23/us/politics/justice-dept-alaska-senate-race-sullivan.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-10-23T22:24:02.000Z"
+        "publishedAt": "2026-10-23T22:40:54.000Z"
       }
     ],
     "2155356": [],
