@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T11:59:10.012Z",
+  "updatedAt": "2026-10-25T16:03:19.854Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -47,27 +47,33 @@
     "630772": [],
     "630805": [],
     "630883": [],
-    "630963": [],
+    "630963": [
+      {
+        "title": "In Texas Senate Race, Talarico Leans Into Growing Rivalry With Elon Musk",
+        "url": "https://www.nytimes.com/2026/10/25/us/politics/talarico-musk-texas-senate-paxton-midterms.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-25T15:53:43.000Z"
+      }
+    ],
     "631044": [],
     "631057": [],
     "634976": [
       {
+        "title": "Blanche: Alaska Senate race is 'not a fair fight' to Trump",
+        "url": "https://thehill.com/homenews/state-watch/6170732-trump-alaska-senate-lawsuit/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-25T14:42:49.000Z"
+      },
+      {
         "title": "What's going on with Dan Sullivan and Dan Sullivan? The Alaska Senate litigation, explained - AP News",
         "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT3pkTUJhUEZ6NmpqcEZvSVJSWFJjUXBTNWJhQk9pQkpsV3BJOFZKdUVEQzZ6QWViVlZ1MFV4QUFtZmxBb1JCLWxSQ0RLd045TTRxSTNOdExPNFUtUDNsRW5Ha0Y0VHl0dTFIZThncENpeGNKbVNucFVnMjk4MzhEeXBLQXc0UXpUN0steE1yczBQZjZqWU1GSw?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-23T18:41:14.000Z"
+        "publishedAt": "2026-10-23T22:59:00.000Z"
       }
     ],
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": [
-      {
-        "title": "College football winners, losers in Week 8: Big 12 loses momentum amid upsets, Miami's dominance continues",
-        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-week-8-scores-results/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-10-25T04:55:34.000Z"
-      }
-    ]
+    "event:315364": []
   }
 }
