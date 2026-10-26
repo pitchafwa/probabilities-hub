@@ -1,14 +1,8 @@
 {
-  "updatedAt": "2026-10-25T21:54:11.959Z",
+  "updatedAt": "2026-10-26T00:02:34.788Z",
   "byMarket": {
     "559653": [],
     "562793": [
-      {
-        "title": "Alaska Democratic Senate candidate Mary Peltola and her family suffer minor injuries in car crash - AP News",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTDBhc2Iwdy1ROUhDWXM1VE5aVHdQU21tM1ZzOFZmT3NGZDhnWnFEajNJSm1LWl8xQmwtN2ppNjFEMXQxbU5MLU9weHo4Z3ZkbXFUUDYzYUtHUkJ6RDc0bWNXMFJ2TXZnd1JSSHNpOHVPa0FmUHRQU0txeUFwb3NFY3c4WkloNk8xMzBwdlMzeDNRY3VUMDlYeDAzNEsyNjZTWW9HS3BsNEtfV0hDSHphYVByOA?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-25T18:30:00.000Z"
-      },
       {
         "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
         "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
@@ -20,6 +14,12 @@
         "url": "https://www.nytimes.com/2026/10/24/world/americas/us-mexico-security-cartels.html",
         "outlet": "NYT Politics",
         "publishedAt": "2026-10-24T09:03:03.000Z"
+      },
+      {
+        "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
+        "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC US & Canada",
+        "publishedAt": "2026-10-24T00:36:47.000Z"
       }
     ],
     "562802": [
@@ -45,20 +45,21 @@
     "630692": [],
     "630733": [],
     "630772": [],
-    "630805": [],
+    "630805": [
+      {
+        "title": "Trump escalates rhetoric against El-Sayed as he tries to undermine Democrat in Michigan Senate race - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMEN2Q1hmYmZsdU81ZmZldHBYWWctbmJ5bkxwa2pfMVZFM1IydWhjNldKaUZpZ2JXcVhfdWY4T0lXdXc3RHFyQmZaU2g5b2EtR0dyREthV2VGNjRkUXlUV0JoTkZtUDhDR1VVWG9lTGJvd3VTN0lsVy1USUVXejhPdVNZX2pRSEVqVVNjYUtadGJsaWdfdDFQZkloV0RweFFrTUw3bllNWl8?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-25T21:00:00.000Z"
+      }
+    ],
     "630883": [],
     "630963": [
       {
         "title": "In Texas Senate Race, Talarico Leans Into Growing Rivalry With Elon Musk",
         "url": "https://www.nytimes.com/2026/10/25/us/politics/talarico-musk-texas-senate-paxton-midterms.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-10-25T21:37:42.000Z"
-      },
-      {
-        "title": "Libertarian Texas Senate candidate says he's not taking votes away from Paxton, Talarico",
-        "url": "https://thehill.com/homenews/state-watch/6170806-ted-brown-texas-senate/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-25T16:41:02.000Z"
+        "publishedAt": "2026-10-25T21:37:43.000Z"
       },
       {
         "title": "PODCAST: France protests, Texas Senate race and West Bank olives - Reuters",
@@ -69,26 +70,7 @@
     ],
     "631044": [],
     "631057": [],
-    "634976": [
-      {
-        "title": "Alaska Democratic Senate candidate Mary Peltola and her family suffer minor injuries in car crash - AP News",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTDBhc2Iwdy1ROUhDWXM1VE5aVHdQU21tM1ZzOFZmT3NGZDhnWnFEajNJSm1LWl8xQmwtN2ppNjFEMXQxbU5MLU9weHo4Z3ZkbXFUUDYzYUtHUkJ6RDc0bWNXMFJ2TXZnd1JSSHNpOHVPa0FmUHRQU0txeUFwb3NFY3c4WkloNk8xMzBwdlMzeDNRY3VUMDlYeDAzNEsyNjZTWW9HS3BsNEtfV0hDSHphYVByOA?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-25T18:30:00.000Z"
-      },
-      {
-        "title": "What's going on with Dan Sullivan and Dan Sullivan? The Alaska Senate litigation, explained - AP News",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT3pkTUJhUEZ6NmpqcEZvSVJSWFJjUXBTNWJhQk9pQkpsV3BJOFZKdUVEQzZ6QWViVlZ1MFV4QUFtZmxBb1JCLWxSQ0RLd045TTRxSTNOdExPNFUtUDNsRW5Ha0Y0VHl0dTFIZThncENpeGNKbVNucFVnMjk4MzhEeXBLQXc0UXpUN0steE1yczBQZjZqWU1GSw?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-23T22:59:00.000Z"
-      },
-      {
-        "title": "Sullivan, Peltola seek support from Alaska Native voters ahead of crucial Senate race - AP News",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUkJ6bmNDUHpoSW1ySWQybWJVQ2Jubng5ZW5yeGJjUUhvSTI5VFlpeWpYbjBONzUtUDVKQURpUVFiM0wwZ21hUF9LYWMzOWQ2X3R1d2t4bTl4YmF0dVdNVk9IQlZYOXNZNUJoLVNza1JZLTlDQjlXQkFzZXEtUDJSU1RtMGJVWlBfNC1BaHRJcG1Day1iQWtCMGg4eUhoZDQ?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-25T03:16:00.000Z"
-      }
-    ],
+    "634976": [],
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
