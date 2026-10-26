@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T17:17:13.668Z",
+  "updatedAt": "2026-10-26T21:41:41.730Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -16,13 +16,19 @@
         "publishedAt": "2026-10-26T15:23:17.000Z"
       },
       {
-        "title": "Alaska Democratic Senate candidate Mary Peltola and her family suffer minor injuries in car crash - AP News",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTDBhc2Iwdy1ROUhDWXM1VE5aVHdQU21tM1ZzOFZmT3NGZDhnWnFEajNJSm1LWl8xQmwtN2ppNjFEMXQxbU5MLU9weHo4Z3ZkbXFUUDYzYUtHUkJ6RDc0bWNXMFJ2TXZnd1JSSHNpOHVPa0FmUHRQU0txeUFwb3NFY3c4WkloNk8xMzBwdlMzeDNRY3VUMDlYeDAzNEsyNjZTWW9HS3BsNEtfV0hDSHphYVByOA?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-25T18:30:00.000Z"
+        "title": "Midterm Elections: Who Is Winning the Race for Congress?",
+        "url": "https://www.nytimes.com/2026/10/26/us/politics/whos-winning-the-race-for-congress.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-26T09:02:28.000Z"
       }
     ],
     "562802": [
+      {
+        "title": "Midterm Elections: Who Is Winning the Race for Congress?",
+        "url": "https://www.nytimes.com/2026/10/26/us/politics/whos-winning-the-race-for-congress.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-26T09:02:28.000Z"
+      },
       {
         "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
         "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
@@ -34,24 +40,11 @@
         "url": "https://www.bbc.co.uk/news/articles/cky93gep3gyeo?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-10-26T13:53:18.000Z"
-      },
-      {
-        "title": "Trump failed to stop inflation. Now Republicans may pay the price in the midterm elections - AP News",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbDB0Q3N4MWxNWWdRNUtaNHBIaVhzeldEWEt1eDM0dDJKT3FvMGh4RG82RlgyUW5CdmxvZkJFUThJQkxvWU16NXE0bUE1RkQ0UUhNMXQ3ZWQ3Y0I2bGNzVzB5WlRvMWpFUGdBWGhTWTl2enl4V3UzM0lHa21RbWI5NWR3dlFhWElfaTlJX2ZETExYN1ZfMDgxZWJyeGdQTnRZ?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-26T10:41:00.000Z"
       }
     ],
     "630692": [],
     "630733": [],
-    "630772": [
-      {
-        "title": "Former diplomats, top foreign affairs experts back Jackson in Maine Senate race",
-        "url": "https://thehill.com/homenews/state-watch/6172605-diplomats-back-jackson-maine-senate/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-26T16:07:08.000Z"
-      }
-    ],
+    "630772": [],
     "630805": [
       {
         "title": "Watch: BBC asks Democrat El-Sayed about tight Michigan Senate race",
