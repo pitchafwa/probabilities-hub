@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T06:49:41.941Z",
+  "updatedAt": "2026-10-27T13:06:05.940Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -10,25 +10,19 @@
         "publishedAt": "2026-10-26T13:53:18.000Z"
       },
       {
-        "title": "On borrowed time? Massie vows move to impeach Hegseth if not already out after midterms",
-        "url": "https://thehill.com/newsletters/defense-national-security/6173641-massie-vows-impeach-hegseth/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-26T22:41:02.000Z"
+        "title": "Midterm Elections: Who Is Winning the Race for Congress?",
+        "url": "https://www.nytimes.com/2026/10/26/us/politics/whos-winning-the-race-for-congress.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-26T09:02:28.000Z"
       },
       {
-        "title": "Alaska Democratic Senate candidate Peltola asks judge to toss US lawsuit over certification - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYWdHS0ZudUhiWUU5QW1qZGk2ZjZaUjd2LVlTVmlLRl9WalJhOFdyZHh6UENESm1ZamNkdXFPNWFmNGEtYmdNeXo5Tmt3amNCc3ctanZYeFlyeWNIeEZPTmU3YndLQ0xJMno1ZEtRbW1mb0tpcWw0R3V3YU1acVNMOXdYWHBMVkNFcTg0UnVabzRqU3lUSXV5WXItUGZYd243WDR5b2RCZV9Ec1ZtWWxLM1VfdHJobU42MkJDX3BWTHVRanVzUUE?oc=5",
-        "outlet": "Reuters (Google News)",
-        "publishedAt": "2026-10-26T15:16:00.000Z"
+        "title": "Alaska Democratic Senate candidate Mary Peltola and her family suffer minor injuries in car crash - AP News",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTDBhc2Iwdy1ROUhDWXM1VE5aVHdQU21tM1ZzOFZmT3NGZDhnWnFEajNJSm1LWl8xQmwtN2ppNjFEMXQxbU5MLU9weHo4Z3ZkbXFUUDYzYUtHUkJ6RDc0bWNXMFJ2TXZnd1JSSHNpOHVPa0FmUHRQU0txeUFwb3NFY3c4WkloNk8xMzBwdlMzeDNRY3VUMDlYeDAzNEsyNjZTWW9HS3BsNEtfV0hDSHphYVByOA?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-25T18:30:00.000Z"
       }
     ],
     "562802": [
-      {
-        "title": "On borrowed time? Massie vows move to impeach Hegseth if not already out after midterms",
-        "url": "https://thehill.com/newsletters/defense-national-security/6173641-massie-vows-impeach-hegseth/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-10-26T22:41:02.000Z"
-      },
       {
         "title": "Midterm Elections: Who Is Winning the Race for Congress?",
         "url": "https://www.nytimes.com/2026/10/26/us/politics/whos-winning-the-race-for-congress.html",
@@ -36,15 +30,28 @@
         "publishedAt": "2026-10-26T09:02:28.000Z"
       },
       {
-        "title": "Obama attacks Trump as he campaigns for Democrats ahead of midterm elections",
-        "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
+        "title": "How Trump’s ‘little detour’ to Iran became a roadblock in the midterm elections - AP News",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOHFMd19DUDYxZ0pKcWZCVl9qaHlDT0o5Ulo0T0pKZnlSVUVNUEZ5bVh1bHlMZm9kTkhOb1NYTmxYZTNJR19NRkctck1KVkpjZnJ0b19EdjBOUTJyNlQ5eUFXdzZmblZEbEpIYkpLQVRDS0FMUjhOdTk2Wm5wVVBSeWdBUXk0RXBaVzFUX2YzWUplTzdjYXV0NlM5LTVSaGdKSGZzTVR3?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-10-27T04:04:00.000Z"
+      },
+      {
+        "title": "Alaska's Democratic Senate candidate pauses midterms campaigning after car crash",
+        "url": "https://www.bbc.co.uk/news/articles/cky93gep3gyeo?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
-        "publishedAt": "2026-10-25T02:27:15.000Z"
+        "publishedAt": "2026-10-26T13:53:18.000Z"
       }
     ],
     "630692": [],
     "630733": [],
-    "630772": [],
+    "630772": [
+      {
+        "title": "Jackson, Collins separated by 2 points in Maine Senate race polling",
+        "url": "https://thehill.com/homenews/campaign/6174239-troy-jackson-susan-collins-maine-senate-race-polling-midterms/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-27T11:54:06.000Z"
+      }
+    ],
     "630805": [
       {
         "title": "Watch: BBC asks Democrat El-Sayed about tight Michigan Senate race",
@@ -73,16 +80,16 @@
     "631057": [],
     "634976": [
       {
+        "title": "Senate braces for nasty fight over seating Peltola after Alaska Senate race",
+        "url": "https://thehill.com/homenews/state-watch/6173822-alaska-senate-race-peltola-sullivan-thune/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-27T10:00:00.000Z"
+      },
+      {
         "title": "Alaska Democratic Senate candidate Mary Peltola and her family suffer minor injuries in car crash - AP News",
         "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTDBhc2Iwdy1ROUhDWXM1VE5aVHdQU21tM1ZzOFZmT3NGZDhnWnFEajNJSm1LWl8xQmwtN2ppNjFEMXQxbU5MLU9weHo4Z3ZkbXFUUDYzYUtHUkJ6RDc0bWNXMFJ2TXZnd1JSSHNpOHVPa0FmUHRQU0txeUFwb3NFY3c4WkloNk8xMzBwdlMzeDNRY3VUMDlYeDAzNEsyNjZTWW9HS3BsNEtfV0hDSHphYVByOA?oc=5",
         "outlet": "AP (Google News)",
         "publishedAt": "2026-10-25T18:30:00.000Z"
-      },
-      {
-        "title": "Alaska Democratic Senate candidate Peltola asks judge to toss US lawsuit over certification - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYWdHS0ZudUhiWUU5QW1qZGk2ZjZaUjd2LVlTVmlLRl9WalJhOFdyZHh6UENESm1ZamNkdXFPNWFmNGEtYmdNeXo5Tmt3amNCc3ctanZYeFlyeWNIeEZPTmU3YndLQ0xJMno1ZEtRbW1mb0tpcWw0R3V3YU1acVNMOXdYWHBMVkNFcTg0UnVabzRqU3lUSXV5WXItUGZYd243WDR5b2RCZV9Ec1ZtWWxLM1VfdHJobU42MkJDX3BWTHVRanVzUUE?oc=5",
-        "outlet": "Reuters (Google News)",
-        "publishedAt": "2026-10-26T15:16:00.000Z"
       }
     ],
     "2155356": [],
