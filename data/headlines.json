@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T21:41:41.730Z",
+  "updatedAt": "2026-10-27T01:21:38.325Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -10,19 +10,25 @@
         "publishedAt": "2026-10-26T13:53:18.000Z"
       },
       {
+        "title": "On borrowed time? Massie vows move to impeach Hegseth if not already out after midterms",
+        "url": "https://thehill.com/newsletters/defense-national-security/6173641-massie-vows-impeach-hegseth/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-26T22:41:02.000Z"
+      },
+      {
         "title": "Alaska Democratic Senate candidate Peltola asks judge to toss US lawsuit over certification - Reuters",
         "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYWdHS0ZudUhiWUU5QW1qZGk2ZjZaUjd2LVlTVmlLRl9WalJhOFdyZHh6UENESm1ZamNkdXFPNWFmNGEtYmdNeXo5Tmt3amNCc3ctanZYeFlyeWNIeEZPTmU3YndLQ0xJMno1ZEtRbW1mb0tpcWw0R3V3YU1acVNMOXdYWHBMVkNFcTg0UnVabzRqU3lUSXV5WXItUGZYd243WDR5b2RCZV9Ec1ZtWWxLM1VfdHJobU42MkJDX3BWTHVRanVzUUE?oc=5",
         "outlet": "Reuters (Google News)",
         "publishedAt": "2026-10-26T15:23:17.000Z"
-      },
-      {
-        "title": "Midterm Elections: Who Is Winning the Race for Congress?",
-        "url": "https://www.nytimes.com/2026/10/26/us/politics/whos-winning-the-race-for-congress.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-10-26T09:02:28.000Z"
       }
     ],
     "562802": [
+      {
+        "title": "On borrowed time? Massie vows move to impeach Hegseth if not already out after midterms",
+        "url": "https://thehill.com/newsletters/defense-national-security/6173641-massie-vows-impeach-hegseth/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-10-26T22:41:02.000Z"
+      },
       {
         "title": "Midterm Elections: Who Is Winning the Race for Congress?",
         "url": "https://www.nytimes.com/2026/10/26/us/politics/whos-winning-the-race-for-congress.html",
@@ -34,12 +40,6 @@
         "url": "https://www.bbc.co.uk/news/articles/cmj6jwe1j1gjo?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-10-25T02:27:15.000Z"
-      },
-      {
-        "title": "Alaska's Democratic Senate candidate pauses midterms campaigning after car crash",
-        "url": "https://www.bbc.co.uk/news/articles/cky93gep3gyeo?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC US & Canada",
-        "publishedAt": "2026-10-26T13:53:18.000Z"
       }
     ],
     "630692": [],
