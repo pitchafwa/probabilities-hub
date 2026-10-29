@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T20:55:33.104Z",
+  "updatedAt": "2026-10-29T00:45:08.994Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -47,30 +47,35 @@
         "publishedAt": "2026-10-28T15:19:31.000Z"
       }
     ],
-    "630883": [
-      {
-        "title": "Inside North Carolina's GM search: How Bill Belichick could reshape the Tar Heels' future",
-        "url": "https://www.cbssports.com/college-football/news/north-carolina-gm-search-bill-belichick/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-10-28T16:44:56.000Z"
-      }
-    ],
+    "630883": [],
     "630963": [
       {
         "title": "Texas Senate Rivals Converge on Lubbock, With Trump in the Mix",
         "url": "https://www.nytimes.com/2026/10/27/us/elections/paxton-talarico-texas-senate-rally-lubbock.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-10-28T15:41:34.000Z"
+        "publishedAt": "2026-10-28T15:41:35.000Z"
       }
     ],
     "631044": [],
     "631057": [],
     "634976": [
       {
-        "title": "Report: Peltola's campaign involved in effort to recruit second Dan Sullivan for Alaska Senate race - AP News",
+        "title": "Trump Calls for Mary Peltola, Alaska Senate Candidate, to Be Prosecuted",
+        "url": "https://www.nytimes.com/2026/10/28/us/politics/trump-peltola-sullivan-alaska-senate.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-10-29T00:32:47.000Z"
+      },
+      {
+        "title": "Trump calls for prosecution of Democratic Alaska Senate candidate over spoiler candidate controversy - AP News",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbG5oNWFHU282dUI5bk9LMUhXNERoZlhnYWpCbm5RY1lhRGZvdHZUZVV6VXRBUUE5aThnZFpySkhGYXh3S1EzRG4tUXNqYkRJS2N5VUlMRndjZEpURXJQSWdZeE1DajAxSG9ZR3MzVGhiUDAtdUtETERqbXpWMGhJUzNIVXVFLXBmQXdPUVhGaWxCdGczTHdROTU3ckVsaWZXZjFIdi1LSQ?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-28T19:36:00.000Z"
+        "publishedAt": "2026-10-29T00:00:00.000Z"
+      },
+      {
+        "title": "Democrats recruited spoilers in Alaska Senate race, NYT says - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSnVXQlVSTm5hcFNKNWxsc1BUQmREOExydU1iS2c5YmxFSnExVXNTQ0x3LVVqN3hvZ1ZRT29TZUM0V1d6M3g2MF9QS3hjQkZETmhOMy1ENzFFdUxteXFLQXBYQjRrRUpBTWFzVVczMWJFZlQtZDZxcWxUaHZjYjRJbmtxQ3pMTWx5ejFaVW5LSWFpalowU181eVBEdEZmR2RnTUpN?oc=5",
+        "outlet": "Reuters (Google News)",
+        "publishedAt": "2026-10-28T18:11:43.000Z"
       }
     ],
     "2155356": [],
