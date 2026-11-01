@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T00:54:19.062Z",
+  "updatedAt": "2026-11-01T07:17:53.545Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -21,14 +21,7 @@
     "630692": [],
     "630733": [],
     "630772": [],
-    "630805": [
-      {
-        "title": "El-Sayed and Stevens to make rare joint appearance as Democrats seek unity in Michigan Senate race - AP News",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQeWRmVENUbWVMY0dndWNDRTZKNUFJS2ExVTQxRXR1X05lQ0ZKS3dYaHBHMEtwMy1XTUxUMjRZeFM5Z0pLeThyVHZ4V2M2ZmhLaHN4cy1DYVI5dXNjMzlqUW5NUGJfNEF6anQzc2FvZG1qV0U1VlZvc21mcU9sZTkyTmRCNElfSkhNeXQwbzdUdVBvemhDWFk0bEtCNF9CLXpCREc0?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-30T05:56:00.000Z"
-      }
-    ],
+    "630805": [],
     "630883": [
       {
         "title": "Miami vs. North Carolina prediction, odds, time: Week 9 college football picks via advanced model",
@@ -42,16 +35,16 @@
     "631057": [],
     "634976": [
       {
-        "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
-        "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC US & Canada",
-        "publishedAt": "2026-11-01T00:46:12.000Z"
-      },
-      {
         "title": "FBI visits Dan J. Sullivan donor in candidate’s hometown as Alaska Senate inquiry widens - AP News",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRV9KLUhEZ0cwNXhZaFZjbnNSVFdwZW5WdHp0NFZhYUtSNnpaNUVwd3h3TVd5eVBMNHIyNlBoRjFpeUMtaEtVTEYzcU5WMl9VTTZLY0xrYW5PRkNoc05sdU5QRHBCVUVXb0YyQ1ZUangwTHZLUWloaWRuOVVOLWVxbjh5UHhWZk5JTUtsRFY2MEFEV1pmT0J6UDNFWHNDQ3V2WVplcjA1UUo5S2NYalE?oc=5",
         "outlet": "AP (Google News)",
-        "publishedAt": "2026-10-31T19:20:00.000Z"
+        "publishedAt": "2026-11-01T01:40:00.000Z"
+      },
+      {
+        "title": "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
+        "url": "https://www.bbc.co.uk/news/articles/cmwyq2gg1yzzo?at_medium=RSS&at_campaign=rss",
+        "outlet": "BBC News",
+        "publishedAt": "2026-11-01T00:46:12.000Z"
       },
       {
         "title": "Trump administration accelerates criminal probe into Alaska Senate race - Reuters",
@@ -63,6 +56,13 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": []
+    "event:315364": [
+      {
+        "title": "College football winners, losers: Oregon's Dylan Raiola bounces back, Wisconsin falls flat",
+        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-oregons-dylan-raiola-wisconsin/",
+        "outlet": "CBS Sports",
+        "publishedAt": "2026-11-01T04:44:12.000Z"
+      }
+    ]
   }
 }
