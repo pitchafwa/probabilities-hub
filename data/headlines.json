@@ -1,33 +1,51 @@
 {
-  "updatedAt": "2026-11-02T09:40:23.139Z",
+  "updatedAt": "2026-11-02T20:10:06.870Z",
   "byMarket": {
     "559653": [],
     "562793": [
       {
-        "title": "Democratic Senator Murphy hospitalized after stroke, chief of staff says - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFRBVkdFd1REUGNsaWd3Z2lRUzVQdEwtczZmOUtvZHBiWmVmSkUyMGdURWVNSV9SbV9Oa0hPRW5iV0hXS2JtN1JIYTdqcjJBeXJzOVpGSTYtYVNFM3FHUVdDSU9TcnpoNVF0XzNPTVVsclNPa3JabVlEVEZVbEFYdnA4U1Z1YWxSQ2lkU01lM0YwbHd4dWxqRjNodV8tUDUxWmk3MGxFMHVNLVFRV1FWaWVVUQ?oc=5",
-        "outlet": "Reuters (Google News)",
-        "publishedAt": "2026-11-01T17:39:00.000Z"
+        "title": "Elon Musk Spends $474 Million on the 2026 Midterm Elections",
+        "url": "https://www.nytimes.com/2026/11/02/us/politics/elon-musk-midterm-spending.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-11-02T10:04:42.000Z"
+      },
+      {
+        "title": "Midterm Elections: Who Is Winning the Race for Congress?",
+        "url": "https://www.nytimes.com/2026/11/02/us/politics/congress-races-midterms.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-11-02T10:03:33.000Z"
+      },
+      {
+        "title": "How The New York Times Is Covering the Midterm Elections",
+        "url": "https://www.nytimes.com/2026/11/02/insider/new-york-times-midterm-elections.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-11-02T10:02:41.000Z"
       }
     ],
     "562802": [
       {
-        "title": "Democratic Senator Murphy hospitalized after stroke, chief of staff says - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNFRBVkdFd1REUGNsaWd3Z2lRUzVQdEwtczZmOUtvZHBiWmVmSkUyMGdURWVNSV9SbV9Oa0hPRW5iV0hXS2JtN1JIYTdqcjJBeXJzOVpGSTYtYVNFM3FHUVdDSU9TcnpoNVF0XzNPTVVsclNPa3JabVlEVEZVbEFYdnA4U1Z1YWxSQ2lkU01lM0YwbHd4dWxqRjNodV8tUDUxWmk3MGxFMHVNLVFRV1FWaWVVUQ?oc=5",
-        "outlet": "Reuters (Google News)",
-        "publishedAt": "2026-11-01T17:39:00.000Z"
+        "title": "Elon Musk Spends $474 Million on the 2026 Midterm Elections",
+        "url": "https://www.nytimes.com/2026/11/02/us/politics/elon-musk-midterm-spending.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-11-02T10:04:42.000Z"
+      },
+      {
+        "title": "Midterm Elections: Who Is Winning the Race for Congress?",
+        "url": "https://www.nytimes.com/2026/11/02/us/politics/congress-races-midterms.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-11-02T10:03:33.000Z"
+      },
+      {
+        "title": "How The New York Times Is Covering the Midterm Elections",
+        "url": "https://www.nytimes.com/2026/11/02/insider/new-york-times-midterm-elections.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-11-02T10:02:41.000Z"
       }
     ],
     "630692": [],
     "630733": [],
     "630772": [],
     "630805": [
-      {
-        "title": "Democrat endorses Republican candidate in key Michigan Senate race as party spat erupts",
-        "url": "https://www.bbc.co.uk/news/articles/c95ynzv88n68o?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC US & Canada",
-        "publishedAt": "2026-11-02T01:45:42.000Z"
-      },
       {
         "title": "Democratic Rep. Haley Stevens endorses Republican Mike Rogers for Michigan Senate",
         "url": "https://www.politico.com/news/2026/11/01/haley-stevens-endorses-mike-rogers-michigan-senate-01144698",
@@ -51,7 +69,14 @@
     ],
     "630963": [],
     "631044": [],
-    "631057": [],
+    "631057": [
+      {
+        "title": "Will Trump’s Comments About Jon Husted’s Physique Help Him Win the Ohio Senate Race?",
+        "url": "https://www.nytimes.com/2026/11/02/us/politics/trump-husted-body-comments.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-11-02T19:27:03.000Z"
+      }
+    ],
     "634976": [
       {
         "title": "Judge dismisses lawsuit seeking to block certification of Alaska Senate race if GOP incumbent loses - AP News",
