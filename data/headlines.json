@@ -1,9 +1,15 @@
 {
-  "updatedAt": "2026-11-03T17:54:42.139Z",
+  "updatedAt": "2026-11-03T23:08:21.143Z",
   "byMarket": {
     "559653": [],
     "562793": [
       {
+        "title": "OpenAI and Anthropic Set Up ‘War Rooms’ to Fight Disinfo About Midterm Elections",
+        "url": "https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-11-03T18:25:13.000Z"
+      },
+      {
         "title": "How Broadcast, Cable and Late-Night Shows Plan to Cover the Midterm Elections",
         "url": "https://www.nytimes.com/2026/11/03/business/media/midterm-elections-networks-cable.html",
         "outlet": "NYT Politics",
@@ -14,16 +20,16 @@
         "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-11-03T11:33:33.000Z"
-      },
-      {
-        "title": "How to follow the US midterm elections on the BBC",
-        "url": "https://www.bbc.co.uk/news/articles/ck9dzg5eq926o?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC US & Canada",
-        "publishedAt": "2026-11-03T07:55:34.000Z"
       }
     ],
     "562802": [
       {
+        "title": "OpenAI and Anthropic Set Up ‘War Rooms’ to Fight Disinfo About Midterm Elections",
+        "url": "https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-11-03T18:25:13.000Z"
+      },
+      {
         "title": "How Broadcast, Cable and Late-Night Shows Plan to Cover the Midterm Elections",
         "url": "https://www.nytimes.com/2026/11/03/business/media/midterm-elections-networks-cable.html",
         "outlet": "NYT Politics",
@@ -34,16 +40,17 @@
         "url": "https://www.bbc.co.uk/news/articles/cx240mrm3g8vo?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
         "publishedAt": "2026-11-03T11:33:33.000Z"
-      },
-      {
-        "title": "How to follow the US midterm elections on the BBC",
-        "url": "https://www.bbc.co.uk/news/articles/ck9dzg5eq926o?at_medium=RSS&at_campaign=rss",
-        "outlet": "BBC US & Canada",
-        "publishedAt": "2026-11-03T07:55:34.000Z"
       }
     ],
     "630692": [],
-    "630733": [],
+    "630733": [
+      {
+        "title": "Democratic Iowa Senate candidate says he split his ticket",
+        "url": "https://thehill.com/homenews/6194223-iowa-senate-josh-turek-ticket-splitting/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-11-03T22:19:48.000Z"
+      }
+    ],
     "630772": [],
     "630805": [
       {
@@ -51,6 +58,12 @@
         "url": "https://www.politico.com/news/2026/11/01/haley-stevens-endorses-mike-rogers-michigan-senate-01144698",
         "outlet": "Politico",
         "publishedAt": "2026-11-01T17:44:25.000Z"
+      },
+      {
+        "title": "Progressive Abdul El-Sayed and Republican Mike Rogers duel for key Michigan Senate seat - AP News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWEdvR0J1WmRGSFQycXpKdi13aHBSTXFWbVE5SjY5dGZCLVFFRTZYVXdEcDZCYVZYclYxSl9Hd1ZxQ3UtLUdPR1hsQzNOeldWTlZWZDN5T0Z5WTFaLXBVV3F6dF9xMFkwc3R5SUdqWU8wS0g0TjNTT3FsM2JUY1pIbzRmYnpwLV83elQzQXExS1lTYjMxdmFtTEh0MktOclFxNVhNVGdGbGlaeUdLS0J3?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-11-03T07:53:21.000Z"
       },
       {
         "title": "El-Sayed's primary opponent stuns Democrats by endorsing Republican opponent in Michigan Senate race - AP News",
@@ -69,22 +82,8 @@
     ],
     "630963": [],
     "631044": [],
-    "631057": [
-      {
-        "title": "Will Trump’s Comments About Jon Husted’s Physique Help Him Win the Ohio Senate Race?",
-        "url": "https://www.nytimes.com/2026/11/02/us/politics/trump-husted-body-comments.html",
-        "outlet": "NYT Politics",
-        "publishedAt": "2026-11-03T16:27:36.000Z"
-      }
-    ],
-    "634976": [
-      {
-        "title": "Judge dismisses lawsuit seeking to block certification of Alaska Senate race if GOP incumbent loses - AP News",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNDIwVGtzRDN4cGg1V0ZoV3Nlb1Y3WGV6TGlpVmwtNVJxR1ZsTDFRd2NEZlJjWlRmV0hlMzk3a1RyREJCa0Z4Snk0cVRrd01SS3lkMUZyc2FMM3JNZWw5eE1iQm1MemZSUk13UWlMRjdVTUh0MUdOQ2taYVY5d3NNd2NoRU4zOEhlTmpkYjFCTU9qS2lFNWxLZzRHNVctazdQdVVldXhCMkg0STBl?oc=5",
-        "outlet": "AP (Google News)",
-        "publishedAt": "2026-11-01T21:19:00.000Z"
-      }
-    ],
+    "631057": [],
+    "634976": [],
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
