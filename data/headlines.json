@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T23:08:21.143Z",
+  "updatedAt": "2026-11-04T03:03:21.638Z",
   "byMarket": {
     "559653": [],
     "562793": [
@@ -7,7 +7,7 @@
         "title": "OpenAI and Anthropic Set Up ‘War Rooms’ to Fight Disinfo About Midterm Elections",
         "url": "https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-11-03T18:25:13.000Z"
+        "publishedAt": "2026-11-03T23:39:55.000Z"
       },
       {
         "title": "How Broadcast, Cable and Late-Night Shows Plan to Cover the Midterm Elections",
@@ -27,7 +27,7 @@
         "title": "OpenAI and Anthropic Set Up ‘War Rooms’ to Fight Disinfo About Midterm Elections",
         "url": "https://www.nytimes.com/2026/11/03/business/ai-midterm-election-misinformation.html",
         "outlet": "NYT Politics",
-        "publishedAt": "2026-11-03T18:25:13.000Z"
+        "publishedAt": "2026-11-03T23:39:55.000Z"
       },
       {
         "title": "How Broadcast, Cable and Late-Night Shows Plan to Cover the Midterm Elections",
@@ -43,14 +43,7 @@
       }
     ],
     "630692": [],
-    "630733": [
-      {
-        "title": "Democratic Iowa Senate candidate says he split his ticket",
-        "url": "https://thehill.com/homenews/6194223-iowa-senate-josh-turek-ticket-splitting/",
-        "outlet": "The Hill",
-        "publishedAt": "2026-11-03T22:19:48.000Z"
-      }
-    ],
+    "630733": [],
     "630772": [],
     "630805": [
       {
@@ -74,10 +67,22 @@
     ],
     "630883": [
       {
-        "title": "North Carolina voters weigh up Trump's track record on cost of living",
-        "url": "https://www.bbc.co.uk/news/videos/cwly0eev3m44o?at_medium=RSS&at_campaign=rss",
+        "title": "Democrats Flip North Carolina Senate Seat",
+        "url": "https://www.nytimes.com/video/us/politics/100000011238044/democrats-flip-north-carolina-senate-seat.html",
+        "outlet": "NYT Politics",
+        "publishedAt": "2026-11-04T02:46:56.000Z"
+      },
+      {
+        "title": "Democrat Roy Cooper flips key North Carolina Senate seat from Republicans",
+        "url": "https://www.bbc.co.uk/news/articles/cmn5vndlgdgdo?at_medium=RSS&at_campaign=rss",
         "outlet": "BBC US & Canada",
-        "publishedAt": "2026-11-01T22:25:51.000Z"
+        "publishedAt": "2026-11-04T02:31:02.000Z"
+      },
+      {
+        "title": "Democrat Roy Cooper wins North Carolina Senate seat, flipping a key GOP-held seat - AP News",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSmVOaXBrZW9ZZ0ZBN19PcnR3UlhTc2x3VndWaWRKbWJPSUVLamdnY1lTSzN0T1l6eXlMX2NOakhHYjNhTUR4c3hNaUprLTZsR3Vmc2FGc1B6UWlqU3p1Yjk3TXlRM2N5OFFwVWt2aHdBN1JBLTdRbjNDTlI3Y0VObFZEdTMyWVhvVV9RNjlOR0xoeDZPXzhJOXFFU0xXUi1kdU1XbmlTNEdicHZn?oc=5",
+        "outlet": "AP (Google News)",
+        "publishedAt": "2026-11-04T02:25:00.000Z"
       }
     ],
     "630963": [],
