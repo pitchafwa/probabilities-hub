@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T21:34:11.672Z",
+  "updatedAt": "2026-11-06T01:47:33.038Z",
   "source": "polymarket",
   "errors": [
     {
@@ -52,21 +52,21 @@
       "addedDate": "2026-08-29",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 96.5,
-      "volume": 4122651,
-      "volume24hr": 861256,
-      "liquidity": 187388,
+      "probability": 97.6,
+      "volume": 4248639,
+      "volume24hr": 706415,
+      "liquidity": 233935,
       "closed": false,
       "active": true,
       "endDate": "2026-11-04T04:59:00Z",
       "slug": "alaska-senate-election-winner",
       "eventId": "59233",
       "url": "https://polymarket.com/event/alaska-senate-election-winner",
-      "oneWeekPriceChange": 0.2595,
+      "oneWeekPriceChange": 0.2805,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-11-05T21:34:11.971Z"
+      "fetchedAt": "2026-11-06T01:47:33.607Z"
     },
     {
       "id": "559653",
@@ -76,17 +76,17 @@
       "addedDate": "2026-08-30",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 16.9,
-      "volume": 15867337,
-      "volume24hr": 130565,
-      "liquidity": 302052,
+      "probability": 17.1,
+      "volume": 15869629,
+      "volume24hr": 130980,
+      "liquidity": 489677,
       "closed": false,
       "active": true,
       "endDate": "2028-11-08T04:59:00Z",
       "slug": "democratic-presidential-nominee-2028",
       "eventId": "30829",
       "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
-      "oneWeekPriceChange": 0.002,
+      "oneWeekPriceChange": 0.0035,
       "isMultiOutcome": true,
       "outcomeCount": 14,
       "outcomes": [
@@ -99,19 +99,19 @@
         {
           "id": "559653",
           "label": "Alexandria Ocasio-Cortez",
-          "probability": 16.9,
+          "probability": 17.1,
           "tracked": true
         },
         {
           "id": "559652",
           "label": "Gavin Newsom",
-          "probability": 12.5,
+          "probability": 12.7,
           "tracked": false
         },
         {
           "id": "559655",
           "label": "Josh Shapiro",
-          "probability": 4.8,
+          "probability": 4.5,
           "tracked": false
         },
         {
@@ -121,7 +121,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-05T21:34:11.971Z"
+      "fetchedAt": "2026-11-06T01:47:33.607Z"
     },
     {
       "id": "event:202857",
@@ -132,9 +132,9 @@
       "addedDate": "2026-08-29",
       "probability": 14.2,
       "leaderLabel": "San Francisco 49ers",
-      "volume": 71646344,
-      "volume24hr": 128407,
-      "liquidity": 7498794,
+      "volume": 71689411,
+      "volume24hr": 129280,
+      "liquidity": 7187579,
       "closed": false,
       "active": true,
       "endDate": "2027-04-01T03:59:00Z",
@@ -164,15 +164,15 @@
           "tracked": false
         },
         {
-          "id": "1357386",
-          "label": "Kansas City Chiefs",
+          "id": "1357385",
+          "label": "Jacksonville Jaguars",
           "probability": 8.9,
           "tracked": false
         },
         {
-          "id": "1357385",
-          "label": "Jacksonville Jaguars",
-          "probability": 8.6,
+          "id": "1357386",
+          "label": "Kansas City Chiefs",
+          "probability": 8.9,
           "tracked": false
         },
         {
@@ -182,7 +182,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-05T21:34:11.820Z"
+      "fetchedAt": "2026-11-06T01:47:33.391Z"
     },
     {
       "id": "2155356",
@@ -192,24 +192,24 @@
       "addedDate": "2026-08-29",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 2.5,
+      "probability": 2.4,
       "volume": 19989,
       "volume24hr": 0,
-      "liquidity": 5292,
+      "liquidity": 11929,
       "closed": false,
       "active": true,
       "endDate": "2027-01-05T00:00:00Z",
       "slug": "nfl-team-to-make-postseason",
       "eventId": "448179",
       "url": "https://polymarket.com/event/nfl-team-to-make-postseason",
-      "oneWeekPriceChange": -0.0015,
+      "oneWeekPriceChange": -0.0055,
       "isMultiOutcome": true,
       "outcomeCount": 32,
       "outcomes": [
         {
           "id": "2155366",
           "label": "San Francisco 49ers",
-          "probability": 95.8,
+          "probability": 96.3,
           "tracked": false
         },
         {
@@ -239,12 +239,12 @@
         {
           "id": "2155356",
           "label": "Los Angeles Chargers",
-          "probability": 2.5,
+          "probability": 2.4,
           "outside": true,
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-11-05T21:34:11.971Z"
+      "fetchedAt": "2026-11-06T01:47:33.607Z"
     },
     {
       "id": "event:478277",
@@ -255,9 +255,9 @@
       "addedDate": "2026-08-29",
       "probability": 22.5,
       "leaderLabel": "San Antonio Spurs",
-      "volume": 36072031,
-      "volume24hr": 504963,
-      "liquidity": 9053381,
+      "volume": 36145173,
+      "volume24hr": 562777,
+      "liquidity": 8993531,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T03:59:00Z",
@@ -289,7 +289,7 @@
         {
           "id": "2243314",
           "label": "Houston Rockets",
-          "probability": 8.4,
+          "probability": 8.1,
           "tracked": false
         },
         {
@@ -305,7 +305,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-05T21:34:11.843Z"
+      "fetchedAt": "2026-11-06T01:47:33.277Z"
     },
     {
       "id": "event:315364",
@@ -316,9 +316,9 @@
       "addedDate": "2026-08-29",
       "probability": 31.5,
       "leaderLabel": "Josh Allen",
-      "volume": 1422600,
-      "volume24hr": 1976,
-      "liquidity": 420784,
+      "volume": 1422845,
+      "volume24hr": 2137,
+      "liquidity": 419851,
       "closed": false,
       "active": true,
       "endDate": "2027-03-01T04:59:00Z",
@@ -344,7 +344,7 @@
         {
           "id": "1747735",
           "label": "Brock Purdy",
-          "probability": 16.5,
+          "probability": 16.3,
           "tracked": false
         },
         {
@@ -356,7 +356,7 @@
         {
           "id": "1747737",
           "label": "Trevor Lawrence",
-          "probability": 7,
+          "probability": 7.6,
           "tracked": false
         },
         {
@@ -366,7 +366,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-05T21:34:11.822Z"
+      "fetchedAt": "2026-11-06T01:47:33.482Z"
     }
   ]
 }
