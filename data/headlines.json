@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T02:21:07.644Z",
+  "updatedAt": "2026-11-08T09:29:28.485Z",
   "byMarket": {
     "559653": [],
     "634976": [
@@ -13,6 +13,13 @@
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": []
+    "event:315364": [
+      {
+        "title": "College football winners, losers: Texas charging down backstretch; new low for Kyle Whittingham",
+        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-texas-charging-nebraska-cursed/",
+        "outlet": "CBS Sports",
+        "publishedAt": "2026-11-08T06:04:24.000Z"
+      }
+    ]
   }
 }
