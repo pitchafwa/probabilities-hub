@@ -1,8 +1,15 @@
 {
-  "updatedAt": "2026-11-10T08:12:32.172Z",
+  "updatedAt": "2026-11-10T16:28:36.611Z",
   "byMarket": {
     "559653": [],
-    "634976": [],
+    "634976": [
+      {
+        "title": "Peltola expands lead over Sullivan in Alaska Senate contest",
+        "url": "https://thehill.com/homenews/campaign/6210538-peltola-expands-alaska-senate-lead/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-11-10T15:18:52.000Z"
+      }
+    ],
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
