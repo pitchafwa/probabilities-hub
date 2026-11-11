@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T01:50:53.339Z",
+  "updatedAt": "2026-11-11T09:10:08.013Z",
   "source": "polymarket",
   "errors": [
     {
@@ -52,21 +52,21 @@
       "addedDate": "2026-08-29",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 98.8,
-      "volume": 5060930,
-      "volume24hr": 112020,
-      "liquidity": 243974,
+      "probability": 98.9,
+      "volume": 5096880,
+      "volume24hr": 109932,
+      "liquidity": 269865,
       "closed": false,
       "active": true,
       "endDate": "2026-11-04T04:59:00Z",
       "slug": "alaska-senate-election-winner",
       "eventId": "59233",
       "url": "https://polymarket.com/event/alaska-senate-election-winner",
-      "oneWeekPriceChange": 0.1425,
+      "oneWeekPriceChange": 0.144,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-11-11T01:50:53.660Z"
+      "fetchedAt": "2026-11-11T09:10:08.373Z"
     },
     {
       "id": "559653",
@@ -76,36 +76,36 @@
       "addedDate": "2026-08-30",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 14.6,
-      "volume": 15961475,
-      "volume24hr": 18540,
-      "liquidity": 835315,
+      "probability": 14.5,
+      "volume": 15961677,
+      "volume24hr": 18450,
+      "liquidity": 827289,
       "closed": false,
       "active": true,
       "endDate": "2028-11-08T04:59:00Z",
       "slug": "democratic-presidential-nominee-2028",
       "eventId": "30829",
       "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
-      "oneWeekPriceChange": -0.0215,
+      "oneWeekPriceChange": -0.0195,
       "isMultiOutcome": true,
       "outcomeCount": 15,
       "outcomes": [
         {
           "id": "559661",
           "label": "Jon Ossoff",
-          "probability": 26.8,
+          "probability": 27,
           "tracked": false
         },
         {
           "id": "559653",
           "label": "Alexandria Ocasio-Cortez",
-          "probability": 14.6,
+          "probability": 14.5,
           "tracked": true
         },
         {
           "id": "559652",
           "label": "Gavin Newsom",
-          "probability": 10.7,
+          "probability": 11,
           "tracked": false
         },
         {
@@ -117,11 +117,11 @@
         {
           "id": "559658",
           "label": "Kamala Harris",
-          "probability": 5.1,
+          "probability": 5.2,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-11T01:50:53.660Z"
+      "fetchedAt": "2026-11-11T09:10:08.373Z"
     },
     {
       "id": "event:202857",
@@ -132,9 +132,9 @@
       "addedDate": "2026-08-29",
       "probability": 14.5,
       "leaderLabel": "Buffalo Bills",
-      "volume": 72606378,
-      "volume24hr": 271625,
-      "liquidity": 7930542,
+      "volume": 72671024,
+      "volume24hr": 303506,
+      "liquidity": 8058416,
       "closed": false,
       "active": true,
       "endDate": "2027-04-01T03:59:00Z",
@@ -154,13 +154,13 @@
         {
           "id": "1357398",
           "label": "San Francisco 49ers",
-          "probability": 14,
+          "probability": 14.1,
           "tracked": false
         },
         {
           "id": "1357385",
           "label": "Jacksonville Jaguars",
-          "probability": 12.2,
+          "probability": 12.3,
           "tracked": false
         },
         {
@@ -172,17 +172,17 @@
         {
           "id": "1357386",
           "label": "Kansas City Chiefs",
-          "probability": 8.4,
+          "probability": 9.6,
           "tracked": false
         },
         {
           "id": "1357377",
           "label": "Cincinnati Bengals",
-          "probability": 6,
+          "probability": 5.8,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-11T01:50:53.524Z"
+      "fetchedAt": "2026-11-11T09:10:08.197Z"
     },
     {
       "id": "2155356",
@@ -195,14 +195,14 @@
       "probability": 1.4,
       "volume": 20050,
       "volume24hr": 61,
-      "liquidity": 7075,
+      "liquidity": 9090,
       "closed": false,
       "active": true,
       "endDate": "2027-01-05T00:00:00Z",
       "slug": "nfl-team-to-make-postseason",
       "eventId": "448179",
       "url": "https://polymarket.com/event/nfl-team-to-make-postseason",
-      "oneWeekPriceChange": -0.0095,
+      "oneWeekPriceChange": -0.0075,
       "isMultiOutcome": true,
       "outcomeCount": 32,
       "outcomes": [
@@ -215,13 +215,13 @@
         {
           "id": "2155366",
           "label": "San Francisco 49ers",
-          "probability": 97.8,
+          "probability": 98.1,
           "tracked": false
         },
         {
           "id": "2155353",
           "label": "Jacksonville Jaguars",
-          "probability": 95.5,
+          "probability": 96.2,
           "tracked": false
         },
         {
@@ -244,7 +244,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-11-11T01:50:53.661Z"
+      "fetchedAt": "2026-11-11T09:10:08.373Z"
     },
     {
       "id": "event:478277",
@@ -253,11 +253,11 @@
       "question": "NBA: 2027 Champion",
       "category": "sports",
       "addedDate": "2026-08-29",
-      "probability": 21.5,
+      "probability": 22.5,
       "leaderLabel": "San Antonio Spurs",
-      "volume": 37949239,
-      "volume24hr": 441766,
-      "liquidity": 8929395,
+      "volume": 38113219,
+      "volume24hr": 465114,
+      "liquidity": 9339176,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T03:59:00Z",
@@ -271,7 +271,7 @@
         {
           "id": "2243324",
           "label": "San Antonio Spurs",
-          "probability": 21.5,
+          "probability": 22.5,
           "tracked": false
         },
         {
@@ -283,7 +283,13 @@
         {
           "id": "2243308",
           "label": "Philadelphia 76ers",
-          "probability": 13.1,
+          "probability": 12.5,
+          "tracked": false
+        },
+        {
+          "id": "2243297",
+          "label": "Boston Celtics",
+          "probability": 7.5,
           "tracked": false
         },
         {
@@ -293,19 +299,13 @@
           "tracked": false
         },
         {
-          "id": "2243297",
-          "label": "Boston Celtics",
-          "probability": 6.5,
-          "tracked": false
-        },
-        {
           "id": "2243318",
           "label": "Minnesota Timberwolves",
           "probability": 6.3,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-11T01:50:53.542Z"
+      "fetchedAt": "2026-11-11T09:10:08.200Z"
     },
     {
       "id": "event:315364",
@@ -314,11 +314,11 @@
       "question": "Pro Football: 2026 MVP Winner",
       "category": "sports",
       "addedDate": "2026-08-29",
-      "probability": 34.2,
+      "probability": 33,
       "leaderLabel": "Joe Burrow",
-      "volume": 1500513,
-      "volume24hr": 8963,
-      "liquidity": 548383,
+      "volume": 1502168,
+      "volume24hr": 5662,
+      "liquidity": 576594,
       "closed": false,
       "active": true,
       "endDate": "2027-03-01T04:59:00Z",
@@ -327,12 +327,12 @@
       "url": "https://polymarket.com/event/pro-football-2026-mvp-winner",
       "oneWeekPriceChange": null,
       "isMultiOutcome": true,
-      "outcomeCount": 10,
+      "outcomeCount": 11,
       "outcomes": [
         {
           "id": "1747717",
           "label": "Joe Burrow",
-          "probability": 34.2,
+          "probability": 33,
           "tracked": false
         },
         {
@@ -344,13 +344,7 @@
         {
           "id": "1747735",
           "label": "Brock Purdy",
-          "probability": 14.6,
-          "tracked": false
-        },
-        {
-          "id": "1747736",
-          "label": "Jordan Love",
-          "probability": 11.1,
+          "probability": 15.2,
           "tracked": false
         },
         {
@@ -360,13 +354,19 @@
           "tracked": false
         },
         {
+          "id": "1747736",
+          "label": "Jordan Love",
+          "probability": 9.9,
+          "tracked": false
+        },
+        {
           "id": "1747730",
           "label": "Caleb Williams",
           "probability": 3.2,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-11T01:50:53.527Z"
+      "fetchedAt": "2026-11-11T09:10:08.202Z"
     }
   ]
 }
