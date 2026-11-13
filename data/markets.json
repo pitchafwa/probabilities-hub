@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T17:22:39.454Z",
+  "updatedAt": "2026-11-13T22:52:17.588Z",
   "source": "polymarket",
   "errors": [
     {
@@ -52,21 +52,21 @@
       "addedDate": "2026-08-29",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 99.7,
-      "volume": 5556536,
-      "volume24hr": 187022,
-      "liquidity": 322992,
+      "probability": 99.5,
+      "volume": 5576748,
+      "volume24hr": 136289,
+      "liquidity": 311025,
       "closed": false,
       "active": true,
       "endDate": "2026-11-04T04:59:00Z",
       "slug": "alaska-senate-election-winner",
       "eventId": "59233",
       "url": "https://polymarket.com/event/alaska-senate-election-winner",
-      "oneWeekPriceChange": 0.017,
+      "oneWeekPriceChange": 0.009,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-11-13T17:22:39.744Z"
+      "fetchedAt": "2026-11-13T22:52:18.113Z"
     },
     {
       "id": "559653",
@@ -77,9 +77,9 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 14.6,
-      "volume": 15996451,
-      "volume24hr": 1119,
-      "liquidity": 741791,
+      "volume": 15996610,
+      "volume24hr": 1026,
+      "liquidity": 762166,
       "closed": false,
       "active": true,
       "endDate": "2028-11-08T04:59:00Z",
@@ -121,7 +121,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-13T17:22:39.744Z"
+      "fetchedAt": "2026-11-13T22:52:18.113Z"
     },
     {
       "id": "event:202857",
@@ -132,9 +132,9 @@
       "addedDate": "2026-08-29",
       "probability": 14.5,
       "leaderLabel": "Buffalo Bills",
-      "volume": 73183081,
-      "volume24hr": 231690,
-      "liquidity": 7462792,
+      "volume": 73217807,
+      "volume24hr": 243469,
+      "liquidity": 7491320,
       "closed": false,
       "active": true,
       "endDate": "2027-04-01T03:59:00Z",
@@ -154,7 +154,7 @@
         {
           "id": "1357398",
           "label": "San Francisco 49ers",
-          "probability": 14.1,
+          "probability": 14.2,
           "tracked": false
         },
         {
@@ -182,7 +182,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-13T17:22:39.638Z"
+      "fetchedAt": "2026-11-13T22:52:17.758Z"
     },
     {
       "id": "2155356",
@@ -195,7 +195,7 @@
       "probability": 1.4,
       "volume": 20413,
       "volume24hr": 0,
-      "liquidity": 16940,
+      "liquidity": 16471,
       "closed": false,
       "active": true,
       "endDate": "2027-01-05T00:00:00Z",
@@ -221,7 +221,7 @@
         {
           "id": "2155353",
           "label": "Jacksonville Jaguars",
-          "probability": 94.9,
+          "probability": 95.1,
           "tracked": false
         },
         {
@@ -244,7 +244,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-11-13T17:22:39.744Z"
+      "fetchedAt": "2026-11-13T22:52:18.113Z"
     },
     {
       "id": "event:478277",
@@ -255,9 +255,9 @@
       "addedDate": "2026-08-29",
       "probability": 22.5,
       "leaderLabel": "San Antonio Spurs",
-      "volume": 38515201,
-      "volume24hr": 155604,
-      "liquidity": 8912565,
+      "volume": 38544017,
+      "volume24hr": 147400,
+      "liquidity": 8896079,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T03:59:00Z",
@@ -283,7 +283,13 @@
         {
           "id": "2243308",
           "label": "Philadelphia 76ers",
-          "probability": 10.6,
+          "probability": 10.5,
+          "tracked": false
+        },
+        {
+          "id": "2243318",
+          "label": "Minnesota Timberwolves",
+          "probability": 7.7,
           "tracked": false
         },
         {
@@ -297,15 +303,9 @@
           "label": "New York Knicks",
           "probability": 7.5,
           "tracked": false
-        },
-        {
-          "id": "2243318",
-          "label": "Minnesota Timberwolves",
-          "probability": 7.4,
-          "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-13T17:22:39.640Z"
+      "fetchedAt": "2026-11-13T22:52:17.761Z"
     },
     {
       "id": "event:315364",
@@ -316,9 +316,9 @@
       "addedDate": "2026-08-29",
       "probability": 30.7,
       "leaderLabel": "Joe Burrow",
-      "volume": 1519619,
-      "volume24hr": 13683,
-      "liquidity": 570601,
+      "volume": 1523164,
+      "volume24hr": 17143,
+      "liquidity": 579537,
       "closed": false,
       "active": true,
       "endDate": "2027-03-01T04:59:00Z",
@@ -344,13 +344,13 @@
         {
           "id": "1747735",
           "label": "Brock Purdy",
-          "probability": 15.6,
+          "probability": 15,
           "tracked": false
         },
         {
           "id": "1747736",
           "label": "Jordan Love",
-          "probability": 10.3,
+          "probability": 10.6,
           "tracked": false
         },
         {
@@ -366,7 +366,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-13T17:22:39.643Z"
+      "fetchedAt": "2026-11-13T22:52:17.922Z"
     }
   ]
 }
