@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T16:38:25.500Z",
+  "updatedAt": "2026-11-14T20:56:43.089Z",
   "source": "polymarket",
   "errors": [
     {
@@ -53,20 +53,20 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 99.8,
-      "volume": 5695868,
-      "volume24hr": 139334,
-      "liquidity": 370324,
+      "volume": 5792376,
+      "volume24hr": 227287,
+      "liquidity": 364383,
       "closed": false,
       "active": true,
       "endDate": "2026-11-04T04:59:00Z",
       "slug": "alaska-senate-election-winner",
       "eventId": "59233",
       "url": "https://polymarket.com/event/alaska-senate-election-winner",
-      "oneWeekPriceChange": 0.016,
+      "oneWeekPriceChange": 0.015,
       "isMultiOutcome": false,
       "outcomeCount": null,
       "outcomes": null,
-      "fetchedAt": "2026-11-14T16:38:25.791Z"
+      "fetchedAt": "2026-11-14T20:56:43.368Z"
     },
     {
       "id": "559653",
@@ -77,9 +77,9 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 14.8,
-      "volume": 16014297,
-      "volume24hr": 17846,
-      "liquidity": 512554,
+      "volume": 16014409,
+      "volume24hr": 17840,
+      "liquidity": 500356,
       "closed": false,
       "active": true,
       "endDate": "2028-11-08T04:59:00Z",
@@ -105,7 +105,7 @@
         {
           "id": "559652",
           "label": "Gavin Newsom",
-          "probability": 10.1,
+          "probability": 10,
           "tracked": false
         },
         {
@@ -121,7 +121,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-14T16:38:25.791Z"
+      "fetchedAt": "2026-11-14T20:56:43.368Z"
     },
     {
       "id": "event:202857",
@@ -132,9 +132,9 @@
       "addedDate": "2026-08-29",
       "probability": 14.5,
       "leaderLabel": "Buffalo Bills",
-      "volume": 73277091,
-      "volume24hr": 94010,
-      "liquidity": 7409595,
+      "volume": 73279753,
+      "volume24hr": 73338,
+      "liquidity": 7435957,
       "closed": false,
       "active": true,
       "endDate": "2027-04-01T03:59:00Z",
@@ -182,7 +182,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-14T16:38:25.689Z"
+      "fetchedAt": "2026-11-14T20:56:43.203Z"
     },
     {
       "id": "2155356",
@@ -244,7 +244,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-11-14T16:38:25.791Z"
+      "fetchedAt": "2026-11-14T20:56:43.368Z"
     },
     {
       "id": "event:478277",
@@ -255,9 +255,9 @@
       "addedDate": "2026-08-29",
       "probability": 22.5,
       "leaderLabel": "San Antonio Spurs",
-      "volume": 38703059,
-      "volume24hr": 192003,
-      "liquidity": 8816316,
+      "volume": 38703642,
+      "volume24hr": 160250,
+      "liquidity": 8880575,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T03:59:00Z",
@@ -283,7 +283,7 @@
         {
           "id": "2243308",
           "label": "Philadelphia 76ers",
-          "probability": 10,
+          "probability": 9.9,
           "tracked": false
         },
         {
@@ -305,7 +305,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-14T16:38:25.695Z"
+      "fetchedAt": "2026-11-14T20:56:43.206Z"
     },
     {
       "id": "event:315364",
@@ -316,9 +316,9 @@
       "addedDate": "2026-08-29",
       "probability": 31,
       "leaderLabel": "Joe Burrow",
-      "volume": 1523438,
-      "volume24hr": 3819,
-      "liquidity": 517101,
+      "volume": 1523473,
+      "volume24hr": 310,
+      "liquidity": 504035,
       "closed": false,
       "active": true,
       "endDate": "2027-03-01T04:59:00Z",
@@ -344,7 +344,7 @@
         {
           "id": "1747735",
           "label": "Brock Purdy",
-          "probability": 14.6,
+          "probability": 15,
           "tracked": false
         },
         {
@@ -362,11 +362,11 @@
         {
           "id": "1747730",
           "label": "Caleb Williams",
-          "probability": 3,
+          "probability": 2.9,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-14T16:38:25.692Z"
+      "fetchedAt": "2026-11-14T20:56:43.207Z"
     }
   ]
 }
