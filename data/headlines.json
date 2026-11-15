@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-11-15T07:45:29.374Z",
+  "updatedAt": "2026-11-15T15:33:04.615Z",
   "byMarket": {
     "559653": [],
-    "634976": [],
+    "634976": [
+      {
+        "title": "Live updates: Trump cabinet talks Nvidia, FAA scandals; Alaska Senate race still uncalled",
+        "url": "https://thehill.com/homenews/administration/6221144-live-trump-cabinet-faa-nvidia-alaska/",
+        "outlet": "The Hill",
+        "publishedAt": "2026-11-15T14:18:23.000Z"
+      }
+    ],
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": [
-      {
-        "title": "College football winners, losers: Georgia, Wake Forest on cruise control; Kentucky cratering",
-        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-georgia-wake-forest-kentucky/",
-        "outlet": "CBS Sports",
-        "publishedAt": "2026-11-15T03:22:43.000Z"
-      }
-    ]
+    "event:315364": []
   }
 }
