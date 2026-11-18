@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T08:40:23.329Z",
+  "updatedAt": "2026-11-18T17:55:27.805Z",
   "source": "polymarket",
   "errors": [
     {
@@ -56,42 +56,42 @@
       "addedDate": "2026-08-30",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 14.5,
-      "volume": 16033606,
-      "volume24hr": 9202,
-      "liquidity": 505955,
+      "probability": 14.4,
+      "volume": 16040597,
+      "volume24hr": 11608,
+      "liquidity": 441881,
       "closed": false,
       "active": true,
       "endDate": "2028-11-08T04:59:00Z",
       "slug": "democratic-presidential-nominee-2028",
       "eventId": "30829",
       "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
-      "oneWeekPriceChange": null,
+      "oneWeekPriceChange": -0.001,
       "isMultiOutcome": true,
-      "outcomeCount": 13,
+      "outcomeCount": 15,
       "outcomes": [
         {
           "id": "559661",
           "label": "Jon Ossoff",
-          "probability": 26.2,
+          "probability": 26.3,
           "tracked": false
         },
         {
           "id": "559653",
           "label": "Alexandria Ocasio-Cortez",
-          "probability": 14.5,
+          "probability": 14.4,
           "tracked": true
         },
         {
           "id": "559652",
           "label": "Gavin Newsom",
-          "probability": 10.2,
+          "probability": 10.1,
           "tracked": false
         },
         {
           "id": "559654",
           "label": "Pete Buttigieg",
-          "probability": 5.2,
+          "probability": 5.3,
           "tracked": false
         },
         {
@@ -101,7 +101,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-18T08:40:23.563Z"
+      "fetchedAt": "2026-11-18T17:55:27.996Z"
     },
     {
       "id": "event:202857",
@@ -112,9 +112,9 @@
       "addedDate": "2026-08-29",
       "probability": 14.7,
       "leaderLabel": "San Francisco 49ers",
-      "volume": 74240842,
-      "volume24hr": 158279,
-      "liquidity": 7103337,
+      "volume": 74270937,
+      "volume24hr": 130280,
+      "liquidity": 7047942,
       "closed": false,
       "active": true,
       "endDate": "2027-04-01T03:59:00Z",
@@ -162,7 +162,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-18T08:40:23.448Z"
+      "fetchedAt": "2026-11-18T17:55:27.887Z"
     },
     {
       "id": "2155356",
@@ -173,41 +173,41 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 1.9,
-      "volume": 20413,
-      "volume24hr": 0,
-      "liquidity": 5945,
+      "volume": 20482,
+      "volume24hr": 69,
+      "liquidity": 16874,
       "closed": false,
       "active": true,
       "endDate": "2027-01-05T00:00:00Z",
       "slug": "nfl-team-to-make-postseason",
       "eventId": "448179",
       "url": "https://polymarket.com/event/nfl-team-to-make-postseason",
-      "oneWeekPriceChange": 0.004,
+      "oneWeekPriceChange": 0.0115,
       "isMultiOutcome": true,
       "outcomeCount": 32,
       "outcomes": [
         {
-          "id": "2155342",
-          "label": "Buffalo Bills",
-          "probability": 98.1,
+          "id": "2155366",
+          "label": "San Francisco 49ers",
+          "probability": 98.3,
           "tracked": false
         },
         {
-          "id": "2155366",
-          "label": "San Francisco 49ers",
-          "probability": 98,
+          "id": "2155342",
+          "label": "Buffalo Bills",
+          "probability": 98.2,
           "tracked": false
         },
         {
           "id": "2155353",
           "label": "Jacksonville Jaguars",
-          "probability": 97.6,
+          "probability": 98.1,
           "tracked": false
         },
         {
           "id": "2155345",
           "label": "Cincinnati Bengals",
-          "probability": 96.3,
+          "probability": 97.1,
           "tracked": false
         },
         {
@@ -224,7 +224,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-11-18T08:40:23.563Z"
+      "fetchedAt": "2026-11-18T17:55:27.996Z"
     },
     {
       "id": "event:478277",
@@ -235,9 +235,9 @@
       "addedDate": "2026-08-29",
       "probability": 22.5,
       "leaderLabel": "San Antonio Spurs",
-      "volume": 39763021,
-      "volume24hr": 344329,
-      "liquidity": 8591527,
+      "volume": 39827191,
+      "volume24hr": 305343,
+      "liquidity": 9005694,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T03:59:00Z",
@@ -285,7 +285,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-18T08:40:23.454Z"
+      "fetchedAt": "2026-11-18T17:55:27.891Z"
     },
     {
       "id": "event:315364",
@@ -294,11 +294,11 @@
       "question": "Pro Football: 2026 MVP Winner",
       "category": "sports",
       "addedDate": "2026-08-29",
-      "probability": 47.9,
+      "probability": 47.8,
       "leaderLabel": "Joe Burrow",
-      "volume": 1574103,
-      "volume24hr": 8310,
-      "liquidity": 639271,
+      "volume": 1574186,
+      "volume24hr": 7040,
+      "liquidity": 606027,
       "closed": false,
       "active": true,
       "endDate": "2027-03-01T04:59:00Z",
@@ -312,7 +312,7 @@
         {
           "id": "1747717",
           "label": "Joe Burrow",
-          "probability": 47.9,
+          "probability": 47.8,
           "tracked": false
         },
         {
@@ -324,7 +324,7 @@
         {
           "id": "1747735",
           "label": "Brock Purdy",
-          "probability": 12.4,
+          "probability": 13.2,
           "tracked": false
         },
         {
@@ -336,7 +336,7 @@
         {
           "id": "1747724",
           "label": "Patrick Mahomes",
-          "probability": 5.2,
+          "probability": 5.4,
           "tracked": false
         },
         {
@@ -346,7 +346,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-18T08:40:23.451Z"
+      "fetchedAt": "2026-11-18T17:55:27.890Z"
     }
   ]
 }
