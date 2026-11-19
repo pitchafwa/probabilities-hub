@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T00:11:09.443Z",
+  "updatedAt": "2026-11-19T07:38:57.925Z",
   "source": "polymarket",
   "errors": [
     {
@@ -57,23 +57,23 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 14.3,
-      "volume": 16044141,
-      "volume24hr": 14917,
-      "liquidity": 424100,
+      "volume": 16044775,
+      "volume24hr": 15384,
+      "liquidity": 433962,
       "closed": false,
       "active": true,
       "endDate": "2028-11-08T04:59:00Z",
       "slug": "democratic-presidential-nominee-2028",
       "eventId": "30829",
       "url": "https://polymarket.com/event/democratic-presidential-nominee-2028",
-      "oneWeekPriceChange": -0.0035,
+      "oneWeekPriceChange": -0.003,
       "isMultiOutcome": true,
       "outcomeCount": 13,
       "outcomes": [
         {
           "id": "559661",
           "label": "Jon Ossoff",
-          "probability": 26.2,
+          "probability": 26.7,
           "tracked": false
         },
         {
@@ -91,7 +91,7 @@
         {
           "id": "559655",
           "label": "Josh Shapiro",
-          "probability": 6.6,
+          "probability": 6.5,
           "tracked": false
         },
         {
@@ -101,7 +101,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-19T00:11:09.879Z"
+      "fetchedAt": "2026-11-19T07:38:58.312Z"
     },
     {
       "id": "event:202857",
@@ -112,9 +112,9 @@
       "addedDate": "2026-08-29",
       "probability": 14.8,
       "leaderLabel": "San Francisco 49ers",
-      "volume": 74292259,
-      "volume24hr": 121151,
-      "liquidity": 6975891,
+      "volume": 74298247,
+      "volume24hr": 63784,
+      "liquidity": 7135708,
       "closed": false,
       "active": true,
       "endDate": "2027-04-01T03:59:00Z",
@@ -162,7 +162,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-19T00:11:09.554Z"
+      "fetchedAt": "2026-11-19T07:38:58.211Z"
     },
     {
       "id": "2155356",
@@ -175,39 +175,39 @@
       "probability": 1.9,
       "volume": 20482,
       "volume24hr": 69,
-      "liquidity": 13165,
+      "liquidity": 15438,
       "closed": false,
       "active": true,
       "endDate": "2027-01-05T00:00:00Z",
       "slug": "nfl-team-to-make-postseason",
       "eventId": "448179",
       "url": "https://polymarket.com/event/nfl-team-to-make-postseason",
-      "oneWeekPriceChange": 0.0115,
+      "oneWeekPriceChange": 0.0085,
       "isMultiOutcome": true,
       "outcomeCount": 32,
       "outcomes": [
         {
           "id": "2155353",
           "label": "Jacksonville Jaguars",
-          "probability": 98.2,
-          "tracked": false
-        },
-        {
-          "id": "2155345",
-          "label": "Cincinnati Bengals",
-          "probability": 98,
+          "probability": 98.4,
           "tracked": false
         },
         {
           "id": "2155366",
           "label": "San Francisco 49ers",
-          "probability": 97.6,
+          "probability": 98.4,
           "tracked": false
         },
         {
           "id": "2155342",
           "label": "Buffalo Bills",
-          "probability": 97.5,
+          "probability": 98.3,
+          "tracked": false
+        },
+        {
+          "id": "2155345",
+          "label": "Cincinnati Bengals",
+          "probability": 96.2,
           "tracked": false
         },
         {
@@ -224,7 +224,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-11-19T00:11:09.879Z"
+      "fetchedAt": "2026-11-19T07:38:58.312Z"
     },
     {
       "id": "event:478277",
@@ -235,9 +235,9 @@
       "addedDate": "2026-08-29",
       "probability": 22.5,
       "leaderLabel": "San Antonio Spurs",
-      "volume": 39861597,
-      "volume24hr": 295755,
-      "liquidity": 9088505,
+      "volume": 39940032,
+      "volume24hr": 271118,
+      "liquidity": 9182009,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T03:59:00Z",
@@ -269,7 +269,7 @@
         {
           "id": "2243308",
           "label": "Philadelphia 76ers",
-          "probability": 9.4,
+          "probability": 9.5,
           "tracked": false
         },
         {
@@ -285,7 +285,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-19T00:11:09.558Z"
+      "fetchedAt": "2026-11-19T07:38:58.126Z"
     },
     {
       "id": "event:315364",
@@ -294,11 +294,11 @@
       "question": "Pro Football: 2026 MVP Winner",
       "category": "sports",
       "addedDate": "2026-08-29",
-      "probability": 47.2,
+      "probability": 47.1,
       "leaderLabel": "Joe Burrow",
-      "volume": 1574201,
-      "volume24hr": 6097,
-      "liquidity": 514026,
+      "volume": 1575969,
+      "volume24hr": 1867,
+      "liquidity": 540295,
       "closed": false,
       "active": true,
       "endDate": "2027-03-01T04:59:00Z",
@@ -307,36 +307,36 @@
       "url": "https://polymarket.com/event/pro-football-2026-mvp-winner",
       "oneWeekPriceChange": null,
       "isMultiOutcome": true,
-      "outcomeCount": 10,
+      "outcomeCount": 9,
       "outcomes": [
         {
           "id": "1747717",
           "label": "Joe Burrow",
-          "probability": 47.2,
+          "probability": 47.1,
           "tracked": false
         },
         {
           "id": "1747716",
           "label": "Josh Allen",
-          "probability": 17,
+          "probability": 18.5,
           "tracked": false
         },
         {
           "id": "1747735",
           "label": "Brock Purdy",
-          "probability": 13.7,
+          "probability": 13.8,
           "tracked": false
         },
         {
           "id": "1747737",
           "label": "Trevor Lawrence",
-          "probability": 8,
+          "probability": 7.8,
           "tracked": false
         },
         {
           "id": "1747724",
           "label": "Patrick Mahomes",
-          "probability": 5.4,
+          "probability": 5.3,
           "tracked": false
         },
         {
@@ -346,7 +346,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-19T00:11:09.709Z"
+      "fetchedAt": "2026-11-19T07:38:58.124Z"
     }
   ]
 }
