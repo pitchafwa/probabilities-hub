@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T23:27:47.389Z",
+  "updatedAt": "2026-11-20T04:17:37.128Z",
   "source": "polymarket",
   "errors": [
     {
@@ -57,9 +57,9 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 14.2,
-      "volume": 16045283,
-      "volume24hr": 1142,
-      "liquidity": 449568,
+      "volume": 16045551,
+      "volume24hr": 1410,
+      "liquidity": 446178,
       "closed": false,
       "active": true,
       "endDate": "2028-11-08T04:59:00Z",
@@ -73,7 +73,7 @@
         {
           "id": "559661",
           "label": "Jon Ossoff",
-          "probability": 26.7,
+          "probability": 26.3,
           "tracked": false
         },
         {
@@ -101,7 +101,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-19T23:27:47.732Z"
+      "fetchedAt": "2026-11-20T04:17:37.466Z"
     },
     {
       "id": "event:202857",
@@ -112,9 +112,9 @@
       "addedDate": "2026-08-29",
       "probability": 14.8,
       "leaderLabel": "San Francisco 49ers",
-      "volume": 74365154,
-      "volume24hr": 73552,
-      "liquidity": 7764610,
+      "volume": 74391348,
+      "volume24hr": 94135,
+      "liquidity": 7106249,
       "closed": false,
       "active": true,
       "endDate": "2027-04-01T03:59:00Z",
@@ -123,7 +123,7 @@
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": null,
       "isMultiOutcome": true,
-      "outcomeCount": 14,
+      "outcomeCount": 15,
       "outcomes": [
         {
           "id": "1357398",
@@ -146,7 +146,13 @@
         {
           "id": "1357376",
           "label": "Chicago Bears",
-          "probability": 9.8,
+          "probability": 9.7,
+          "tracked": false
+        },
+        {
+          "id": "1357386",
+          "label": "Kansas City Chiefs",
+          "probability": 8.7,
           "tracked": false
         },
         {
@@ -154,15 +160,9 @@
           "label": "Cincinnati Bengals",
           "probability": 8.1,
           "tracked": false
-        },
-        {
-          "id": "1357386",
-          "label": "Kansas City Chiefs",
-          "probability": 7.5,
-          "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-19T23:27:47.493Z"
+      "fetchedAt": "2026-11-20T04:17:37.347Z"
     },
     {
       "id": "2155356",
@@ -172,17 +172,17 @@
       "addedDate": "2026-08-29",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 1.4,
+      "probability": 1.3,
       "volume": 20482,
       "volume24hr": 0,
-      "liquidity": 17289,
+      "liquidity": 17294,
       "closed": false,
       "active": true,
       "endDate": "2027-01-05T00:00:00Z",
       "slug": "nfl-team-to-make-postseason",
       "eventId": "448179",
       "url": "https://polymarket.com/event/nfl-team-to-make-postseason",
-      "oneWeekPriceChange": null,
+      "oneWeekPriceChange": -0.001,
       "isMultiOutcome": true,
       "outcomeCount": 32,
       "outcomes": [
@@ -207,7 +207,7 @@
         {
           "id": "2155345",
           "label": "Cincinnati Bengals",
-          "probability": 96.5,
+          "probability": 96.6,
           "tracked": false
         },
         {
@@ -219,12 +219,12 @@
         {
           "id": "2155356",
           "label": "Los Angeles Chargers",
-          "probability": 1.4,
+          "probability": 1.3,
           "outside": true,
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-11-19T23:27:47.732Z"
+      "fetchedAt": "2026-11-20T04:17:37.466Z"
     },
     {
       "id": "event:478277",
@@ -233,11 +233,11 @@
       "question": "NBA: 2027 Champion",
       "category": "sports",
       "addedDate": "2026-08-29",
-      "probability": 22.5,
+      "probability": 23.5,
       "leaderLabel": "San Antonio Spurs",
-      "volume": 40376679,
-      "volume24hr": 515141,
-      "liquidity": 9323998,
+      "volume": 40393684,
+      "volume24hr": 471179,
+      "liquidity": 9270756,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T03:59:00Z",
@@ -251,7 +251,7 @@
         {
           "id": "2243324",
           "label": "San Antonio Spurs",
-          "probability": 22.5,
+          "probability": 23.5,
           "tracked": false
         },
         {
@@ -285,7 +285,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-19T23:27:47.488Z"
+      "fetchedAt": "2026-11-20T04:17:37.354Z"
     },
     {
       "id": "event:315364",
@@ -296,9 +296,9 @@
       "addedDate": "2026-08-29",
       "probability": 44.1,
       "leaderLabel": "Joe Burrow",
-      "volume": 1577022,
-      "volume24hr": 2826,
-      "liquidity": 575605,
+      "volume": 1578882,
+      "volume24hr": 3004,
+      "liquidity": 567516,
       "closed": false,
       "active": true,
       "endDate": "2027-03-01T04:59:00Z",
@@ -324,7 +324,7 @@
         {
           "id": "1747735",
           "label": "Brock Purdy",
-          "probability": 14.9,
+          "probability": 14.7,
           "tracked": false
         },
         {
@@ -342,11 +342,11 @@
         {
           "id": "1747734",
           "label": "Jaxson Smith-Njigba",
-          "probability": 1.9,
+          "probability": 3.7,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-19T23:27:47.497Z"
+      "fetchedAt": "2026-11-20T04:17:37.352Z"
     }
   ]
 }
