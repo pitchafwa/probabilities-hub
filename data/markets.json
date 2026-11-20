@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T13:17:18.940Z",
+  "updatedAt": "2026-11-20T21:19:57.341Z",
   "source": "polymarket",
   "errors": [
     {
@@ -57,9 +57,9 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 14.2,
-      "volume": 16046336,
-      "volume24hr": 1537,
-      "liquidity": 441232,
+      "volume": 16047042,
+      "volume24hr": 2929,
+      "liquidity": 405051,
       "closed": false,
       "active": true,
       "endDate": "2028-11-08T04:59:00Z",
@@ -85,13 +85,13 @@
         {
           "id": "559652",
           "label": "Gavin Newsom",
-          "probability": 10,
+          "probability": 9.9,
           "tracked": false
         },
         {
           "id": "559655",
           "label": "Josh Shapiro",
-          "probability": 6,
+          "probability": 6.3,
           "tracked": false
         },
         {
@@ -101,7 +101,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-20T13:17:19.211Z"
+      "fetchedAt": "2026-11-20T21:19:57.676Z"
     },
     {
       "id": "event:202857",
@@ -110,11 +110,11 @@
       "question": "Pro Football: 2027 Champion",
       "category": "sports",
       "addedDate": "2026-08-29",
-      "probability": 14.8,
+      "probability": 14.6,
       "leaderLabel": "San Francisco 49ers",
-      "volume": 74400939,
-      "volume24hr": 86402,
-      "liquidity": 7524127,
+      "volume": 74452197,
+      "volume24hr": 90379,
+      "liquidity": 7532004,
       "closed": false,
       "active": true,
       "endDate": "2027-04-01T03:59:00Z",
@@ -123,12 +123,12 @@
       "url": "https://polymarket.com/event/pro-football-2027-champion-20260729185915366",
       "oneWeekPriceChange": null,
       "isMultiOutcome": true,
-      "outcomeCount": 14,
+      "outcomeCount": 13,
       "outcomes": [
         {
           "id": "1357398",
           "label": "San Francisco 49ers",
-          "probability": 14.8,
+          "probability": 14.6,
           "tracked": false
         },
         {
@@ -150,19 +150,19 @@
           "tracked": false
         },
         {
-          "id": "1357386",
-          "label": "Kansas City Chiefs",
-          "probability": 8.7,
+          "id": "1357377",
+          "label": "Cincinnati Bengals",
+          "probability": 8,
           "tracked": false
         },
         {
-          "id": "1357377",
-          "label": "Cincinnati Bengals",
-          "probability": 8.1,
+          "id": "1357386",
+          "label": "Kansas City Chiefs",
+          "probability": 7.8,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-20T13:17:19.033Z"
+      "fetchedAt": "2026-11-20T21:19:57.504Z"
     },
     {
       "id": "2155356",
@@ -175,7 +175,7 @@
       "probability": 1.3,
       "volume": 20482,
       "volume24hr": 0,
-      "liquidity": 17234,
+      "liquidity": 15302,
       "closed": false,
       "active": true,
       "endDate": "2027-01-05T00:00:00Z",
@@ -224,7 +224,7 @@
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-11-20T13:17:19.211Z"
+      "fetchedAt": "2026-11-20T21:19:57.676Z"
     },
     {
       "id": "event:478277",
@@ -233,11 +233,11 @@
       "question": "NBA: 2027 Champion",
       "category": "sports",
       "addedDate": "2026-08-29",
-      "probability": 23.5,
+      "probability": 22.5,
       "leaderLabel": "San Antonio Spurs",
-      "volume": 40430101,
-      "volume24hr": 259686,
-      "liquidity": 9338992,
+      "volume": 40527119,
+      "volume24hr": 150740,
+      "liquidity": 9379131,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T03:59:00Z",
@@ -251,13 +251,13 @@
         {
           "id": "2243324",
           "label": "San Antonio Spurs",
-          "probability": 23.5,
+          "probability": 22.5,
           "tracked": false
         },
         {
           "id": "2243320",
           "label": "Oklahoma City Thunder",
-          "probability": 13.5,
+          "probability": 14.5,
           "tracked": false
         },
         {
@@ -285,7 +285,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-20T13:17:19.044Z"
+      "fetchedAt": "2026-11-20T21:19:57.512Z"
     },
     {
       "id": "event:315364",
@@ -294,11 +294,11 @@
       "question": "Pro Football: 2026 MVP Winner",
       "category": "sports",
       "addedDate": "2026-08-29",
-      "probability": 43.6,
+      "probability": 43.5,
       "leaderLabel": "Joe Burrow",
-      "volume": 1579269,
-      "volume24hr": 3300,
-      "liquidity": 539588,
+      "volume": 1579888,
+      "volume24hr": 2871,
+      "liquidity": 533634,
       "closed": false,
       "active": true,
       "endDate": "2027-03-01T04:59:00Z",
@@ -312,7 +312,7 @@
         {
           "id": "1747717",
           "label": "Joe Burrow",
-          "probability": 43.6,
+          "probability": 43.5,
           "tracked": false
         },
         {
@@ -324,13 +324,13 @@
         {
           "id": "1747735",
           "label": "Brock Purdy",
-          "probability": 14.9,
+          "probability": 15,
           "tracked": false
         },
         {
           "id": "1747737",
           "label": "Trevor Lawrence",
-          "probability": 7.9,
+          "probability": 8,
           "tracked": false
         },
         {
@@ -342,11 +342,11 @@
         {
           "id": "1747734",
           "label": "Jaxson Smith-Njigba",
-          "probability": 3,
+          "probability": 3.9,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-20T13:17:19.041Z"
+      "fetchedAt": "2026-11-20T21:19:57.510Z"
     }
   ]
 }
