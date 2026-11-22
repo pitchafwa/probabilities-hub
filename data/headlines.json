@@ -1,10 +1,17 @@
 {
-  "updatedAt": "2026-11-21T22:25:34.176Z",
+  "updatedAt": "2026-11-22T02:38:52.165Z",
   "byMarket": {
     "559653": [],
     "2155356": [],
     "event:202857": [],
     "event:478277": [],
-    "event:315364": []
+    "event:315364": [
+      {
+        "title": "College football winners, losers: Luck runs out for Indiana, Oregon rounding into form",
+        "url": "https://www.cbssports.com/college-football/news/college-football-winners-losers-indiana-oregon/",
+        "outlet": "CBS Sports",
+        "publishedAt": "2026-11-22T01:41:28.000Z"
+      }
+    ]
   }
 }
