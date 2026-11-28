@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28T02:48:01.217Z",
+  "updatedAt": "2026-11-28T11:34:14.627Z",
   "source": "polymarket",
   "errors": [
     {
@@ -57,9 +57,9 @@
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
       "probability": 17.2,
-      "volume": 16291071,
-      "volume24hr": 9937,
-      "liquidity": 406177,
+      "volume": 16291261,
+      "volume24hr": 9979,
+      "liquidity": 422306,
       "closed": false,
       "active": true,
       "endDate": "2028-11-08T04:59:00Z",
@@ -85,7 +85,7 @@
         {
           "id": "559652",
           "label": "Gavin Newsom",
-          "probability": 9.4,
+          "probability": 8,
           "tracked": false
         },
         {
@@ -101,7 +101,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-28T02:48:01.735Z"
+      "fetchedAt": "2026-11-28T11:34:15.199Z"
     },
     {
       "id": "event:202857",
@@ -112,9 +112,9 @@
       "addedDate": "2026-08-29",
       "probability": 20.2,
       "leaderLabel": "San Francisco 49ers",
-      "volume": 75575234,
-      "volume24hr": 121939,
-      "liquidity": 7562051,
+      "volume": 75592297,
+      "volume24hr": 74441,
+      "liquidity": 7503506,
       "closed": false,
       "active": true,
       "endDate": "2027-04-01T03:59:00Z",
@@ -140,7 +140,7 @@
         {
           "id": "1357376",
           "label": "Chicago Bears",
-          "probability": 9.1,
+          "probability": 9.2,
           "tracked": false
         },
         {
@@ -152,17 +152,17 @@
         {
           "id": "1357386",
           "label": "Kansas City Chiefs",
-          "probability": 7.8,
+          "probability": 8.4,
           "tracked": false
         },
         {
           "id": "1357377",
           "label": "Cincinnati Bengals",
-          "probability": 6.9,
+          "probability": 7.2,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-28T02:48:01.373Z"
+      "fetchedAt": "2026-11-28T11:34:14.877Z"
     },
     {
       "id": "2155356",
@@ -172,17 +172,17 @@
       "addedDate": "2026-08-29",
       "outcomeIndex": 0,
       "outcomeLabel": "Yes",
-      "probability": 1.3,
+      "probability": 1.4,
       "volume": 21686,
       "volume24hr": 0,
-      "liquidity": 17699,
+      "liquidity": 17984,
       "closed": false,
       "active": true,
       "endDate": "2027-01-05T00:00:00Z",
       "slug": "nfl-team-to-make-postseason",
       "eventId": "448179",
       "url": "https://polymarket.com/event/nfl-team-to-make-postseason",
-      "oneWeekPriceChange": null,
+      "oneWeekPriceChange": 0.001,
       "isMultiOutcome": true,
       "outcomeCount": 32,
       "outcomes": [
@@ -199,9 +199,15 @@
           "tracked": false
         },
         {
+          "id": "2155348",
+          "label": "Denver Broncos",
+          "probability": 98.5,
+          "tracked": false
+        },
+        {
           "id": "2155353",
           "label": "Jacksonville Jaguars",
-          "probability": 98.4,
+          "probability": 98.5,
           "tracked": false
         },
         {
@@ -211,20 +217,14 @@
           "tracked": false
         },
         {
-          "id": "2155348",
-          "label": "Denver Broncos",
-          "probability": 98.1,
-          "tracked": false
-        },
-        {
           "id": "2155356",
           "label": "Los Angeles Chargers",
-          "probability": 1.3,
+          "probability": 1.4,
           "outside": true,
           "tracked": true
         }
       ],
-      "fetchedAt": "2026-11-28T02:48:01.735Z"
+      "fetchedAt": "2026-11-28T11:34:15.199Z"
     },
     {
       "id": "event:478277",
@@ -235,9 +235,9 @@
       "addedDate": "2026-08-29",
       "probability": 22.5,
       "leaderLabel": "San Antonio Spurs",
-      "volume": 42734416,
-      "volume24hr": 317856,
-      "liquidity": 10111482,
+      "volume": 42770426,
+      "volume24hr": 494439,
+      "liquidity": 9940747,
       "closed": false,
       "active": true,
       "endDate": "2027-07-01T03:59:00Z",
@@ -285,7 +285,7 @@
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-28T02:48:01.376Z"
+      "fetchedAt": "2026-11-28T11:34:14.880Z"
     },
     {
       "id": "event:315364",
@@ -294,11 +294,11 @@
       "question": "Pro Football: 2026 MVP Winner",
       "category": "sports",
       "addedDate": "2026-08-29",
-      "probability": 53.5,
+      "probability": 52.5,
       "leaderLabel": "Joe Burrow",
-      "volume": 1654377,
-      "volume24hr": 9084,
-      "liquidity": 606917,
+      "volume": 1660575,
+      "volume24hr": 13392,
+      "liquidity": 673523,
       "closed": false,
       "active": true,
       "endDate": "2027-03-01T04:59:00Z",
@@ -307,30 +307,30 @@
       "url": "https://polymarket.com/event/pro-football-2026-mvp-winner",
       "oneWeekPriceChange": null,
       "isMultiOutcome": true,
-      "outcomeCount": 8,
+      "outcomeCount": 9,
       "outcomes": [
         {
           "id": "1747717",
           "label": "Joe Burrow",
-          "probability": 53.5,
+          "probability": 52.5,
           "tracked": false
         },
         {
           "id": "1747735",
           "label": "Brock Purdy",
-          "probability": 18,
+          "probability": 16.4,
           "tracked": false
         },
         {
           "id": "1747716",
           "label": "Josh Allen",
-          "probability": 7,
+          "probability": 7.5,
           "tracked": false
         },
         {
           "id": "1747723",
           "label": "Jahmyr Gibbs",
-          "probability": 5.5,
+          "probability": 5.2,
           "tracked": false
         },
         {
@@ -340,13 +340,13 @@
           "tracked": false
         },
         {
-          "id": "1747737",
-          "label": "Trevor Lawrence",
-          "probability": 2,
+          "id": "1747730",
+          "label": "Caleb Williams",
+          "probability": 2.3,
           "tracked": false
         }
       ],
-      "fetchedAt": "2026-11-28T02:48:01.525Z"
+      "fetchedAt": "2026-11-28T11:34:15.051Z"
     }
   ]
 }
